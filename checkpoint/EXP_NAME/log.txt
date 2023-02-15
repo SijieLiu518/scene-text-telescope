@@ -1,0 +1,1767 @@
+[18:01:12.387] Namespace(STN=True, arch='tbsrn', batch_size=48, demo=False, demo_dir='./demo', exp_name='EXP_NAME', gradient=True, hd_u=32, mask=False, mixed=False, rec='crnn', resume='', srb=5, syn=False, test=False, test_data_dir='./dataset/mydata/test', text_focus=True)
+[18:01:13.077] Total Parameters 3210335
+[18:01:13.122] loading pretrained crnn model from ./dataset/TextZoom/crnn.pth
+[18:01:16.052] [2023-02-14 18:01:16]	Epoch: [0][1/361]	total_loss 14.319 	mse_loss 0.305 	content_percptual_loss 225.467 	
+[18:01:16.052] ======================================================
+[18:01:16.052] evaling easy
+[18:01:21.530] [2023-02-14 18:01:21]	loss_rec 0.000| loss_im 0.000	PSNR 4.20 | SSIM 0.0094	
+[18:01:21.530] save display images
+[18:01:21.530] sr_accuray: 0.12%
+[18:01:21.530] best_easy = 0.12%*
+[18:01:21.530] evaling medium
+[18:01:26.531] [2023-02-14 18:01:26]	loss_rec 0.000| loss_im 0.000	PSNR 4.52 | SSIM 0.0090	
+[18:01:26.531] save display images
+[18:01:26.531] sr_accuray: 0.14%
+[18:01:26.531] best_medium = 0.14%*
+[18:01:26.531] evaling hard
+[18:01:31.204] [2023-02-14 18:01:31]	loss_rec 0.000| loss_im 0.000	PSNR 4.66 | SSIM 0.0087	
+[18:01:31.204] save display images
+[18:01:31.204] sr_accuray: 0.00%
+[18:01:31.205] best_hard = 0.00%
+[18:01:31.205] saving best model
+[18:01:49.139] [2023-02-14 18:01:49]	Epoch: [0][51/361]	total_loss 5.766 	mse_loss 0.035 	content_percptual_loss 108.232 	
+[18:02:08.159] [2023-02-14 18:02:08]	Epoch: [0][101/361]	total_loss 5.216 	mse_loss 0.030 	content_percptual_loss 98.378 	
+[18:02:28.491] [2023-02-14 18:02:28]	Epoch: [0][151/361]	total_loss 4.527 	mse_loss 0.019 	content_percptual_loss 86.715 	
+[18:02:49.098] [2023-02-14 18:02:49]	Epoch: [0][201/361]	total_loss 3.761 	mse_loss 0.016 	content_percptual_loss 71.929 	
+[18:03:09.966] [2023-02-14 18:03:09]	Epoch: [0][251/361]	total_loss 3.325 	mse_loss 0.017 	content_percptual_loss 63.182 	
+[18:03:31.650] [2023-02-14 18:03:31]	Epoch: [0][301/361]	total_loss 3.385 	mse_loss 0.014 	content_percptual_loss 64.845 	
+[18:03:53.928] [2023-02-14 18:03:53]	Epoch: [0][351/361]	total_loss 3.631 	mse_loss 0.014 	content_percptual_loss 69.763 	
+[18:04:16.479] [2023-02-14 18:04:16]	Epoch: [1][40/361]	total_loss 3.082 	mse_loss 0.014 	content_percptual_loss 58.874 	
+[18:04:39.429] [2023-02-14 18:04:39]	Epoch: [1][90/361]	total_loss 3.492 	mse_loss 0.014 	content_percptual_loss 66.985 	
+[18:05:02.884] [2023-02-14 18:05:02]	Epoch: [1][140/361]	total_loss 3.673 	mse_loss 0.017 	content_percptual_loss 70.024 	
+[18:05:26.836] [2023-02-14 18:05:26]	Epoch: [1][190/361]	total_loss 3.582 	mse_loss 0.016 	content_percptual_loss 68.533 	
+[18:05:51.283] [2023-02-14 18:05:51]	Epoch: [1][240/361]	total_loss 3.405 	mse_loss 0.014 	content_percptual_loss 65.329 	
+[18:06:16.146] [2023-02-14 18:06:16]	Epoch: [1][290/361]	total_loss 3.466 	mse_loss 0.011 	content_percptual_loss 67.027 	
+[18:06:40.851] [2023-02-14 18:06:40]	Epoch: [1][340/361]	total_loss 3.367 	mse_loss 0.012 	content_percptual_loss 64.902 	
+[18:07:06.277] [2023-02-14 18:07:06]	Epoch: [2][29/361]	total_loss 2.982 	mse_loss 0.011 	content_percptual_loss 57.486 	
+[18:07:32.173] [2023-02-14 18:07:32]	Epoch: [2][79/361]	total_loss 3.236 	mse_loss 0.011 	content_percptual_loss 62.564 	
+[18:07:57.913] [2023-02-14 18:07:57]	Epoch: [2][129/361]	total_loss 3.236 	mse_loss 0.012 	content_percptual_loss 62.397 	
+[18:08:23.868] [2023-02-14 18:08:23]	Epoch: [2][179/361]	total_loss 2.994 	mse_loss 0.011 	content_percptual_loss 57.721 	
+[18:08:50.255] [2023-02-14 18:08:50]	Epoch: [2][229/361]	total_loss 3.635 	mse_loss 0.014 	content_percptual_loss 69.871 	
+[18:09:17.073] [2023-02-14 18:09:17]	Epoch: [2][279/361]	total_loss 2.999 	mse_loss 0.013 	content_percptual_loss 57.379 	
+[18:09:17.073] ======================================================
+[18:09:17.073] evaling easy
+[18:09:24.502] [2023-02-14 18:09:24]	loss_rec 0.000| loss_im 0.000	PSNR 19.88 | SSIM 0.7304	
+[18:09:24.502] save display images
+[18:09:24.502] sr_accuray: 35.45%
+[18:09:24.503] best_easy = 35.45%*
+[18:09:24.503] evaling medium
+[18:09:30.638] [2023-02-14 18:09:30]	loss_rec 0.000| loss_im 0.000	PSNR 17.73 | SSIM 0.5578	
+[18:09:30.638] save display images
+[18:09:30.638] sr_accuray: 21.47%
+[18:09:30.639] best_medium = 21.47%*
+[18:09:30.639] evaling hard
+[18:09:36.762] [2023-02-14 18:09:36]	loss_rec 0.000| loss_im 0.000	PSNR 18.01 | SSIM 0.6033	
+[18:09:36.762] save display images
+[18:09:36.762] sr_accuray: 19.51%
+[18:09:36.767] best_hard = 19.51%*
+[18:09:36.767] saving best model
+[18:10:03.079] [2023-02-14 18:10:03]	Epoch: [2][329/361]	total_loss 3.553 	mse_loss 0.012 	content_percptual_loss 68.603 	
+[18:10:30.365] [2023-02-14 18:10:30]	Epoch: [3][18/361]	total_loss 2.717 	mse_loss 0.011 	content_percptual_loss 52.198 	
+[18:10:57.846] [2023-02-14 18:10:57]	Epoch: [3][68/361]	total_loss 2.803 	mse_loss 0.011 	content_percptual_loss 53.836 	
+[18:11:25.333] [2023-02-14 18:11:25]	Epoch: [3][118/361]	total_loss 2.727 	mse_loss 0.011 	content_percptual_loss 52.263 	
+[18:11:53.429] [2023-02-14 18:11:53]	Epoch: [3][168/361]	total_loss 3.081 	mse_loss 0.012 	content_percptual_loss 59.258 	
+[18:12:21.786] [2023-02-14 18:12:21]	Epoch: [3][218/361]	total_loss 3.170 	mse_loss 0.013 	content_percptual_loss 60.827 	
+[18:12:50.417] [2023-02-14 18:12:50]	Epoch: [3][268/361]	total_loss 3.212 	mse_loss 0.011 	content_percptual_loss 62.123 	
+[18:13:19.999] [2023-02-14 18:13:19]	Epoch: [3][318/361]	total_loss 3.162 	mse_loss 0.014 	content_percptual_loss 60.436 	
+[18:13:48.885] [2023-02-14 18:13:48]	Epoch: [4][7/361]	total_loss 2.849 	mse_loss 0.012 	content_percptual_loss 54.480 	
+[18:14:17.850] [2023-02-14 18:14:17]	Epoch: [4][57/361]	total_loss 3.157 	mse_loss 0.012 	content_percptual_loss 60.773 	
+[18:14:46.430] [2023-02-14 18:14:46]	Epoch: [4][107/361]	total_loss 2.758 	mse_loss 0.010 	content_percptual_loss 53.127 	
+[18:15:15.495] [2023-02-14 18:15:15]	Epoch: [4][157/361]	total_loss 2.832 	mse_loss 0.011 	content_percptual_loss 54.515 	
+[18:15:44.468] [2023-02-14 18:15:44]	Epoch: [4][207/361]	total_loss 2.762 	mse_loss 0.013 	content_percptual_loss 52.727 	
+[18:16:14.538] [2023-02-14 18:16:14]	Epoch: [4][257/361]	total_loss 2.951 	mse_loss 0.012 	content_percptual_loss 56.584 	
+[18:16:43.864] [2023-02-14 18:16:43]	Epoch: [4][307/361]	total_loss 3.117 	mse_loss 0.010 	content_percptual_loss 60.417 	
+[18:17:13.666] [2023-02-14 18:17:13]	Epoch: [4][357/361]	total_loss 3.084 	mse_loss 0.013 	content_percptual_loss 58.980 	
+[18:17:43.746] [2023-02-14 18:17:43]	Epoch: [5][46/361]	total_loss 2.897 	mse_loss 0.012 	content_percptual_loss 55.527 	
+[18:18:13.438] [2023-02-14 18:18:13]	Epoch: [5][96/361]	total_loss 2.600 	mse_loss 0.009 	content_percptual_loss 50.181 	
+[18:18:43.436] [2023-02-14 18:18:43]	Epoch: [5][146/361]	total_loss 3.465 	mse_loss 0.012 	content_percptual_loss 66.995 	
+[18:19:13.277] [2023-02-14 18:19:13]	Epoch: [5][196/361]	total_loss 2.799 	mse_loss 0.011 	content_percptual_loss 53.684 	
+[18:19:13.277] ======================================================
+[18:19:13.278] evaling easy
+[18:19:20.783] [2023-02-14 18:19:20]	loss_rec 0.000| loss_im 0.000	PSNR 20.93 | SSIM 0.7782	
+[18:19:20.783] save display images
+[18:19:20.783] sr_accuray: 44.47%
+[18:19:20.784] best_easy = 44.47%*
+[18:19:20.784] evaling medium
+[18:19:27.946] [2023-02-14 18:19:27]	loss_rec 0.000| loss_im 0.000	PSNR 18.52 | SSIM 0.5947	
+[18:19:27.946] save display images
+[18:19:27.946] sr_accuray: 28.56%
+[18:19:27.947] best_medium = 28.56%*
+[18:19:27.947] evaling hard
+[18:19:34.014] [2023-02-14 18:19:34]	loss_rec 0.000| loss_im 0.000	PSNR 18.93 | SSIM 0.6454	
+[18:19:34.014] save display images
+[18:19:34.015] sr_accuray: 23.68%
+[18:19:34.015] best_hard = 23.68%*
+[18:19:34.015] saving best model
+[18:20:03.379] [2023-02-14 18:20:03]	Epoch: [5][246/361]	total_loss 2.990 	mse_loss 0.010 	content_percptual_loss 57.736 	
+[18:20:33.552] [2023-02-14 18:20:33]	Epoch: [5][296/361]	total_loss 2.859 	mse_loss 0.010 	content_percptual_loss 55.129 	
+[18:21:04.556] [2023-02-14 18:21:04]	Epoch: [5][346/361]	total_loss 2.692 	mse_loss 0.013 	content_percptual_loss 51.333 	
+[18:21:35.029] [2023-02-14 18:21:35]	Epoch: [6][35/361]	total_loss 3.111 	mse_loss 0.009 	content_percptual_loss 60.463 	
+[18:22:05.614] [2023-02-14 18:22:05]	Epoch: [6][85/361]	total_loss 2.601 	mse_loss 0.010 	content_percptual_loss 50.094 	
+[18:22:36.228] [2023-02-14 18:22:36]	Epoch: [6][135/361]	total_loss 3.023 	mse_loss 0.013 	content_percptual_loss 57.964 	
+[18:23:07.111] [2023-02-14 18:23:07]	Epoch: [6][185/361]	total_loss 3.035 	mse_loss 0.010 	content_percptual_loss 58.617 	
+[18:23:37.897] [2023-02-14 18:23:37]	Epoch: [6][235/361]	total_loss 2.909 	mse_loss 0.010 	content_percptual_loss 56.190 	
+[18:24:09.114] [2023-02-14 18:24:09]	Epoch: [6][285/361]	total_loss 2.618 	mse_loss 0.013 	content_percptual_loss 49.776 	
+[18:24:39.912] [2023-02-14 18:24:39]	Epoch: [6][335/361]	total_loss 2.681 	mse_loss 0.009 	content_percptual_loss 51.840 	
+[18:25:11.139] [2023-02-14 18:25:11]	Epoch: [7][24/361]	total_loss 2.628 	mse_loss 0.009 	content_percptual_loss 50.768 	
+[18:25:42.393] [2023-02-14 18:25:42]	Epoch: [7][74/361]	total_loss 3.652 	mse_loss 0.013 	content_percptual_loss 70.483 	
+[18:26:13.557] [2023-02-14 18:26:13]	Epoch: [7][124/361]	total_loss 2.636 	mse_loss 0.009 	content_percptual_loss 50.919 	
+[18:26:44.279] [2023-02-14 18:26:44]	Epoch: [7][174/361]	total_loss 3.039 	mse_loss 0.011 	content_percptual_loss 58.684 	
+[18:27:16.041] [2023-02-14 18:27:16]	Epoch: [7][224/361]	total_loss 2.900 	mse_loss 0.011 	content_percptual_loss 55.791 	
+[18:27:47.349] [2023-02-14 18:27:47]	Epoch: [7][274/361]	total_loss 2.956 	mse_loss 0.011 	content_percptual_loss 56.860 	
+[18:28:18.382] [2023-02-14 18:28:18]	Epoch: [7][324/361]	total_loss 2.486 	mse_loss 0.010 	content_percptual_loss 47.684 	
+[18:28:49.909] [2023-02-14 18:28:49]	Epoch: [8][13/361]	total_loss 2.745 	mse_loss 0.009 	content_percptual_loss 53.086 	
+[18:29:20.880] [2023-02-14 18:29:20]	Epoch: [8][63/361]	total_loss 2.938 	mse_loss 0.010 	content_percptual_loss 56.770 	
+[18:29:53.067] [2023-02-14 18:29:53]	Epoch: [8][113/361]	total_loss 2.614 	mse_loss 0.012 	content_percptual_loss 49.916 	
+[18:29:53.067] ======================================================
+[18:29:53.068] evaling easy
+[18:30:00.818] [2023-02-14 18:30:00]	loss_rec 0.000| loss_im 0.000	PSNR 22.15 | SSIM 0.8079	
+[18:30:00.818] save display images
+[18:30:00.818] sr_accuray: 45.71%
+[18:30:00.819] best_easy = 45.71%*
+[18:30:00.819] evaling medium
+[18:30:07.391] [2023-02-14 18:30:07]	loss_rec 0.000| loss_im 0.000	PSNR 18.44 | SSIM 0.6040	
+[18:30:07.391] save display images
+[18:30:07.391] sr_accuray: 28.99%
+[18:30:07.392] best_medium = 28.99%*
+[18:30:07.392] evaling hard
+[18:30:14.117] [2023-02-14 18:30:14]	loss_rec 0.000| loss_im 0.000	PSNR 18.95 | SSIM 0.6619	
+[18:30:14.117] save display images
+[18:30:14.117] sr_accuray: 24.20%
+[18:30:14.117] best_hard = 24.20%*
+[18:30:14.118] saving best model
+[18:30:45.149] [2023-02-14 18:30:45]	Epoch: [8][163/361]	total_loss 2.709 	mse_loss 0.008 	content_percptual_loss 52.541 	
+[18:31:15.950] [2023-02-14 18:31:15]	Epoch: [8][213/361]	total_loss 2.780 	mse_loss 0.010 	content_percptual_loss 53.566 	
+[18:31:46.937] [2023-02-14 18:31:46]	Epoch: [8][263/361]	total_loss 3.033 	mse_loss 0.012 	content_percptual_loss 58.327 	
+[18:32:18.940] [2023-02-14 18:32:18]	Epoch: [8][313/361]	total_loss 2.698 	mse_loss 0.010 	content_percptual_loss 51.906 	
+[18:32:49.921] [2023-02-14 18:32:49]	Epoch: [9][2/361]	total_loss 3.246 	mse_loss 0.011 	content_percptual_loss 62.640 	
+[18:33:20.623] [2023-02-14 18:33:20]	Epoch: [9][52/361]	total_loss 2.485 	mse_loss 0.010 	content_percptual_loss 47.646 	
+[18:33:52.142] [2023-02-14 18:33:52]	Epoch: [9][102/361]	total_loss 2.324 	mse_loss 0.009 	content_percptual_loss 44.625 	
+[18:34:23.679] [2023-02-14 18:34:23]	Epoch: [9][152/361]	total_loss 2.767 	mse_loss 0.012 	content_percptual_loss 52.976 	
+[18:34:55.170] [2023-02-14 18:34:55]	Epoch: [9][202/361]	total_loss 2.552 	mse_loss 0.010 	content_percptual_loss 49.118 	
+[18:35:26.965] [2023-02-14 18:35:26]	Epoch: [9][252/361]	total_loss 2.326 	mse_loss 0.010 	content_percptual_loss 44.489 	
+[18:35:57.584] [2023-02-14 18:35:57]	Epoch: [9][302/361]	total_loss 2.743 	mse_loss 0.007 	content_percptual_loss 53.421 	
+[18:36:28.824] [2023-02-14 18:36:28]	Epoch: [9][352/361]	total_loss 2.642 	mse_loss 0.009 	content_percptual_loss 50.954 	
+[18:36:59.837] [2023-02-14 18:36:59]	Epoch: [10][41/361]	total_loss 2.962 	mse_loss 0.009 	content_percptual_loss 57.371 	
+[18:37:30.822] [2023-02-14 18:37:30]	Epoch: [10][91/361]	total_loss 2.673 	mse_loss 0.010 	content_percptual_loss 51.540 	
+[18:38:01.901] [2023-02-14 18:38:01]	Epoch: [10][141/361]	total_loss 2.372 	mse_loss 0.008 	content_percptual_loss 45.747 	
+[18:38:32.868] [2023-02-14 18:38:32]	Epoch: [10][191/361]	total_loss 2.682 	mse_loss 0.010 	content_percptual_loss 51.596 	
+[18:39:04.550] [2023-02-14 18:39:04]	Epoch: [10][241/361]	total_loss 2.661 	mse_loss 0.009 	content_percptual_loss 51.391 	
+[18:39:35.646] [2023-02-14 18:39:35]	Epoch: [10][291/361]	total_loss 2.645 	mse_loss 0.008 	content_percptual_loss 51.350 	
+[18:40:06.928] [2023-02-14 18:40:06]	Epoch: [10][341/361]	total_loss 2.647 	mse_loss 0.009 	content_percptual_loss 51.091 	
+[18:40:38.012] [2023-02-14 18:40:38]	Epoch: [11][30/361]	total_loss 2.767 	mse_loss 0.011 	content_percptual_loss 53.115 	
+[18:40:38.013] ======================================================
+[18:40:38.013] evaling easy
+[18:40:47.087] [2023-02-14 18:40:47]	loss_rec 0.000| loss_im 0.000	PSNR 21.71 | SSIM 0.8044	
+[18:40:47.087] save display images
+[18:40:47.087] sr_accuray: 49.29%
+[18:40:47.088] best_easy = 49.29%*
+[18:40:47.088] evaling medium
+[18:40:53.754] [2023-02-14 18:40:53]	loss_rec 0.000| loss_im 0.000	PSNR 18.56 | SSIM 0.6029	
+[18:40:53.754] save display images
+[18:40:53.754] sr_accuray: 31.75%
+[18:40:53.755] best_medium = 31.75%*
+[18:40:53.755] evaling hard
+[18:41:01.277] [2023-02-14 18:41:01]	loss_rec 0.000| loss_im 0.000	PSNR 19.17 | SSIM 0.6650	
+[18:41:01.277] save display images
+[18:41:01.277] sr_accuray: 25.17%
+[18:41:01.277] best_hard = 25.17%*
+[18:41:01.277] saving best model
+[18:41:31.216] [2023-02-14 18:41:31]	Epoch: [11][80/361]	total_loss 2.145 	mse_loss 0.008 	content_percptual_loss 41.338 	
+[18:42:01.905] [2023-02-14 18:42:01]	Epoch: [11][130/361]	total_loss 2.337 	mse_loss 0.009 	content_percptual_loss 44.985 	
+[18:42:33.025] [2023-02-14 18:42:33]	Epoch: [11][180/361]	total_loss 2.637 	mse_loss 0.010 	content_percptual_loss 50.833 	
+[18:43:04.038] [2023-02-14 18:43:04]	Epoch: [11][230/361]	total_loss 2.923 	mse_loss 0.009 	content_percptual_loss 56.646 	
+[18:43:35.321] [2023-02-14 18:43:35]	Epoch: [11][280/361]	total_loss 2.359 	mse_loss 0.008 	content_percptual_loss 45.503 	
+[18:44:06.839] [2023-02-14 18:44:06]	Epoch: [11][330/361]	total_loss 2.837 	mse_loss 0.011 	content_percptual_loss 54.591 	
+[18:44:37.922] [2023-02-14 18:44:37]	Epoch: [12][19/361]	total_loss 2.681 	mse_loss 0.011 	content_percptual_loss 51.416 	
+[18:45:08.876] [2023-02-14 18:45:08]	Epoch: [12][69/361]	total_loss 2.909 	mse_loss 0.011 	content_percptual_loss 56.028 	
+[18:45:39.683] [2023-02-14 18:45:39]	Epoch: [12][119/361]	total_loss 2.371 	mse_loss 0.009 	content_percptual_loss 45.581 	
+[18:46:10.675] [2023-02-14 18:46:10]	Epoch: [12][169/361]	total_loss 2.484 	mse_loss 0.011 	content_percptual_loss 47.437 	
+[18:46:41.540] [2023-02-14 18:46:41]	Epoch: [12][219/361]	total_loss 2.636 	mse_loss 0.010 	content_percptual_loss 50.685 	
+[18:47:12.242] [2023-02-14 18:47:12]	Epoch: [12][269/361]	total_loss 2.806 	mse_loss 0.009 	content_percptual_loss 54.232 	
+[18:47:43.480] [2023-02-14 18:47:43]	Epoch: [12][319/361]	total_loss 2.433 	mse_loss 0.008 	content_percptual_loss 47.042 	
+[18:48:14.696] [2023-02-14 18:48:14]	Epoch: [13][8/361]	total_loss 2.632 	mse_loss 0.010 	content_percptual_loss 50.734 	
+[18:48:46.602] [2023-02-14 18:48:46]	Epoch: [13][58/361]	total_loss 2.693 	mse_loss 0.009 	content_percptual_loss 52.025 	
+[18:49:17.451] [2023-02-14 18:49:17]	Epoch: [13][108/361]	total_loss 2.399 	mse_loss 0.010 	content_percptual_loss 46.037 	
+[18:49:48.736] [2023-02-14 18:49:48]	Epoch: [13][158/361]	total_loss 2.438 	mse_loss 0.009 	content_percptual_loss 47.039 	
+[18:50:20.784] [2023-02-14 18:50:20]	Epoch: [13][208/361]	total_loss 2.426 	mse_loss 0.008 	content_percptual_loss 46.856 	
+[18:50:51.289] [2023-02-14 18:50:51]	Epoch: [13][258/361]	total_loss 2.658 	mse_loss 0.009 	content_percptual_loss 51.307 	
+[18:51:22.180] [2023-02-14 18:51:22]	Epoch: [13][308/361]	total_loss 2.766 	mse_loss 0.008 	content_percptual_loss 53.722 	
+[18:51:22.180] ======================================================
+[18:51:22.181] evaling easy
+[18:51:30.168] [2023-02-14 18:51:30]	loss_rec 0.000| loss_im 0.000	PSNR 21.16 | SSIM 0.7873	
+[18:51:30.168] save display images
+[18:51:30.168] sr_accuray: 45.58%
+[18:51:30.168] best_easy = 49.29%
+[18:51:30.168] evaling medium
+[18:51:37.088] [2023-02-14 18:51:37]	loss_rec 0.000| loss_im 0.000	PSNR 18.83 | SSIM 0.6105	
+[18:51:37.088] save display images
+[18:51:37.089] sr_accuray: 33.31%
+[18:51:37.089] best_medium = 33.31%*
+[18:51:37.089] evaling hard
+[18:51:43.395] [2023-02-14 18:51:43]	loss_rec 0.000| loss_im 0.000	PSNR 18.91 | SSIM 0.6636	
+[18:51:43.395] save display images
+[18:51:43.395] sr_accuray: 27.25%
+[18:51:43.399] best_hard = 27.25%*
+[18:52:13.503] [2023-02-14 18:52:13]	Epoch: [13][358/361]	total_loss 2.704 	mse_loss 0.010 	content_percptual_loss 52.007 	
+[18:52:44.357] [2023-02-14 18:52:44]	Epoch: [14][47/361]	total_loss 2.228 	mse_loss 0.008 	content_percptual_loss 42.906 	
+[18:53:15.369] [2023-02-14 18:53:15]	Epoch: [14][97/361]	total_loss 2.435 	mse_loss 0.010 	content_percptual_loss 46.689 	
+[18:53:47.396] [2023-02-14 18:53:47]	Epoch: [14][147/361]	total_loss 2.514 	mse_loss 0.009 	content_percptual_loss 48.453 	
+[18:54:18.914] [2023-02-14 18:54:18]	Epoch: [14][197/361]	total_loss 2.454 	mse_loss 0.008 	content_percptual_loss 47.420 	
+[18:54:49.645] [2023-02-14 18:54:49]	Epoch: [14][247/361]	total_loss 2.435 	mse_loss 0.010 	content_percptual_loss 46.666 	
+[18:55:20.786] [2023-02-14 18:55:20]	Epoch: [14][297/361]	total_loss 2.661 	mse_loss 0.008 	content_percptual_loss 51.691 	
+[18:55:52.356] [2023-02-14 18:55:52]	Epoch: [14][347/361]	total_loss 2.414 	mse_loss 0.009 	content_percptual_loss 46.493 	
+[18:56:24.658] [2023-02-14 18:56:24]	Epoch: [15][36/361]	total_loss 2.203 	mse_loss 0.008 	content_percptual_loss 42.551 	
+[18:56:55.993] [2023-02-14 18:56:55]	Epoch: [15][86/361]	total_loss 2.584 	mse_loss 0.008 	content_percptual_loss 50.143 	
+[18:57:27.275] [2023-02-14 18:57:27]	Epoch: [15][136/361]	total_loss 2.112 	mse_loss 0.006 	content_percptual_loss 40.944 	
+[18:57:58.718] [2023-02-14 18:57:58]	Epoch: [15][186/361]	total_loss 2.446 	mse_loss 0.008 	content_percptual_loss 47.259 	
+[18:58:30.333] [2023-02-14 18:58:30]	Epoch: [15][236/361]	total_loss 2.375 	mse_loss 0.011 	content_percptual_loss 45.248 	
+[18:59:01.346] [2023-02-14 18:59:01]	Epoch: [15][286/361]	total_loss 2.445 	mse_loss 0.009 	content_percptual_loss 47.084 	
+[18:59:33.152] [2023-02-14 18:59:33]	Epoch: [15][336/361]	total_loss 2.530 	mse_loss 0.009 	content_percptual_loss 48.729 	
+[19:00:04.702] [2023-02-14 19:00:04]	Epoch: [16][25/361]	total_loss 2.423 	mse_loss 0.009 	content_percptual_loss 46.728 	
+[19:00:35.833] [2023-02-14 19:00:35]	Epoch: [16][75/361]	total_loss 2.386 	mse_loss 0.010 	content_percptual_loss 45.765 	
+[19:01:07.860] [2023-02-14 19:01:07]	Epoch: [16][125/361]	total_loss 2.469 	mse_loss 0.008 	content_percptual_loss 47.741 	
+[19:01:39.879] [2023-02-14 19:01:39]	Epoch: [16][175/361]	total_loss 2.617 	mse_loss 0.010 	content_percptual_loss 50.276 	
+[19:02:11.034] [2023-02-14 19:02:11]	Epoch: [16][225/361]	total_loss 2.599 	mse_loss 0.009 	content_percptual_loss 50.287 	
+[19:02:11.034] ======================================================
+[19:02:11.034] evaling easy
+[19:02:19.387] [2023-02-14 19:02:19]	loss_rec 0.000| loss_im 0.000	PSNR 22.52 | SSIM 0.8222	
+[19:02:19.387] save display images
+[19:02:19.388] sr_accuray: 51.88%
+[19:02:19.389] best_easy = 51.88%*
+[19:02:19.389] evaling medium
+[19:02:26.909] [2023-02-14 19:02:26]	loss_rec 0.000| loss_im 0.000	PSNR 19.03 | SSIM 0.6290	
+[19:02:26.909] save display images
+[19:02:26.910] sr_accuray: 35.01%
+[19:02:26.910] best_medium = 35.01%*
+[19:02:26.910] evaling hard
+[19:02:32.991] [2023-02-14 19:02:32]	loss_rec 0.000| loss_im 0.000	PSNR 19.40 | SSIM 0.6853	
+[19:02:32.991] save display images
+[19:02:32.991] sr_accuray: 28.00%
+[19:02:32.993] best_hard = 28.00%*
+[19:02:32.993] saving best model
+[19:03:03.088] [2023-02-14 19:03:03]	Epoch: [16][275/361]	total_loss 2.565 	mse_loss 0.011 	content_percptual_loss 49.142 	
+[19:03:34.399] [2023-02-14 19:03:34]	Epoch: [16][325/361]	total_loss 2.533 	mse_loss 0.009 	content_percptual_loss 48.768 	
+[19:04:05.576] [2023-02-14 19:04:05]	Epoch: [17][14/361]	total_loss 2.166 	mse_loss 0.009 	content_percptual_loss 41.502 	
+[19:04:37.275] [2023-02-14 19:04:37]	Epoch: [17][64/361]	total_loss 2.139 	mse_loss 0.009 	content_percptual_loss 41.024 	
+[19:05:08.849] [2023-02-14 19:05:08]	Epoch: [17][114/361]	total_loss 2.734 	mse_loss 0.009 	content_percptual_loss 52.873 	
+[19:05:40.632] [2023-02-14 19:05:40]	Epoch: [17][164/361]	total_loss 2.380 	mse_loss 0.008 	content_percptual_loss 45.962 	
+[19:06:12.071] [2023-02-14 19:06:12]	Epoch: [17][214/361]	total_loss 2.233 	mse_loss 0.009 	content_percptual_loss 42.793 	
+[19:06:43.284] [2023-02-14 19:06:43]	Epoch: [17][264/361]	total_loss 2.221 	mse_loss 0.009 	content_percptual_loss 42.633 	
+[19:07:14.963] [2023-02-14 19:07:14]	Epoch: [17][314/361]	total_loss 2.545 	mse_loss 0.010 	content_percptual_loss 48.849 	
+[19:07:46.930] [2023-02-14 19:07:46]	Epoch: [18][3/361]	total_loss 2.394 	mse_loss 0.008 	content_percptual_loss 46.321 	
+[19:08:19.278] [2023-02-14 19:08:19]	Epoch: [18][53/361]	total_loss 2.435 	mse_loss 0.010 	content_percptual_loss 46.761 	
+[19:08:50.125] [2023-02-14 19:08:50]	Epoch: [18][103/361]	total_loss 2.597 	mse_loss 0.010 	content_percptual_loss 49.904 	
+[19:09:21.613] [2023-02-14 19:09:21]	Epoch: [18][153/361]	total_loss 2.802 	mse_loss 0.012 	content_percptual_loss 53.737 	
+[19:09:53.711] [2023-02-14 19:09:53]	Epoch: [18][203/361]	total_loss 2.160 	mse_loss 0.009 	content_percptual_loss 41.445 	
+[19:10:26.167] [2023-02-14 19:10:26]	Epoch: [18][253/361]	total_loss 2.257 	mse_loss 0.009 	content_percptual_loss 43.407 	
+[19:10:56.639] [2023-02-14 19:10:56]	Epoch: [18][303/361]	total_loss 2.438 	mse_loss 0.010 	content_percptual_loss 46.830 	
+[19:11:27.706] [2023-02-14 19:11:27]	Epoch: [18][353/361]	total_loss 2.185 	mse_loss 0.009 	content_percptual_loss 41.895 	
+[19:11:58.662] [2023-02-14 19:11:58]	Epoch: [19][42/361]	total_loss 2.411 	mse_loss 0.014 	content_percptual_loss 45.416 	
+[19:12:30.330] [2023-02-14 19:12:30]	Epoch: [19][92/361]	total_loss 2.401 	mse_loss 0.010 	content_percptual_loss 46.007 	
+[19:13:01.582] [2023-02-14 19:13:01]	Epoch: [19][142/361]	total_loss 2.320 	mse_loss 0.010 	content_percptual_loss 44.387 	
+[19:13:01.582] ======================================================
+[19:13:01.582] evaling easy
+[19:13:09.585] [2023-02-14 19:13:09]	loss_rec 0.000| loss_im 0.000	PSNR 22.68 | SSIM 0.8204	
+[19:13:09.585] save display images
+[19:13:09.585] sr_accuray: 52.19%
+[19:13:09.586] best_easy = 52.19%*
+[19:13:09.586] evaling medium
+[19:13:17.346] [2023-02-14 19:13:17]	loss_rec 0.000| loss_im 0.000	PSNR 19.11 | SSIM 0.6326	
+[19:13:17.346] save display images
+[19:13:17.346] sr_accuray: 36.14%
+[19:13:17.347] best_medium = 36.14%*
+[19:13:17.347] evaling hard
+[19:13:24.815] [2023-02-14 19:13:24]	loss_rec 0.000| loss_im 0.000	PSNR 19.63 | SSIM 0.6938	
+[19:13:24.816] save display images
+[19:13:24.816] sr_accuray: 29.71%
+[19:13:24.816] best_hard = 29.71%*
+[19:13:24.816] saving best model
+[19:13:54.667] [2023-02-14 19:13:54]	Epoch: [19][192/361]	total_loss 1.992 	mse_loss 0.008 	content_percptual_loss 38.147 	
+[19:14:24.947] [2023-02-14 19:14:24]	Epoch: [19][242/361]	total_loss 2.290 	mse_loss 0.008 	content_percptual_loss 44.171 	
+[19:14:55.800] [2023-02-14 19:14:55]	Epoch: [19][292/361]	total_loss 2.112 	mse_loss 0.009 	content_percptual_loss 40.436 	
+[19:15:27.326] [2023-02-14 19:15:27]	Epoch: [19][342/361]	total_loss 2.221 	mse_loss 0.009 	content_percptual_loss 42.635 	
+[19:15:58.209] [2023-02-14 19:15:58]	Epoch: [20][31/361]	total_loss 2.219 	mse_loss 0.009 	content_percptual_loss 42.663 	
+[19:16:29.249] [2023-02-14 19:16:29]	Epoch: [20][81/361]	total_loss 2.398 	mse_loss 0.010 	content_percptual_loss 46.041 	
+[19:17:00.596] [2023-02-14 19:17:00]	Epoch: [20][131/361]	total_loss 2.515 	mse_loss 0.008 	content_percptual_loss 48.630 	
+[19:17:31.214] [2023-02-14 19:17:31]	Epoch: [20][181/361]	total_loss 2.407 	mse_loss 0.007 	content_percptual_loss 46.716 	
+[19:18:03.226] [2023-02-14 19:18:03]	Epoch: [20][231/361]	total_loss 2.479 	mse_loss 0.008 	content_percptual_loss 48.008 	
+[19:18:34.433] [2023-02-14 19:18:34]	Epoch: [20][281/361]	total_loss 2.550 	mse_loss 0.009 	content_percptual_loss 49.258 	
+[19:19:05.710] [2023-02-14 19:19:05]	Epoch: [20][331/361]	total_loss 2.346 	mse_loss 0.008 	content_percptual_loss 45.256 	
+[19:19:36.738] [2023-02-14 19:19:36]	Epoch: [21][20/361]	total_loss 2.477 	mse_loss 0.009 	content_percptual_loss 47.652 	
+[19:20:08.012] [2023-02-14 19:20:08]	Epoch: [21][70/361]	total_loss 2.571 	mse_loss 0.009 	content_percptual_loss 49.681 	
+[19:20:38.620] [2023-02-14 19:20:38]	Epoch: [21][120/361]	total_loss 2.185 	mse_loss 0.008 	content_percptual_loss 42.148 	
+[19:21:11.136] [2023-02-14 19:21:11]	Epoch: [21][170/361]	total_loss 2.092 	mse_loss 0.009 	content_percptual_loss 39.948 	
+[19:21:42.376] [2023-02-14 19:21:42]	Epoch: [21][220/361]	total_loss 2.274 	mse_loss 0.007 	content_percptual_loss 44.052 	
+[19:22:13.455] [2023-02-14 19:22:13]	Epoch: [21][270/361]	total_loss 2.651 	mse_loss 0.009 	content_percptual_loss 51.290 	
+[19:22:45.336] [2023-02-14 19:22:45]	Epoch: [21][320/361]	total_loss 2.553 	mse_loss 0.009 	content_percptual_loss 49.197 	
+[19:23:16.726] [2023-02-14 19:23:16]	Epoch: [22][9/361]	total_loss 2.345 	mse_loss 0.011 	content_percptual_loss 44.718 	
+[19:23:48.894] [2023-02-14 19:23:48]	Epoch: [22][59/361]	total_loss 2.332 	mse_loss 0.008 	content_percptual_loss 45.076 	
+[19:23:48.894] ======================================================
+[19:23:48.894] evaling easy
+[19:23:57.969] [2023-02-14 19:23:57]	loss_rec 0.000| loss_im 0.000	PSNR 22.08 | SSIM 0.8050	
+[19:23:57.969] save display images
+[19:23:57.969] sr_accuray: 49.17%
+[19:23:57.970] best_easy = 52.19%
+[19:23:57.970] evaling medium
+[19:24:04.263] [2023-02-14 19:24:04]	loss_rec 0.000| loss_im 0.000	PSNR 19.24 | SSIM 0.6350	
+[19:24:04.263] save display images
+[19:24:04.264] sr_accuray: 34.73%
+[19:24:04.264] best_medium = 36.14%
+[19:24:04.264] evaling hard
+[19:24:10.792] [2023-02-14 19:24:10]	loss_rec 0.000| loss_im 0.000	PSNR 19.54 | SSIM 0.6906	
+[19:24:10.792] save display images
+[19:24:10.792] sr_accuray: 30.23%
+[19:24:10.796] best_hard = 30.23%*
+[19:24:41.051] [2023-02-14 19:24:41]	Epoch: [22][109/361]	total_loss 2.214 	mse_loss 0.010 	content_percptual_loss 42.289 	
+[19:25:11.595] [2023-02-14 19:25:11]	Epoch: [22][159/361]	total_loss 2.240 	mse_loss 0.009 	content_percptual_loss 43.087 	
+[19:25:43.035] [2023-02-14 19:25:43]	Epoch: [22][209/361]	total_loss 2.098 	mse_loss 0.008 	content_percptual_loss 40.274 	
+[19:26:14.528] [2023-02-14 19:26:14]	Epoch: [22][259/361]	total_loss 2.369 	mse_loss 0.009 	content_percptual_loss 45.620 	
+[19:26:45.803] [2023-02-14 19:26:45]	Epoch: [22][309/361]	total_loss 2.524 	mse_loss 0.007 	content_percptual_loss 49.041 	
+[19:27:17.552] [2023-02-14 19:27:17]	Epoch: [22][359/361]	total_loss 2.270 	mse_loss 0.009 	content_percptual_loss 43.667 	
+[19:27:49.225] [2023-02-14 19:27:49]	Epoch: [23][48/361]	total_loss 2.137 	mse_loss 0.008 	content_percptual_loss 41.169 	
+[19:28:20.403] [2023-02-14 19:28:20]	Epoch: [23][98/361]	total_loss 2.083 	mse_loss 0.007 	content_percptual_loss 40.157 	
+[19:28:52.142] [2023-02-14 19:28:52]	Epoch: [23][148/361]	total_loss 2.249 	mse_loss 0.009 	content_percptual_loss 43.107 	
+[19:29:23.734] [2023-02-14 19:29:23]	Epoch: [23][198/361]	total_loss 2.221 	mse_loss 0.008 	content_percptual_loss 42.732 	
+[19:29:55.397] [2023-02-14 19:29:55]	Epoch: [23][248/361]	total_loss 2.439 	mse_loss 0.009 	content_percptual_loss 47.053 	
+[19:30:27.491] [2023-02-14 19:30:27]	Epoch: [23][298/361]	total_loss 2.476 	mse_loss 0.009 	content_percptual_loss 47.776 	
+[19:30:59.307] [2023-02-14 19:30:59]	Epoch: [23][348/361]	total_loss 2.496 	mse_loss 0.009 	content_percptual_loss 48.150 	
+[19:31:30.760] [2023-02-14 19:31:30]	Epoch: [24][37/361]	total_loss 2.239 	mse_loss 0.007 	content_percptual_loss 43.300 	
+[19:32:02.298] [2023-02-14 19:32:02]	Epoch: [24][87/361]	total_loss 2.294 	mse_loss 0.010 	content_percptual_loss 43.906 	
+[19:32:34.498] [2023-02-14 19:32:34]	Epoch: [24][137/361]	total_loss 2.069 	mse_loss 0.007 	content_percptual_loss 40.007 	
+[19:33:06.396] [2023-02-14 19:33:06]	Epoch: [24][187/361]	total_loss 2.240 	mse_loss 0.008 	content_percptual_loss 43.107 	
+[19:33:38.793] [2023-02-14 19:33:38]	Epoch: [24][237/361]	total_loss 2.369 	mse_loss 0.008 	content_percptual_loss 45.778 	
+[19:34:10.337] [2023-02-14 19:34:10]	Epoch: [24][287/361]	total_loss 2.459 	mse_loss 0.009 	content_percptual_loss 47.394 	
+[19:34:42.052] [2023-02-14 19:34:42]	Epoch: [24][337/361]	total_loss 2.162 	mse_loss 0.007 	content_percptual_loss 41.779 	
+[19:34:42.052] ======================================================
+[19:34:42.052] evaling easy
+[19:34:50.186] [2023-02-14 19:34:50]	loss_rec 0.000| loss_im 0.000	PSNR 22.03 | SSIM 0.8127	
+[19:34:50.186] save display images
+[19:34:50.186] sr_accuray: 48.92%
+[19:34:50.187] best_easy = 52.19%
+[19:34:50.187] evaling medium
+[19:34:57.217] [2023-02-14 19:34:57]	loss_rec 0.000| loss_im 0.000	PSNR 19.28 | SSIM 0.6399	
+[19:34:57.217] save display images
+[19:34:57.218] sr_accuray: 37.00%
+[19:34:57.218] best_medium = 37.00%*
+[19:34:57.219] evaling hard
+[19:35:03.579] [2023-02-14 19:35:03]	loss_rec 0.000| loss_im 0.000	PSNR 19.54 | SSIM 0.7000	
+[19:35:03.579] save display images
+[19:35:03.579] sr_accuray: 29.11%
+[19:35:03.579] best_hard = 30.23%
+[19:35:34.581] [2023-02-14 19:35:34]	Epoch: [25][26/361]	total_loss 1.973 	mse_loss 0.007 	content_percptual_loss 38.151 	
+[19:36:06.179] [2023-02-14 19:36:06]	Epoch: [25][76/361]	total_loss 2.478 	mse_loss 0.009 	content_percptual_loss 47.784 	
+[19:36:37.008] [2023-02-14 19:36:37]	Epoch: [25][126/361]	total_loss 2.225 	mse_loss 0.008 	content_percptual_loss 42.968 	
+[19:37:10.114] [2023-02-14 19:37:10]	Epoch: [25][176/361]	total_loss 2.228 	mse_loss 0.010 	content_percptual_loss 42.604 	
+[19:37:40.415] [2023-02-14 19:37:40]	Epoch: [25][226/361]	total_loss 2.289 	mse_loss 0.008 	content_percptual_loss 44.282 	
+[19:38:13.031] [2023-02-14 19:38:13]	Epoch: [25][276/361]	total_loss 2.411 	mse_loss 0.009 	content_percptual_loss 46.455 	
+[19:38:43.931] [2023-02-14 19:38:43]	Epoch: [25][326/361]	total_loss 2.025 	mse_loss 0.008 	content_percptual_loss 38.985 	
+[19:39:15.090] [2023-02-14 19:39:15]	Epoch: [26][15/361]	total_loss 2.196 	mse_loss 0.009 	content_percptual_loss 42.179 	
+[19:39:46.121] [2023-02-14 19:39:46]	Epoch: [26][65/361]	total_loss 2.129 	mse_loss 0.009 	content_percptual_loss 40.804 	
+[19:40:17.732] [2023-02-14 19:40:17]	Epoch: [26][115/361]	total_loss 2.251 	mse_loss 0.009 	content_percptual_loss 43.150 	
+[19:40:50.078] [2023-02-14 19:40:50]	Epoch: [26][165/361]	total_loss 2.238 	mse_loss 0.009 	content_percptual_loss 42.897 	
+[19:41:21.065] [2023-02-14 19:41:21]	Epoch: [26][215/361]	total_loss 2.216 	mse_loss 0.010 	content_percptual_loss 42.330 	
+[19:41:52.073] [2023-02-14 19:41:52]	Epoch: [26][265/361]	total_loss 2.123 	mse_loss 0.007 	content_percptual_loss 41.056 	
+[19:42:23.242] [2023-02-14 19:42:23]	Epoch: [26][315/361]	total_loss 2.210 	mse_loss 0.008 	content_percptual_loss 42.660 	
+[19:42:55.151] [2023-02-14 19:42:55]	Epoch: [27][4/361]	total_loss 2.404 	mse_loss 0.011 	content_percptual_loss 45.942 	
+[19:43:26.148] [2023-02-14 19:43:26]	Epoch: [27][54/361]	total_loss 2.259 	mse_loss 0.008 	content_percptual_loss 43.670 	
+[19:43:58.142] [2023-02-14 19:43:58]	Epoch: [27][104/361]	total_loss 2.138 	mse_loss 0.009 	content_percptual_loss 40.991 	
+[19:44:28.562] [2023-02-14 19:44:28]	Epoch: [27][154/361]	total_loss 2.774 	mse_loss 0.008 	content_percptual_loss 53.855 	
+[19:45:00.096] [2023-02-14 19:45:00]	Epoch: [27][204/361]	total_loss 1.990 	mse_loss 0.006 	content_percptual_loss 38.704 	
+[19:45:30.784] [2023-02-14 19:45:30]	Epoch: [27][254/361]	total_loss 2.151 	mse_loss 0.008 	content_percptual_loss 41.417 	
+[19:45:30.784] ======================================================
+[19:45:30.784] evaling easy
+[19:45:39.052] [2023-02-14 19:45:39]	loss_rec 0.000| loss_im 0.000	PSNR 22.84 | SSIM 0.8280	
+[19:45:39.053] save display images
+[19:45:39.053] sr_accuray: 52.87%
+[19:45:39.055] best_easy = 52.87%*
+[19:45:39.055] evaling medium
+[19:45:46.941] [2023-02-14 19:45:46]	loss_rec 0.000| loss_im 0.000	PSNR 19.18 | SSIM 0.6406	
+[19:45:46.941] save display images
+[19:45:46.941] sr_accuray: 37.42%
+[19:45:46.942] best_medium = 37.42%*
+[19:45:46.942] evaling hard
+[19:45:53.139] [2023-02-14 19:45:53]	loss_rec 0.000| loss_im 0.000	PSNR 19.56 | SSIM 0.7010	
+[19:45:53.140] save display images
+[19:45:53.140] sr_accuray: 30.31%
+[19:45:53.140] best_hard = 30.31%*
+[19:45:53.140] saving best model
+[19:46:23.126] [2023-02-14 19:46:23]	Epoch: [27][304/361]	total_loss 2.238 	mse_loss 0.008 	content_percptual_loss 43.139 	
+[19:46:53.825] [2023-02-14 19:46:53]	Epoch: [27][354/361]	total_loss 2.248 	mse_loss 0.008 	content_percptual_loss 43.376 	
+[19:47:25.546] [2023-02-14 19:47:25]	Epoch: [28][43/361]	total_loss 2.329 	mse_loss 0.010 	content_percptual_loss 44.661 	
+[19:47:56.205] [2023-02-14 19:47:56]	Epoch: [28][93/361]	total_loss 2.082 	mse_loss 0.006 	content_percptual_loss 40.361 	
+[19:48:27.986] [2023-02-14 19:48:27]	Epoch: [28][143/361]	total_loss 1.986 	mse_loss 0.009 	content_percptual_loss 37.976 	
+[19:48:58.456] [2023-02-14 19:48:58]	Epoch: [28][193/361]	total_loss 2.234 	mse_loss 0.008 	content_percptual_loss 43.059 	
+[19:49:30.521] [2023-02-14 19:49:30]	Epoch: [28][243/361]	total_loss 2.118 	mse_loss 0.007 	content_percptual_loss 40.913 	
+[19:50:00.984] [2023-02-14 19:50:00]	Epoch: [28][293/361]	total_loss 2.005 	mse_loss 0.006 	content_percptual_loss 38.843 	
+[19:50:31.817] [2023-02-14 19:50:31]	Epoch: [28][343/361]	total_loss 2.131 	mse_loss 0.007 	content_percptual_loss 41.172 	
+[19:51:03.521] [2023-02-14 19:51:03]	Epoch: [29][32/361]	total_loss 2.272 	mse_loss 0.007 	content_percptual_loss 43.960 	
+[19:51:34.462] [2023-02-14 19:51:34]	Epoch: [29][82/361]	total_loss 2.349 	mse_loss 0.008 	content_percptual_loss 45.445 	
+[19:52:06.506] [2023-02-14 19:52:06]	Epoch: [29][132/361]	total_loss 1.742 	mse_loss 0.008 	content_percptual_loss 33.230 	
+[19:52:37.169] [2023-02-14 19:52:37]	Epoch: [29][182/361]	total_loss 2.176 	mse_loss 0.009 	content_percptual_loss 41.744 	
+[19:53:08.476] [2023-02-14 19:53:08]	Epoch: [29][232/361]	total_loss 2.041 	mse_loss 0.007 	content_percptual_loss 39.452 	
+[19:53:39.090] [2023-02-14 19:53:39]	Epoch: [29][282/361]	total_loss 2.147 	mse_loss 0.009 	content_percptual_loss 41.069 	
+[19:54:10.788] [2023-02-14 19:54:10]	Epoch: [29][332/361]	total_loss 2.161 	mse_loss 0.008 	content_percptual_loss 41.650 	
+[19:54:42.461] [2023-02-14 19:54:42]	Epoch: [30][21/361]	total_loss 1.837 	mse_loss 0.006 	content_percptual_loss 35.460 	
+[19:55:13.195] [2023-02-14 19:55:13]	Epoch: [30][71/361]	total_loss 2.310 	mse_loss 0.007 	content_percptual_loss 44.737 	
+[19:55:45.939] [2023-02-14 19:55:45]	Epoch: [30][121/361]	total_loss 1.960 	mse_loss 0.007 	content_percptual_loss 37.781 	
+[19:56:16.318] [2023-02-14 19:56:16]	Epoch: [30][171/361]	total_loss 2.299 	mse_loss 0.008 	content_percptual_loss 44.404 	
+[19:56:16.318] ======================================================
+[19:56:16.318] evaling easy
+[19:56:25.655] [2023-02-14 19:56:25]	loss_rec 0.000| loss_im 0.000	PSNR 22.78 | SSIM 0.8267	
+[19:56:25.655] save display images
+[19:56:25.655] sr_accuray: 52.50%
+[19:56:25.656] best_easy = 52.87%
+[19:56:25.656] evaling medium
+[19:56:32.592] [2023-02-14 19:56:32]	loss_rec 0.000| loss_im 0.000	PSNR 19.34 | SSIM 0.6423	
+[19:56:32.592] save display images
+[19:56:32.593] sr_accuray: 38.06%
+[19:56:32.593] best_medium = 38.06%*
+[19:56:32.593] evaling hard
+[19:56:39.145] [2023-02-14 19:56:39]	loss_rec 0.000| loss_im 0.000	PSNR 19.70 | SSIM 0.7043	
+[19:56:39.146] save display images
+[19:56:39.146] sr_accuray: 31.05%
+[19:56:39.151] best_hard = 31.05%*
+[19:56:39.151] saving best model
+[19:57:09.774] [2023-02-14 19:57:09]	Epoch: [30][221/361]	total_loss 2.197 	mse_loss 0.009 	content_percptual_loss 42.216 	
+[19:57:39.956] [2023-02-14 19:57:39]	Epoch: [30][271/361]	total_loss 1.950 	mse_loss 0.006 	content_percptual_loss 37.717 	
+[19:58:11.357] [2023-02-14 19:58:11]	Epoch: [30][321/361]	total_loss 2.289 	mse_loss 0.008 	content_percptual_loss 44.232 	
+[19:58:42.517] [2023-02-14 19:58:42]	Epoch: [31][10/361]	total_loss 1.948 	mse_loss 0.008 	content_percptual_loss 37.295 	
+[19:59:13.558] [2023-02-14 19:59:13]	Epoch: [31][60/361]	total_loss 2.028 	mse_loss 0.007 	content_percptual_loss 39.141 	
+[19:59:45.033] [2023-02-14 19:59:45]	Epoch: [31][110/361]	total_loss 1.889 	mse_loss 0.007 	content_percptual_loss 36.344 	
+[20:00:16.719] [2023-02-14 20:00:16]	Epoch: [31][160/361]	total_loss 2.172 	mse_loss 0.008 	content_percptual_loss 41.845 	
+[20:00:47.740] [2023-02-14 20:00:47]	Epoch: [31][210/361]	total_loss 2.153 	mse_loss 0.008 	content_percptual_loss 41.554 	
+[20:01:19.207] [2023-02-14 20:01:19]	Epoch: [31][260/361]	total_loss 1.941 	mse_loss 0.008 	content_percptual_loss 37.219 	
+[20:01:50.221] [2023-02-14 20:01:50]	Epoch: [31][310/361]	total_loss 2.144 	mse_loss 0.007 	content_percptual_loss 41.459 	
+[20:02:21.400] [2023-02-14 20:02:21]	Epoch: [31][360/361]	total_loss 2.075 	mse_loss 0.008 	content_percptual_loss 39.953 	
+[20:02:52.866] [2023-02-14 20:02:52]	Epoch: [32][49/361]	total_loss 2.056 	mse_loss 0.007 	content_percptual_loss 39.661 	
+[20:03:24.959] [2023-02-14 20:03:24]	Epoch: [32][99/361]	total_loss 2.094 	mse_loss 0.008 	content_percptual_loss 40.313 	
+[20:03:57.843] [2023-02-14 20:03:57]	Epoch: [32][149/361]	total_loss 2.045 	mse_loss 0.008 	content_percptual_loss 39.373 	
+[20:04:28.223] [2023-02-14 20:04:28]	Epoch: [32][199/361]	total_loss 2.298 	mse_loss 0.008 	content_percptual_loss 44.403 	
+[20:04:59.383] [2023-02-14 20:04:59]	Epoch: [32][249/361]	total_loss 2.036 	mse_loss 0.011 	content_percptual_loss 38.516 	
+[20:05:31.195] [2023-02-14 20:05:31]	Epoch: [32][299/361]	total_loss 2.248 	mse_loss 0.008 	content_percptual_loss 43.350 	
+[20:06:02.295] [2023-02-14 20:06:02]	Epoch: [32][349/361]	total_loss 2.093 	mse_loss 0.010 	content_percptual_loss 39.878 	
+[20:06:33.358] [2023-02-14 20:06:33]	Epoch: [33][38/361]	total_loss 2.059 	mse_loss 0.008 	content_percptual_loss 39.619 	
+[20:07:04.938] [2023-02-14 20:07:04]	Epoch: [33][88/361]	total_loss 2.231 	mse_loss 0.008 	content_percptual_loss 43.106 	
+[20:07:04.938] ======================================================
+[20:07:04.938] evaling easy
+[20:07:14.349] [2023-02-14 20:07:14]	loss_rec 0.000| loss_im 0.000	PSNR 22.17 | SSIM 0.8175	
+[20:07:14.350] save display images
+[20:07:14.350] sr_accuray: 49.29%
+[20:07:14.350] best_easy = 52.87%
+[20:07:14.350] evaling medium
+[20:07:21.837] [2023-02-14 20:07:21]	loss_rec 0.000| loss_im 0.000	PSNR 19.04 | SSIM 0.6387	
+[20:07:21.837] save display images
+[20:07:21.838] sr_accuray: 38.55%
+[20:07:21.838] best_medium = 38.55%*
+[20:07:21.838] evaling hard
+[20:07:27.991] [2023-02-14 20:07:27]	loss_rec 0.000| loss_im 0.000	PSNR 19.20 | SSIM 0.6946	
+[20:07:27.991] save display images
+[20:07:27.991] sr_accuray: 30.68%
+[20:07:27.991] best_hard = 31.05%
+[20:07:58.192] [2023-02-14 20:07:58]	Epoch: [33][138/361]	total_loss 1.949 	mse_loss 0.009 	content_percptual_loss 37.218 	
+[20:08:29.201] [2023-02-14 20:08:29]	Epoch: [33][188/361]	total_loss 2.043 	mse_loss 0.008 	content_percptual_loss 39.337 	
+[20:09:00.474] [2023-02-14 20:09:00]	Epoch: [33][238/361]	total_loss 2.119 	mse_loss 0.007 	content_percptual_loss 40.895 	
+[20:09:32.160] [2023-02-14 20:09:32]	Epoch: [33][288/361]	total_loss 2.113 	mse_loss 0.008 	content_percptual_loss 40.574 	
+[20:10:03.470] [2023-02-14 20:10:03]	Epoch: [33][338/361]	total_loss 2.211 	mse_loss 0.008 	content_percptual_loss 42.705 	
+[20:10:35.096] [2023-02-14 20:10:35]	Epoch: [34][27/361]	total_loss 2.054 	mse_loss 0.007 	content_percptual_loss 39.630 	
+[20:11:06.652] [2023-02-14 20:11:06]	Epoch: [34][77/361]	total_loss 2.122 	mse_loss 0.007 	content_percptual_loss 40.994 	
+[20:11:38.141] [2023-02-14 20:11:38]	Epoch: [34][127/361]	total_loss 2.284 	mse_loss 0.008 	content_percptual_loss 44.024 	
+[20:12:09.805] [2023-02-14 20:12:09]	Epoch: [34][177/361]	total_loss 1.914 	mse_loss 0.007 	content_percptual_loss 36.880 	
+[20:12:41.079] [2023-02-14 20:12:41]	Epoch: [34][227/361]	total_loss 1.933 	mse_loss 0.006 	content_percptual_loss 37.456 	
+[20:13:12.155] [2023-02-14 20:13:12]	Epoch: [34][277/361]	total_loss 2.030 	mse_loss 0.007 	content_percptual_loss 39.126 	
+[20:13:44.027] [2023-02-14 20:13:44]	Epoch: [34][327/361]	total_loss 2.095 	mse_loss 0.007 	content_percptual_loss 40.539 	
+[20:14:15.375] [2023-02-14 20:14:15]	Epoch: [35][16/361]	total_loss 2.031 	mse_loss 0.008 	content_percptual_loss 39.000 	
+[20:14:46.892] [2023-02-14 20:14:46]	Epoch: [35][66/361]	total_loss 1.850 	mse_loss 0.006 	content_percptual_loss 35.718 	
+[20:15:17.856] [2023-02-14 20:15:17]	Epoch: [35][116/361]	total_loss 2.084 	mse_loss 0.007 	content_percptual_loss 40.288 	
+[20:15:49.572] [2023-02-14 20:15:49]	Epoch: [35][166/361]	total_loss 1.725 	mse_loss 0.007 	content_percptual_loss 33.123 	
+[20:16:20.107] [2023-02-14 20:16:20]	Epoch: [35][216/361]	total_loss 1.696 	mse_loss 0.007 	content_percptual_loss 32.606 	
+[20:16:51.735] [2023-02-14 20:16:51]	Epoch: [35][266/361]	total_loss 1.963 	mse_loss 0.007 	content_percptual_loss 37.788 	
+[20:17:23.819] [2023-02-14 20:17:23]	Epoch: [35][316/361]	total_loss 2.169 	mse_loss 0.007 	content_percptual_loss 41.948 	
+[20:17:54.959] [2023-02-14 20:17:54]	Epoch: [36][5/361]	total_loss 2.122 	mse_loss 0.008 	content_percptual_loss 40.875 	
+[20:17:54.959] ======================================================
+[20:17:54.959] evaling easy
+[20:18:03.532] [2023-02-14 20:18:03]	loss_rec 0.000| loss_im 0.000	PSNR 22.65 | SSIM 0.8254	
+[20:18:03.532] save display images
+[20:18:03.532] sr_accuray: 52.07%
+[20:18:03.533] best_easy = 52.87%
+[20:18:03.533] evaling medium
+[20:18:10.216] [2023-02-14 20:18:10]	loss_rec 0.000| loss_im 0.000	PSNR 19.34 | SSIM 0.6439	
+[20:18:10.216] save display images
+[20:18:10.216] sr_accuray: 38.27%
+[20:18:10.217] best_medium = 38.55%
+[20:18:10.217] evaling hard
+[20:18:17.954] [2023-02-14 20:18:17]	loss_rec 0.000| loss_im 0.000	PSNR 19.86 | SSIM 0.7051	
+[20:18:17.954] save display images
+[20:18:17.954] sr_accuray: 30.75%
+[20:18:17.954] best_hard = 31.05%
+[20:18:48.544] [2023-02-14 20:18:48]	Epoch: [36][55/361]	total_loss 2.043 	mse_loss 0.009 	content_percptual_loss 39.135 	
+[20:19:19.498] [2023-02-14 20:19:19]	Epoch: [36][105/361]	total_loss 2.134 	mse_loss 0.007 	content_percptual_loss 41.277 	
+[20:19:50.187] [2023-02-14 20:19:50]	Epoch: [36][155/361]	total_loss 2.128 	mse_loss 0.007 	content_percptual_loss 41.210 	
+[20:20:21.316] [2023-02-14 20:20:21]	Epoch: [36][205/361]	total_loss 2.090 	mse_loss 0.008 	content_percptual_loss 40.143 	
+[20:20:52.236] [2023-02-14 20:20:52]	Epoch: [36][255/361]	total_loss 2.049 	mse_loss 0.007 	content_percptual_loss 39.629 	
+[20:21:23.819] [2023-02-14 20:21:23]	Epoch: [36][305/361]	total_loss 2.152 	mse_loss 0.009 	content_percptual_loss 41.183 	
+[20:21:56.314] [2023-02-14 20:21:56]	Epoch: [36][355/361]	total_loss 1.901 	mse_loss 0.007 	content_percptual_loss 36.578 	
+[20:22:27.285] [2023-02-14 20:22:27]	Epoch: [37][44/361]	total_loss 1.862 	mse_loss 0.007 	content_percptual_loss 35.807 	
+[20:22:58.661] [2023-02-14 20:22:58]	Epoch: [37][94/361]	total_loss 1.987 	mse_loss 0.007 	content_percptual_loss 38.359 	
+[20:23:29.620] [2023-02-14 20:23:29]	Epoch: [37][144/361]	total_loss 2.104 	mse_loss 0.008 	content_percptual_loss 40.498 	
+[20:24:01.351] [2023-02-14 20:24:01]	Epoch: [37][194/361]	total_loss 2.277 	mse_loss 0.009 	content_percptual_loss 43.781 	
+[20:24:32.922] [2023-02-14 20:24:32]	Epoch: [37][244/361]	total_loss 1.886 	mse_loss 0.006 	content_percptual_loss 36.525 	
+[20:25:04.177] [2023-02-14 20:25:04]	Epoch: [37][294/361]	total_loss 1.709 	mse_loss 0.006 	content_percptual_loss 32.893 	
+[20:25:35.632] [2023-02-14 20:25:35]	Epoch: [37][344/361]	total_loss 2.045 	mse_loss 0.007 	content_percptual_loss 39.569 	
+[20:26:07.282] [2023-02-14 20:26:07]	Epoch: [38][33/361]	total_loss 1.873 	mse_loss 0.007 	content_percptual_loss 35.991 	
+[20:26:39.309] [2023-02-14 20:26:39]	Epoch: [38][83/361]	total_loss 2.127 	mse_loss 0.008 	content_percptual_loss 40.981 	
+[20:27:10.977] [2023-02-14 20:27:10]	Epoch: [38][133/361]	total_loss 1.963 	mse_loss 0.006 	content_percptual_loss 37.990 	
+[20:27:42.500] [2023-02-14 20:27:42]	Epoch: [38][183/361]	total_loss 1.992 	mse_loss 0.007 	content_percptual_loss 38.473 	
+[20:28:13.983] [2023-02-14 20:28:13]	Epoch: [38][233/361]	total_loss 1.873 	mse_loss 0.005 	content_percptual_loss 36.375 	
+[20:28:45.331] [2023-02-14 20:28:45]	Epoch: [38][283/361]	total_loss 2.097 	mse_loss 0.006 	content_percptual_loss 40.694 	
+[20:28:45.332] ======================================================
+[20:28:45.332] evaling easy
+[20:28:53.613] [2023-02-14 20:28:53]	loss_rec 0.000| loss_im 0.000	PSNR 22.77 | SSIM 0.8303	
+[20:28:53.613] save display images
+[20:28:53.613] sr_accuray: 52.32%
+[20:28:53.614] best_easy = 52.87%
+[20:28:53.614] evaling medium
+[20:29:01.325] [2023-02-14 20:29:01]	loss_rec 0.000| loss_im 0.000	PSNR 19.38 | SSIM 0.6478	
+[20:29:01.325] save display images
+[20:29:01.325] sr_accuray: 38.41%
+[20:29:01.325] best_medium = 38.55%
+[20:29:01.325] evaling hard
+[20:29:07.869] [2023-02-14 20:29:07]	loss_rec 0.000| loss_im 0.000	PSNR 19.70 | SSIM 0.7070	
+[20:29:07.869] save display images
+[20:29:07.869] sr_accuray: 31.57%
+[20:29:07.870] best_hard = 31.57%*
+[20:29:07.870] saving best model
+[20:29:39.019] [2023-02-14 20:29:39]	Epoch: [38][333/361]	total_loss 2.193 	mse_loss 0.007 	content_percptual_loss 42.389 	
+[20:30:10.511] [2023-02-14 20:30:10]	Epoch: [39][22/361]	total_loss 1.990 	mse_loss 0.007 	content_percptual_loss 38.345 	
+[20:30:41.457] [2023-02-14 20:30:41]	Epoch: [39][72/361]	total_loss 2.033 	mse_loss 0.008 	content_percptual_loss 39.106 	
+[20:31:13.260] [2023-02-14 20:31:13]	Epoch: [39][122/361]	total_loss 1.984 	mse_loss 0.007 	content_percptual_loss 38.307 	
+[20:31:44.208] [2023-02-14 20:31:44]	Epoch: [39][172/361]	total_loss 1.904 	mse_loss 0.008 	content_percptual_loss 36.502 	
+[20:32:15.752] [2023-02-14 20:32:15]	Epoch: [39][222/361]	total_loss 2.056 	mse_loss 0.007 	content_percptual_loss 39.699 	
+[20:32:47.353] [2023-02-14 20:32:47]	Epoch: [39][272/361]	total_loss 1.952 	mse_loss 0.007 	content_percptual_loss 37.643 	
+[20:33:19.195] [2023-02-14 20:33:19]	Epoch: [39][322/361]	total_loss 2.106 	mse_loss 0.009 	content_percptual_loss 40.406 	
+[20:33:51.032] [2023-02-14 20:33:51]	Epoch: [40][11/361]	total_loss 2.149 	mse_loss 0.007 	content_percptual_loss 41.644 	
+[20:34:22.829] [2023-02-14 20:34:22]	Epoch: [40][61/361]	total_loss 2.083 	mse_loss 0.006 	content_percptual_loss 40.356 	
+[20:34:53.749] [2023-02-14 20:34:53]	Epoch: [40][111/361]	total_loss 2.119 	mse_loss 0.009 	content_percptual_loss 40.612 	
+[20:35:25.648] [2023-02-14 20:35:25]	Epoch: [40][161/361]	total_loss 1.977 	mse_loss 0.009 	content_percptual_loss 37.700 	
+[20:35:56.671] [2023-02-14 20:35:56]	Epoch: [40][211/361]	total_loss 2.311 	mse_loss 0.009 	content_percptual_loss 44.431 	
+[20:36:27.907] [2023-02-14 20:36:27]	Epoch: [40][261/361]	total_loss 1.975 	mse_loss 0.008 	content_percptual_loss 37.916 	
+[20:36:58.932] [2023-02-14 20:36:58]	Epoch: [40][311/361]	total_loss 1.810 	mse_loss 0.007 	content_percptual_loss 34.888 	
+[20:37:30.414] [2023-02-14 20:37:30]	Epoch: [40][361/361]	total_loss 2.244 	mse_loss 0.007 	content_percptual_loss 43.399 	
+[20:38:01.651] [2023-02-14 20:38:01]	Epoch: [41][50/361]	total_loss 2.448 	mse_loss 0.010 	content_percptual_loss 46.924 	
+[20:38:32.822] [2023-02-14 20:38:32]	Epoch: [41][100/361]	total_loss 1.953 	mse_loss 0.010 	content_percptual_loss 37.123 	
+[20:39:04.663] [2023-02-14 20:39:04]	Epoch: [41][150/361]	total_loss 1.910 	mse_loss 0.007 	content_percptual_loss 36.864 	
+[20:39:35.804] [2023-02-14 20:39:35]	Epoch: [41][200/361]	total_loss 2.151 	mse_loss 0.007 	content_percptual_loss 41.572 	
+[20:39:35.805] ======================================================
+[20:39:35.805] evaling easy
+[20:39:44.701] [2023-02-14 20:39:44]	loss_rec 0.000| loss_im 0.000	PSNR 22.48 | SSIM 0.8221	
+[20:39:44.702] save display images
+[20:39:44.702] sr_accuray: 52.07%
+[20:39:44.702] best_easy = 52.87%
+[20:39:44.702] evaling medium
+[20:39:51.411] [2023-02-14 20:39:51]	loss_rec 0.000| loss_im 0.000	PSNR 19.22 | SSIM 0.6450	
+[20:39:51.412] save display images
+[20:39:51.412] sr_accuray: 39.26%
+[20:39:51.412] best_medium = 39.26%*
+[20:39:51.412] evaling hard
+[20:39:58.918] [2023-02-14 20:39:58]	loss_rec 0.000| loss_im 0.000	PSNR 19.66 | SSIM 0.7047	
+[20:39:58.918] save display images
+[20:39:58.918] sr_accuray: 31.05%
+[20:39:58.918] best_hard = 31.57%
+[20:39:58.918] saving best model
+[20:40:28.799] [2023-02-14 20:40:28]	Epoch: [41][250/361]	total_loss 1.924 	mse_loss 0.006 	content_percptual_loss 37.342 	
+[20:40:59.428] [2023-02-14 20:40:59]	Epoch: [41][300/361]	total_loss 1.839 	mse_loss 0.007 	content_percptual_loss 35.382 	
+[20:41:30.290] [2023-02-14 20:41:30]	Epoch: [41][350/361]	total_loss 1.859 	mse_loss 0.007 	content_percptual_loss 35.705 	
+[20:42:01.097] [2023-02-14 20:42:01]	Epoch: [42][39/361]	total_loss 1.928 	mse_loss 0.008 	content_percptual_loss 36.988 	
+[20:42:32.493] [2023-02-14 20:42:32]	Epoch: [42][89/361]	total_loss 2.065 	mse_loss 0.008 	content_percptual_loss 39.724 	
+[20:43:03.322] [2023-02-14 20:43:03]	Epoch: [42][139/361]	total_loss 1.981 	mse_loss 0.007 	content_percptual_loss 38.225 	
+[20:43:35.007] [2023-02-14 20:43:35]	Epoch: [42][189/361]	total_loss 1.880 	mse_loss 0.007 	content_percptual_loss 36.106 	
+[20:44:05.899] [2023-02-14 20:44:05]	Epoch: [42][239/361]	total_loss 1.909 	mse_loss 0.007 	content_percptual_loss 36.788 	
+[20:44:37.243] [2023-02-14 20:44:37]	Epoch: [42][289/361]	total_loss 1.896 	mse_loss 0.006 	content_percptual_loss 36.627 	
+[20:45:08.003] [2023-02-14 20:45:08]	Epoch: [42][339/361]	total_loss 1.768 	mse_loss 0.006 	content_percptual_loss 34.145 	
+[20:45:39.123] [2023-02-14 20:45:39]	Epoch: [43][28/361]	total_loss 2.066 	mse_loss 0.007 	content_percptual_loss 39.976 	
+[20:46:09.766] [2023-02-14 20:46:09]	Epoch: [43][78/361]	total_loss 1.798 	mse_loss 0.008 	content_percptual_loss 34.415 	
+[20:46:40.506] [2023-02-14 20:46:40]	Epoch: [43][128/361]	total_loss 2.061 	mse_loss 0.007 	content_percptual_loss 39.814 	
+[20:47:11.644] [2023-02-14 20:47:11]	Epoch: [43][178/361]	total_loss 2.111 	mse_loss 0.008 	content_percptual_loss 40.535 	
+[20:47:42.458] [2023-02-14 20:47:42]	Epoch: [43][228/361]	total_loss 2.105 	mse_loss 0.008 	content_percptual_loss 40.401 	
+[20:48:13.361] [2023-02-14 20:48:13]	Epoch: [43][278/361]	total_loss 1.895 	mse_loss 0.007 	content_percptual_loss 36.534 	
+[20:48:44.083] [2023-02-14 20:48:44]	Epoch: [43][328/361]	total_loss 1.817 	mse_loss 0.007 	content_percptual_loss 34.977 	
+[20:49:16.164] [2023-02-14 20:49:16]	Epoch: [44][17/361]	total_loss 2.199 	mse_loss 0.009 	content_percptual_loss 42.181 	
+[20:49:46.364] [2023-02-14 20:49:46]	Epoch: [44][67/361]	total_loss 1.968 	mse_loss 0.008 	content_percptual_loss 37.845 	
+[20:50:17.703] [2023-02-14 20:50:17]	Epoch: [44][117/361]	total_loss 1.830 	mse_loss 0.007 	content_percptual_loss 35.241 	
+[20:50:17.704] ======================================================
+[20:50:17.704] evaling easy
+[20:50:25.689] [2023-02-14 20:50:25]	loss_rec 0.000| loss_im 0.000	PSNR 22.50 | SSIM 0.8145	
+[20:50:25.689] save display images
+[20:50:25.689] sr_accuray: 48.86%
+[20:50:25.690] best_easy = 52.87%
+[20:50:25.690] evaling medium
+[20:50:32.769] [2023-02-14 20:50:32]	loss_rec 0.000| loss_im 0.000	PSNR 19.33 | SSIM 0.6406	
+[20:50:32.769] save display images
+[20:50:32.769] sr_accuray: 39.12%
+[20:50:32.770] best_medium = 39.26%
+[20:50:32.770] evaling hard
+[20:50:40.066] [2023-02-14 20:50:40]	loss_rec 0.000| loss_im 0.000	PSNR 19.69 | SSIM 0.7034	
+[20:50:40.066] save display images
+[20:50:40.066] sr_accuray: 30.90%
+[20:50:40.066] best_hard = 31.57%
+[20:51:09.163] [2023-02-14 20:51:09]	Epoch: [44][167/361]	total_loss 2.165 	mse_loss 0.008 	content_percptual_loss 41.765 	
+[20:51:39.619] [2023-02-14 20:51:39]	Epoch: [44][217/361]	total_loss 1.690 	mse_loss 0.008 	content_percptual_loss 32.170 	
+[20:52:09.729] [2023-02-14 20:52:09]	Epoch: [44][267/361]	total_loss 1.762 	mse_loss 0.007 	content_percptual_loss 33.808 	
+[20:52:40.765] [2023-02-14 20:52:40]	Epoch: [44][317/361]	total_loss 2.027 	mse_loss 0.006 	content_percptual_loss 39.375 	
+[20:53:12.283] [2023-02-14 20:53:12]	Epoch: [45][6/361]	total_loss 2.181 	mse_loss 0.007 	content_percptual_loss 42.226 	
+[20:53:42.598] [2023-02-14 20:53:42]	Epoch: [45][56/361]	total_loss 1.884 	mse_loss 0.006 	content_percptual_loss 36.421 	
+[20:54:14.321] [2023-02-14 20:54:14]	Epoch: [45][106/361]	total_loss 1.962 	mse_loss 0.007 	content_percptual_loss 37.924 	
+[20:54:44.329] [2023-02-14 20:54:44]	Epoch: [45][156/361]	total_loss 2.121 	mse_loss 0.009 	content_percptual_loss 40.643 	
+[20:55:15.152] [2023-02-14 20:55:15]	Epoch: [45][206/361]	total_loss 1.778 	mse_loss 0.008 	content_percptual_loss 34.032 	
+[20:55:46.660] [2023-02-14 20:55:46]	Epoch: [45][256/361]	total_loss 1.956 	mse_loss 0.006 	content_percptual_loss 37.973 	
+[20:56:17.511] [2023-02-14 20:56:17]	Epoch: [45][306/361]	total_loss 2.147 	mse_loss 0.006 	content_percptual_loss 41.730 	
+[20:56:48.718] [2023-02-14 20:56:48]	Epoch: [45][356/361]	total_loss 1.979 	mse_loss 0.008 	content_percptual_loss 38.046 	
+[20:57:19.941] [2023-02-14 20:57:19]	Epoch: [46][45/361]	total_loss 2.092 	mse_loss 0.007 	content_percptual_loss 40.361 	
+[20:57:50.958] [2023-02-14 20:57:50]	Epoch: [46][95/361]	total_loss 1.921 	mse_loss 0.007 	content_percptual_loss 37.008 	
+[20:58:22.542] [2023-02-14 20:58:22]	Epoch: [46][145/361]	total_loss 1.964 	mse_loss 0.006 	content_percptual_loss 37.986 	
+[20:58:54.078] [2023-02-14 20:58:54]	Epoch: [46][195/361]	total_loss 1.937 	mse_loss 0.008 	content_percptual_loss 37.168 	
+[20:59:24.783] [2023-02-14 20:59:24]	Epoch: [46][245/361]	total_loss 1.925 	mse_loss 0.006 	content_percptual_loss 37.275 	
+[20:59:55.449] [2023-02-14 20:59:55]	Epoch: [46][295/361]	total_loss 2.131 	mse_loss 0.012 	content_percptual_loss 40.150 	
+[21:00:26.984] [2023-02-14 21:00:26]	Epoch: [46][345/361]	total_loss 1.991 	mse_loss 0.007 	content_percptual_loss 38.428 	
+[21:00:58.775] [2023-02-14 21:00:58]	Epoch: [47][34/361]	total_loss 1.706 	mse_loss 0.009 	content_percptual_loss 32.349 	
+[21:00:58.775] ======================================================
+[21:00:58.775] evaling easy
+[21:01:06.917] [2023-02-14 21:01:06]	loss_rec 0.000| loss_im 0.000	PSNR 23.04 | SSIM 0.8304	
+[21:01:06.917] save display images
+[21:01:06.917] sr_accuray: 53.37%
+[21:01:06.918] best_easy = 53.37%*
+[21:01:06.918] evaling medium
+[21:01:13.898] [2023-02-14 21:01:13]	loss_rec 0.000| loss_im 0.000	PSNR 19.33 | SSIM 0.6498	
+[21:01:13.898] save display images
+[21:01:13.898] sr_accuray: 41.53%
+[21:01:13.900] best_medium = 41.53%*
+[21:01:13.901] evaling hard
+[21:01:21.158] [2023-02-14 21:01:21]	loss_rec 0.000| loss_im 0.000	PSNR 19.87 | SSIM 0.7123	
+[21:01:21.158] save display images
+[21:01:21.158] sr_accuray: 33.06%
+[21:01:21.158] best_hard = 33.06%*
+[21:01:21.158] saving best model
+[21:01:50.711] [2023-02-14 21:01:50]	Epoch: [47][84/361]	total_loss 2.065 	mse_loss 0.007 	content_percptual_loss 39.849 	
+[21:02:21.475] [2023-02-14 21:02:21]	Epoch: [47][134/361]	total_loss 1.993 	mse_loss 0.006 	content_percptual_loss 38.598 	
+[21:02:54.060] [2023-02-14 21:02:54]	Epoch: [47][184/361]	total_loss 1.822 	mse_loss 0.007 	content_percptual_loss 35.111 	
+[21:03:24.237] [2023-02-14 21:03:24]	Epoch: [47][234/361]	total_loss 2.166 	mse_loss 0.008 	content_percptual_loss 41.768 	
+[21:03:55.505] [2023-02-14 21:03:55]	Epoch: [47][284/361]	total_loss 2.013 	mse_loss 0.007 	content_percptual_loss 38.767 	
+[21:04:27.040] [2023-02-14 21:04:27]	Epoch: [47][334/361]	total_loss 1.809 	mse_loss 0.007 	content_percptual_loss 34.792 	
+[21:04:58.224] [2023-02-14 21:04:58]	Epoch: [48][23/361]	total_loss 1.815 	mse_loss 0.006 	content_percptual_loss 35.068 	
+[21:05:29.509] [2023-02-14 21:05:29]	Epoch: [48][73/361]	total_loss 2.305 	mse_loss 0.009 	content_percptual_loss 44.369 	
+[21:06:00.687] [2023-02-14 21:06:00]	Epoch: [48][123/361]	total_loss 1.893 	mse_loss 0.007 	content_percptual_loss 36.380 	
+[21:06:31.553] [2023-02-14 21:06:31]	Epoch: [48][173/361]	total_loss 1.778 	mse_loss 0.006 	content_percptual_loss 34.313 	
+[21:07:02.716] [2023-02-14 21:07:02]	Epoch: [48][223/361]	total_loss 1.821 	mse_loss 0.008 	content_percptual_loss 34.886 	
+[21:07:34.234] [2023-02-14 21:07:34]	Epoch: [48][273/361]	total_loss 1.923 	mse_loss 0.007 	content_percptual_loss 37.097 	
+[21:08:05.137] [2023-02-14 21:08:05]	Epoch: [48][323/361]	total_loss 2.023 	mse_loss 0.008 	content_percptual_loss 38.911 	
+[21:08:37.004] [2023-02-14 21:08:37]	Epoch: [49][12/361]	total_loss 2.017 	mse_loss 0.007 	content_percptual_loss 39.000 	
+[21:09:08.178] [2023-02-14 21:09:08]	Epoch: [49][62/361]	total_loss 1.953 	mse_loss 0.008 	content_percptual_loss 37.500 	
+[21:09:40.799] [2023-02-14 21:09:40]	Epoch: [49][112/361]	total_loss 1.603 	mse_loss 0.005 	content_percptual_loss 31.023 	
+[21:10:11.230] [2023-02-14 21:10:11]	Epoch: [49][162/361]	total_loss 1.996 	mse_loss 0.007 	content_percptual_loss 38.442 	
+[21:10:43.928] [2023-02-14 21:10:43]	Epoch: [49][212/361]	total_loss 1.732 	mse_loss 0.008 	content_percptual_loss 33.116 	
+[21:11:14.248] [2023-02-14 21:11:14]	Epoch: [49][262/361]	total_loss 1.787 	mse_loss 0.007 	content_percptual_loss 34.302 	
+[21:11:45.030] [2023-02-14 21:11:45]	Epoch: [49][312/361]	total_loss 2.184 	mse_loss 0.008 	content_percptual_loss 42.054 	
+[21:11:45.030] ======================================================
+[21:11:45.030] evaling easy
+[21:11:53.510] [2023-02-14 21:11:53]	loss_rec 0.000| loss_im 0.000	PSNR 22.56 | SSIM 0.8203	
+[21:11:53.510] save display images
+[21:11:53.510] sr_accuray: 50.22%
+[21:11:53.511] best_easy = 53.37%
+[21:11:53.511] evaling medium
+[21:12:00.413] [2023-02-14 21:12:00]	loss_rec 0.000| loss_im 0.000	PSNR 19.39 | SSIM 0.6488	
+[21:12:00.413] save display images
+[21:12:00.414] sr_accuray: 40.68%
+[21:12:00.414] best_medium = 41.53%
+[21:12:00.414] evaling hard
+[21:12:07.011] [2023-02-14 21:12:07]	loss_rec 0.000| loss_im 0.000	PSNR 19.72 | SSIM 0.7106	
+[21:12:07.012] save display images
+[21:12:07.012] sr_accuray: 32.09%
+[21:12:07.016] best_hard = 33.06%
+[21:12:38.487] [2023-02-14 21:12:38]	Epoch: [50][1/361]	total_loss 1.828 	mse_loss 0.007 	content_percptual_loss 35.180 	
+[21:13:09.046] [2023-02-14 21:13:09]	Epoch: [50][51/361]	total_loss 2.010 	mse_loss 0.007 	content_percptual_loss 38.783 	
+[21:13:40.131] [2023-02-14 21:13:40]	Epoch: [50][101/361]	total_loss 2.042 	mse_loss 0.007 	content_percptual_loss 39.458 	
+[21:14:11.213] [2023-02-14 21:14:11]	Epoch: [50][151/361]	total_loss 1.814 	mse_loss 0.008 	content_percptual_loss 34.755 	
+[21:14:44.182] [2023-02-14 21:14:44]	Epoch: [50][201/361]	total_loss 1.828 	mse_loss 0.006 	content_percptual_loss 35.349 	
+[21:15:13.688] [2023-02-14 21:15:13]	Epoch: [50][251/361]	total_loss 1.935 	mse_loss 0.008 	content_percptual_loss 37.176 	
+[21:15:44.737] [2023-02-14 21:15:44]	Epoch: [50][301/361]	total_loss 1.984 	mse_loss 0.006 	content_percptual_loss 38.494 	
+[21:16:16.123] [2023-02-14 21:16:16]	Epoch: [50][351/361]	total_loss 2.104 	mse_loss 0.007 	content_percptual_loss 40.747 	
+[21:16:47.130] [2023-02-14 21:16:47]	Epoch: [51][40/361]	total_loss 1.892 	mse_loss 0.007 	content_percptual_loss 36.471 	
+[21:17:18.512] [2023-02-14 21:17:18]	Epoch: [51][90/361]	total_loss 1.604 	mse_loss 0.006 	content_percptual_loss 30.822 	
+[21:17:49.074] [2023-02-14 21:17:49]	Epoch: [51][140/361]	total_loss 1.756 	mse_loss 0.007 	content_percptual_loss 33.685 	
+[21:18:20.512] [2023-02-14 21:18:20]	Epoch: [51][190/361]	total_loss 2.078 	mse_loss 0.008 	content_percptual_loss 40.020 	
+[21:18:51.586] [2023-02-14 21:18:51]	Epoch: [51][240/361]	total_loss 1.745 	mse_loss 0.007 	content_percptual_loss 33.442 	
+[21:19:22.097] [2023-02-14 21:19:22]	Epoch: [51][290/361]	total_loss 1.902 	mse_loss 0.007 	content_percptual_loss 36.623 	
+[21:19:53.659] [2023-02-14 21:19:53]	Epoch: [51][340/361]	total_loss 2.072 	mse_loss 0.009 	content_percptual_loss 39.650 	
+[21:20:24.382] [2023-02-14 21:20:24]	Epoch: [52][29/361]	total_loss 1.610 	mse_loss 0.006 	content_percptual_loss 30.915 	
+[21:20:56.360] [2023-02-14 21:20:56]	Epoch: [52][79/361]	total_loss 1.880 	mse_loss 0.008 	content_percptual_loss 35.976 	
+[21:21:27.186] [2023-02-14 21:21:27]	Epoch: [52][129/361]	total_loss 1.707 	mse_loss 0.006 	content_percptual_loss 32.885 	
+[21:21:59.083] [2023-02-14 21:21:59]	Epoch: [52][179/361]	total_loss 1.878 	mse_loss 0.007 	content_percptual_loss 36.104 	
+[21:22:29.425] [2023-02-14 21:22:29]	Epoch: [52][229/361]	total_loss 2.005 	mse_loss 0.006 	content_percptual_loss 38.882 	
+[21:22:29.425] ======================================================
+[21:22:29.425] evaling easy
+[21:22:38.447] [2023-02-14 21:22:38]	loss_rec 0.000| loss_im 0.000	PSNR 22.46 | SSIM 0.8315	
+[21:22:38.448] save display images
+[21:22:38.448] sr_accuray: 53.12%
+[21:22:38.448] best_easy = 53.37%
+[21:22:38.448] evaling medium
+[21:22:44.781] [2023-02-14 21:22:44]	loss_rec 0.000| loss_im 0.000	PSNR 19.12 | SSIM 0.6484	
+[21:22:44.781] save display images
+[21:22:44.781] sr_accuray: 41.11%
+[21:22:44.782] best_medium = 41.53%
+[21:22:44.782] evaling hard
+[21:22:53.138] [2023-02-14 21:22:53]	loss_rec 0.000| loss_im 0.000	PSNR 19.56 | SSIM 0.7095	
+[21:22:53.138] save display images
+[21:22:53.138] sr_accuray: 32.84%
+[21:22:53.140] best_hard = 33.06%
+[21:23:22.435] [2023-02-14 21:23:22]	Epoch: [52][279/361]	total_loss 2.135 	mse_loss 0.006 	content_percptual_loss 41.426 	
+[21:23:53.047] [2023-02-14 21:23:53]	Epoch: [52][329/361]	total_loss 1.881 	mse_loss 0.007 	content_percptual_loss 36.221 	
+[21:24:24.208] [2023-02-14 21:24:24]	Epoch: [53][18/361]	total_loss 1.920 	mse_loss 0.007 	content_percptual_loss 37.019 	
+[21:24:55.728] [2023-02-14 21:24:55]	Epoch: [53][68/361]	total_loss 1.888 	mse_loss 0.007 	content_percptual_loss 36.307 	
+[21:25:27.379] [2023-02-14 21:25:27]	Epoch: [53][118/361]	total_loss 1.604 	mse_loss 0.006 	content_percptual_loss 30.846 	
+[21:25:59.126] [2023-02-14 21:25:59]	Epoch: [53][168/361]	total_loss 1.877 	mse_loss 0.006 	content_percptual_loss 36.407 	
+[21:26:29.729] [2023-02-14 21:26:29]	Epoch: [53][218/361]	total_loss 1.911 	mse_loss 0.008 	content_percptual_loss 36.614 	
+[21:27:01.265] [2023-02-14 21:27:01]	Epoch: [53][268/361]	total_loss 1.922 	mse_loss 0.007 	content_percptual_loss 37.134 	
+[21:27:31.998] [2023-02-14 21:27:31]	Epoch: [53][318/361]	total_loss 2.112 	mse_loss 0.008 	content_percptual_loss 40.723 	
+[21:28:03.770] [2023-02-14 21:28:03]	Epoch: [54][7/361]	total_loss 1.828 	mse_loss 0.008 	content_percptual_loss 35.009 	
+[21:28:35.136] [2023-02-14 21:28:35]	Epoch: [54][57/361]	total_loss 1.872 	mse_loss 0.006 	content_percptual_loss 36.148 	
+[21:29:07.027] [2023-02-14 21:29:07]	Epoch: [54][107/361]	total_loss 1.823 	mse_loss 0.007 	content_percptual_loss 35.019 	
+[21:29:38.866] [2023-02-14 21:29:38]	Epoch: [54][157/361]	total_loss 1.844 	mse_loss 0.007 	content_percptual_loss 35.550 	
+[21:30:10.309] [2023-02-14 21:30:10]	Epoch: [54][207/361]	total_loss 1.691 	mse_loss 0.008 	content_percptual_loss 32.130 	
+[21:30:41.833] [2023-02-14 21:30:41]	Epoch: [54][257/361]	total_loss 1.962 	mse_loss 0.007 	content_percptual_loss 37.828 	
+[21:31:12.773] [2023-02-14 21:31:12]	Epoch: [54][307/361]	total_loss 1.866 	mse_loss 0.007 	content_percptual_loss 35.985 	
+[21:31:43.736] [2023-02-14 21:31:43]	Epoch: [54][357/361]	total_loss 1.680 	mse_loss 0.007 	content_percptual_loss 32.118 	
+[21:32:16.510] [2023-02-14 21:32:16]	Epoch: [55][46/361]	total_loss 1.881 	mse_loss 0.006 	content_percptual_loss 36.501 	
+[21:32:47.372] [2023-02-14 21:32:47]	Epoch: [55][96/361]	total_loss 1.486 	mse_loss 0.005 	content_percptual_loss 28.723 	
+[21:33:18.523] [2023-02-14 21:33:18]	Epoch: [55][146/361]	total_loss 1.787 	mse_loss 0.006 	content_percptual_loss 34.566 	
+[21:33:18.523] ======================================================
+[21:33:18.523] evaling easy
+[21:33:28.511] [2023-02-14 21:33:28]	loss_rec 0.000| loss_im 0.000	PSNR 22.64 | SSIM 0.8248	
+[21:33:28.511] save display images
+[21:33:28.511] sr_accuray: 50.03%
+[21:33:28.512] best_easy = 53.37%
+[21:33:28.512] evaling medium
+[21:33:35.297] [2023-02-14 21:33:35]	loss_rec 0.000| loss_im 0.000	PSNR 19.38 | SSIM 0.6534	
+[21:33:35.297] save display images
+[21:33:35.297] sr_accuray: 40.54%
+[21:33:35.298] best_medium = 41.53%
+[21:33:35.298] evaling hard
+[21:33:42.100] [2023-02-14 21:33:42]	loss_rec 0.000| loss_im 0.000	PSNR 19.75 | SSIM 0.7137	
+[21:33:42.100] save display images
+[21:33:42.100] sr_accuray: 33.13%
+[21:33:42.101] best_hard = 33.13%*
+[21:34:12.363] [2023-02-14 21:34:12]	Epoch: [55][196/361]	total_loss 1.844 	mse_loss 0.008 	content_percptual_loss 35.375 	
+[21:34:43.367] [2023-02-14 21:34:43]	Epoch: [55][246/361]	total_loss 1.749 	mse_loss 0.007 	content_percptual_loss 33.641 	
+[21:35:13.876] [2023-02-14 21:35:13]	Epoch: [55][296/361]	total_loss 1.968 	mse_loss 0.008 	content_percptual_loss 37.716 	
+[21:35:45.195] [2023-02-14 21:35:45]	Epoch: [55][346/361]	total_loss 1.852 	mse_loss 0.006 	content_percptual_loss 35.821 	
+[21:36:16.300] [2023-02-14 21:36:16]	Epoch: [56][35/361]	total_loss 2.051 	mse_loss 0.008 	content_percptual_loss 39.434 	
+[21:36:47.307] [2023-02-14 21:36:47]	Epoch: [56][85/361]	total_loss 2.115 	mse_loss 0.008 	content_percptual_loss 40.776 	
+[21:37:19.082] [2023-02-14 21:37:19]	Epoch: [56][135/361]	total_loss 1.684 	mse_loss 0.006 	content_percptual_loss 32.519 	
+[21:37:49.840] [2023-02-14 21:37:49]	Epoch: [56][185/361]	total_loss 1.857 	mse_loss 0.006 	content_percptual_loss 35.864 	
+[21:38:20.695] [2023-02-14 21:38:20]	Epoch: [56][235/361]	total_loss 2.049 	mse_loss 0.008 	content_percptual_loss 39.484 	
+[21:38:51.739] [2023-02-14 21:38:51]	Epoch: [56][285/361]	total_loss 1.477 	mse_loss 0.006 	content_percptual_loss 28.354 	
+[21:39:22.354] [2023-02-14 21:39:22]	Epoch: [56][335/361]	total_loss 1.824 	mse_loss 0.007 	content_percptual_loss 35.076 	
+[21:39:53.435] [2023-02-14 21:39:53]	Epoch: [57][24/361]	total_loss 1.794 	mse_loss 0.007 	content_percptual_loss 34.558 	
+[21:40:26.214] [2023-02-14 21:40:26]	Epoch: [57][74/361]	total_loss 1.798 	mse_loss 0.008 	content_percptual_loss 34.309 	
+[21:40:56.051] [2023-02-14 21:40:56]	Epoch: [57][124/361]	total_loss 1.712 	mse_loss 0.005 	content_percptual_loss 33.163 	
+[21:41:26.989] [2023-02-14 21:41:26]	Epoch: [57][174/361]	total_loss 1.724 	mse_loss 0.006 	content_percptual_loss 33.317 	
+[21:41:58.237] [2023-02-14 21:41:58]	Epoch: [57][224/361]	total_loss 1.934 	mse_loss 0.007 	content_percptual_loss 37.224 	
+[21:42:29.612] [2023-02-14 21:42:29]	Epoch: [57][274/361]	total_loss 1.835 	mse_loss 0.007 	content_percptual_loss 35.303 	
+[21:43:00.137] [2023-02-14 21:43:00]	Epoch: [57][324/361]	total_loss 1.586 	mse_loss 0.006 	content_percptual_loss 30.492 	
+[21:43:31.128] [2023-02-14 21:43:31]	Epoch: [58][13/361]	total_loss 1.778 	mse_loss 0.008 	content_percptual_loss 33.873 	
+[21:44:02.131] [2023-02-14 21:44:02]	Epoch: [58][63/361]	total_loss 1.690 	mse_loss 0.005 	content_percptual_loss 32.765 	
+[21:44:02.132] ======================================================
+[21:44:02.132] evaling easy
+[21:44:11.095] [2023-02-14 21:44:11]	loss_rec 0.000| loss_im 0.000	PSNR 22.74 | SSIM 0.8323	
+[21:44:11.095] save display images
+[21:44:11.095] sr_accuray: 51.33%
+[21:44:11.095] best_easy = 53.37%
+[21:44:11.095] evaling medium
+[21:44:17.490] [2023-02-14 21:44:17]	loss_rec 0.000| loss_im 0.000	PSNR 19.24 | SSIM 0.6566	
+[21:44:17.490] save display images
+[21:44:17.490] sr_accuray: 41.89%
+[21:44:17.491] best_medium = 41.89%*
+[21:44:17.491] evaling hard
+[21:44:24.360] [2023-02-14 21:44:24]	loss_rec 0.000| loss_im 0.000	PSNR 19.56 | SSIM 0.7152	
+[21:44:24.360] save display images
+[21:44:24.360] sr_accuray: 32.99%
+[21:44:24.360] best_hard = 33.13%
+[21:44:53.700] [2023-02-14 21:44:53]	Epoch: [58][113/361]	total_loss 1.782 	mse_loss 0.007 	content_percptual_loss 34.296 	
+[21:45:24.075] [2023-02-14 21:45:24]	Epoch: [58][163/361]	total_loss 1.762 	mse_loss 0.006 	content_percptual_loss 34.075 	
+[21:45:54.405] [2023-02-14 21:45:54]	Epoch: [58][213/361]	total_loss 1.882 	mse_loss 0.007 	content_percptual_loss 36.161 	
+[21:46:24.950] [2023-02-14 21:46:24]	Epoch: [58][263/361]	total_loss 1.929 	mse_loss 0.007 	content_percptual_loss 37.259 	
+[21:46:55.463] [2023-02-14 21:46:55]	Epoch: [58][313/361]	total_loss 2.025 	mse_loss 0.006 	content_percptual_loss 39.213 	
+[21:47:26.461] [2023-02-14 21:47:26]	Epoch: [59][2/361]	total_loss 1.824 	mse_loss 0.006 	content_percptual_loss 35.322 	
+[21:47:56.711] [2023-02-14 21:47:56]	Epoch: [59][52/361]	total_loss 1.690 	mse_loss 0.006 	content_percptual_loss 32.572 	
+[21:48:27.170] [2023-02-14 21:48:27]	Epoch: [59][102/361]	total_loss 1.707 	mse_loss 0.006 	content_percptual_loss 33.001 	
+[21:48:57.886] [2023-02-14 21:48:57]	Epoch: [59][152/361]	total_loss 1.673 	mse_loss 0.007 	content_percptual_loss 32.105 	
+[21:49:28.168] [2023-02-14 21:49:28]	Epoch: [59][202/361]	total_loss 1.764 	mse_loss 0.007 	content_percptual_loss 33.941 	
+[21:49:58.761] [2023-02-14 21:49:58]	Epoch: [59][252/361]	total_loss 1.839 	mse_loss 0.007 	content_percptual_loss 35.376 	
+[21:50:29.762] [2023-02-14 21:50:29]	Epoch: [59][302/361]	total_loss 2.017 	mse_loss 0.006 	content_percptual_loss 39.130 	
+[21:50:59.999] [2023-02-14 21:50:59]	Epoch: [59][352/361]	total_loss 1.457 	mse_loss 0.006 	content_percptual_loss 27.970 	
+[21:51:30.703] [2023-02-14 21:51:30]	Epoch: [60][41/361]	total_loss 1.876 	mse_loss 0.006 	content_percptual_loss 36.361 	
+[21:52:01.274] [2023-02-14 21:52:01]	Epoch: [60][91/361]	total_loss 1.895 	mse_loss 0.007 	content_percptual_loss 36.432 	
+[21:52:32.324] [2023-02-14 21:52:32]	Epoch: [60][141/361]	total_loss 1.705 	mse_loss 0.007 	content_percptual_loss 32.785 	
+[21:53:02.996] [2023-02-14 21:53:02]	Epoch: [60][191/361]	total_loss 1.784 	mse_loss 0.005 	content_percptual_loss 34.631 	
+[21:53:34.653] [2023-02-14 21:53:34]	Epoch: [60][241/361]	total_loss 1.961 	mse_loss 0.008 	content_percptual_loss 37.628 	
+[21:54:04.610] [2023-02-14 21:54:04]	Epoch: [60][291/361]	total_loss 1.777 	mse_loss 0.007 	content_percptual_loss 34.112 	
+[21:54:35.722] [2023-02-14 21:54:35]	Epoch: [60][341/361]	total_loss 1.736 	mse_loss 0.006 	content_percptual_loss 33.455 	
+[21:54:35.722] ======================================================
+[21:54:35.722] evaling easy
+[21:54:44.077] [2023-02-14 21:54:44]	loss_rec 0.000| loss_im 0.000	PSNR 22.67 | SSIM 0.8293	
+[21:54:44.077] save display images
+[21:54:44.077] sr_accuray: 52.38%
+[21:54:44.078] best_easy = 53.37%
+[21:54:44.078] evaling medium
+[21:54:51.003] [2023-02-14 21:54:51]	loss_rec 0.000| loss_im 0.000	PSNR 19.48 | SSIM 0.6545	
+[21:54:51.003] save display images
+[21:54:51.004] sr_accuray: 41.81%
+[21:54:51.004] best_medium = 41.89%
+[21:54:51.004] evaling hard
+[21:54:57.490] [2023-02-14 21:54:57]	loss_rec 0.000| loss_im 0.000	PSNR 19.76 | SSIM 0.7171	
+[21:54:57.490] save display images
+[21:54:57.490] sr_accuray: 34.77%
+[21:54:57.490] best_hard = 34.77%*
+[21:54:57.490] saving best model
+[21:55:27.371] [2023-02-14 21:55:27]	Epoch: [61][30/361]	total_loss 1.756 	mse_loss 0.007 	content_percptual_loss 33.703 	
+[21:55:57.581] [2023-02-14 21:55:57]	Epoch: [61][80/361]	total_loss 1.832 	mse_loss 0.006 	content_percptual_loss 35.454 	
+[21:56:28.172] [2023-02-14 21:56:28]	Epoch: [61][130/361]	total_loss 1.677 	mse_loss 0.006 	content_percptual_loss 32.319 	
+[21:56:59.376] [2023-02-14 21:56:59]	Epoch: [61][180/361]	total_loss 1.508 	mse_loss 0.005 	content_percptual_loss 29.187 	
+[21:57:30.064] [2023-02-14 21:57:30]	Epoch: [61][230/361]	total_loss 1.853 	mse_loss 0.007 	content_percptual_loss 35.647 	
+[21:58:00.733] [2023-02-14 21:58:00]	Epoch: [61][280/361]	total_loss 1.782 	mse_loss 0.006 	content_percptual_loss 34.360 	
+[21:58:31.778] [2023-02-14 21:58:31]	Epoch: [61][330/361]	total_loss 1.921 	mse_loss 0.008 	content_percptual_loss 36.847 	
+[21:59:03.147] [2023-02-14 21:59:03]	Epoch: [62][19/361]	total_loss 1.912 	mse_loss 0.009 	content_percptual_loss 36.431 	
+[21:59:34.338] [2023-02-14 21:59:34]	Epoch: [62][69/361]	total_loss 1.668 	mse_loss 0.007 	content_percptual_loss 32.054 	
+[22:00:05.521] [2023-02-14 22:00:05]	Epoch: [62][119/361]	total_loss 1.722 	mse_loss 0.006 	content_percptual_loss 33.279 	
+[22:00:36.763] [2023-02-14 22:00:36]	Epoch: [62][169/361]	total_loss 1.666 	mse_loss 0.007 	content_percptual_loss 32.004 	
+[22:01:07.467] [2023-02-14 22:01:07]	Epoch: [62][219/361]	total_loss 2.094 	mse_loss 0.007 	content_percptual_loss 40.563 	
+[22:01:38.353] [2023-02-14 22:01:38]	Epoch: [62][269/361]	total_loss 1.716 	mse_loss 0.006 	content_percptual_loss 33.139 	
+[22:02:10.569] [2023-02-14 22:02:10]	Epoch: [62][319/361]	total_loss 1.663 	mse_loss 0.005 	content_percptual_loss 32.177 	
+[22:02:41.425] [2023-02-14 22:02:41]	Epoch: [63][8/361]	total_loss 2.034 	mse_loss 0.010 	content_percptual_loss 38.722 	
+[22:03:11.775] [2023-02-14 22:03:11]	Epoch: [63][58/361]	total_loss 2.138 	mse_loss 0.007 	content_percptual_loss 41.386 	
+[22:03:43.570] [2023-02-14 22:03:43]	Epoch: [63][108/361]	total_loss 1.816 	mse_loss 0.007 	content_percptual_loss 34.890 	
+[22:04:14.519] [2023-02-14 22:04:14]	Epoch: [63][158/361]	total_loss 1.664 	mse_loss 0.006 	content_percptual_loss 32.053 	
+[22:04:44.991] [2023-02-14 22:04:44]	Epoch: [63][208/361]	total_loss 2.087 	mse_loss 0.007 	content_percptual_loss 40.358 	
+[22:05:16.610] [2023-02-14 22:05:16]	Epoch: [63][258/361]	total_loss 1.856 	mse_loss 0.007 	content_percptual_loss 35.739 	
+[22:05:16.610] ======================================================
+[22:05:16.610] evaling easy
+[22:05:24.614] [2023-02-14 22:05:24]	loss_rec 0.000| loss_im 0.000	PSNR 22.40 | SSIM 0.8241	
+[22:05:24.614] save display images
+[22:05:24.614] sr_accuray: 50.65%
+[22:05:24.614] best_easy = 53.37%
+[22:05:24.614] evaling medium
+[22:05:31.607] [2023-02-14 22:05:31]	loss_rec 0.000| loss_im 0.000	PSNR 19.38 | SSIM 0.6555	
+[22:05:31.607] save display images
+[22:05:31.607] sr_accuray: 41.81%
+[22:05:31.608] best_medium = 41.89%
+[22:05:31.608] evaling hard
+[22:05:38.110] [2023-02-14 22:05:38]	loss_rec 0.000| loss_im 0.000	PSNR 19.58 | SSIM 0.7136	
+[22:05:38.110] save display images
+[22:05:38.110] sr_accuray: 33.06%
+[22:05:38.110] best_hard = 34.77%
+[22:06:07.709] [2023-02-14 22:06:07]	Epoch: [63][308/361]	total_loss 1.830 	mse_loss 0.010 	content_percptual_loss 34.615 	
+[22:06:38.533] [2023-02-14 22:06:38]	Epoch: [63][358/361]	total_loss 1.820 	mse_loss 0.006 	content_percptual_loss 35.134 	
+[22:07:09.502] [2023-02-14 22:07:09]	Epoch: [64][47/361]	total_loss 1.550 	mse_loss 0.006 	content_percptual_loss 29.770 	
+[22:07:40.334] [2023-02-14 22:07:40]	Epoch: [64][97/361]	total_loss 1.755 	mse_loss 0.006 	content_percptual_loss 33.982 	
+[22:08:11.377] [2023-02-14 22:08:11]	Epoch: [64][147/361]	total_loss 1.908 	mse_loss 0.005 	content_percptual_loss 37.113 	
+[22:08:42.855] [2023-02-14 22:08:42]	Epoch: [64][197/361]	total_loss 1.751 	mse_loss 0.006 	content_percptual_loss 33.810 	
+[22:09:13.593] [2023-02-14 22:09:13]	Epoch: [64][247/361]	total_loss 1.903 	mse_loss 0.007 	content_percptual_loss 36.684 	
+[22:09:45.125] [2023-02-14 22:09:45]	Epoch: [64][297/361]	total_loss 1.772 	mse_loss 0.007 	content_percptual_loss 34.093 	
+[22:10:15.862] [2023-02-14 22:10:15]	Epoch: [64][347/361]	total_loss 1.789 	mse_loss 0.006 	content_percptual_loss 34.513 	
+[22:10:46.957] [2023-02-14 22:10:46]	Epoch: [65][36/361]	total_loss 1.563 	mse_loss 0.006 	content_percptual_loss 30.051 	
+[22:11:18.791] [2023-02-14 22:11:18]	Epoch: [65][86/361]	total_loss 1.693 	mse_loss 0.007 	content_percptual_loss 32.495 	
+[22:11:49.474] [2023-02-14 22:11:49]	Epoch: [65][136/361]	total_loss 1.662 	mse_loss 0.006 	content_percptual_loss 32.067 	
+[22:12:20.875] [2023-02-14 22:12:20]	Epoch: [65][186/361]	total_loss 1.742 	mse_loss 0.005 	content_percptual_loss 33.803 	
+[22:12:51.608] [2023-02-14 22:12:51]	Epoch: [65][236/361]	total_loss 1.908 	mse_loss 0.005 	content_percptual_loss 37.228 	
+[22:13:22.915] [2023-02-14 22:13:22]	Epoch: [65][286/361]	total_loss 1.828 	mse_loss 0.007 	content_percptual_loss 35.266 	
+[22:13:54.051] [2023-02-14 22:13:54]	Epoch: [65][336/361]	total_loss 1.831 	mse_loss 0.006 	content_percptual_loss 35.488 	
+[22:14:26.205] [2023-02-14 22:14:26]	Epoch: [66][25/361]	total_loss 1.841 	mse_loss 0.006 	content_percptual_loss 35.722 	
+[22:14:56.759] [2023-02-14 22:14:56]	Epoch: [66][75/361]	total_loss 1.902 	mse_loss 0.006 	content_percptual_loss 36.831 	
+[22:15:27.762] [2023-02-14 22:15:27]	Epoch: [66][125/361]	total_loss 1.661 	mse_loss 0.006 	content_percptual_loss 32.127 	
+[22:15:58.993] [2023-02-14 22:15:58]	Epoch: [66][175/361]	total_loss 1.886 	mse_loss 0.007 	content_percptual_loss 36.335 	
+[22:15:58.993] ======================================================
+[22:15:58.993] evaling easy
+[22:16:06.734] [2023-02-14 22:16:06]	loss_rec 0.000| loss_im 0.000	PSNR 22.28 | SSIM 0.8168	
+[22:16:06.735] save display images
+[22:16:06.735] sr_accuray: 49.04%
+[22:16:06.735] best_easy = 53.37%
+[22:16:06.735] evaling medium
+[22:16:13.903] [2023-02-14 22:16:13]	loss_rec 0.000| loss_im 0.000	PSNR 19.09 | SSIM 0.6428	
+[22:16:13.903] save display images
+[22:16:13.903] sr_accuray: 40.68%
+[22:16:13.904] best_medium = 41.89%
+[22:16:13.904] evaling hard
+[22:16:20.548] [2023-02-14 22:16:20]	loss_rec 0.000| loss_im 0.000	PSNR 19.52 | SSIM 0.6936	
+[22:16:20.548] save display images
+[22:16:20.548] sr_accuray: 32.91%
+[22:16:20.549] best_hard = 34.77%
+[22:16:50.344] [2023-02-14 22:16:50]	Epoch: [66][225/361]	total_loss 1.715 	mse_loss 0.006 	content_percptual_loss 33.133 	
+[22:17:21.098] [2023-02-14 22:17:21]	Epoch: [66][275/361]	total_loss 1.850 	mse_loss 0.007 	content_percptual_loss 35.497 	
+[22:17:51.713] [2023-02-14 22:17:51]	Epoch: [66][325/361]	total_loss 1.728 	mse_loss 0.006 	content_percptual_loss 33.413 	
+[22:18:23.213] [2023-02-14 22:18:23]	Epoch: [67][14/361]	total_loss 1.909 	mse_loss 0.007 	content_percptual_loss 36.868 	
+[22:18:54.282] [2023-02-14 22:18:54]	Epoch: [67][64/361]	total_loss 1.735 	mse_loss 0.006 	content_percptual_loss 33.570 	
+[22:19:24.885] [2023-02-14 22:19:24]	Epoch: [67][114/361]	total_loss 1.725 	mse_loss 0.007 	content_percptual_loss 33.139 	
+[22:19:55.820] [2023-02-14 22:19:55]	Epoch: [67][164/361]	total_loss 1.877 	mse_loss 0.006 	content_percptual_loss 36.268 	
+[22:20:26.984] [2023-02-14 22:20:26]	Epoch: [67][214/361]	total_loss 1.704 	mse_loss 0.005 	content_percptual_loss 33.015 	
+[22:20:57.123] [2023-02-14 22:20:57]	Epoch: [67][264/361]	total_loss 2.071 	mse_loss 0.008 	content_percptual_loss 39.907 	
+[22:21:27.941] [2023-02-14 22:21:27]	Epoch: [67][314/361]	total_loss 1.685 	mse_loss 0.006 	content_percptual_loss 32.458 	
+[22:21:58.766] [2023-02-14 22:21:58]	Epoch: [68][3/361]	total_loss 1.415 	mse_loss 0.005 	content_percptual_loss 27.281 	
+[22:22:29.196] [2023-02-14 22:22:29]	Epoch: [68][53/361]	total_loss 1.541 	mse_loss 0.005 	content_percptual_loss 29.743 	
+[22:23:00.054] [2023-02-14 22:23:00]	Epoch: [68][103/361]	total_loss 1.967 	mse_loss 0.007 	content_percptual_loss 38.004 	
+[22:23:30.810] [2023-02-14 22:23:30]	Epoch: [68][153/361]	total_loss 1.896 	mse_loss 0.006 	content_percptual_loss 36.795 	
+[22:24:01.213] [2023-02-14 22:24:01]	Epoch: [68][203/361]	total_loss 1.875 	mse_loss 0.007 	content_percptual_loss 36.095 	
+[22:24:31.770] [2023-02-14 22:24:31]	Epoch: [68][253/361]	total_loss 1.914 	mse_loss 0.007 	content_percptual_loss 36.862 	
+[22:25:02.221] [2023-02-14 22:25:02]	Epoch: [68][303/361]	total_loss 1.922 	mse_loss 0.006 	content_percptual_loss 37.147 	
+[22:25:33.173] [2023-02-14 22:25:33]	Epoch: [68][353/361]	total_loss 1.751 	mse_loss 0.006 	content_percptual_loss 33.821 	
+[22:26:04.240] [2023-02-14 22:26:04]	Epoch: [69][42/361]	total_loss 1.597 	mse_loss 0.006 	content_percptual_loss 30.787 	
+[22:26:34.827] [2023-02-14 22:26:34]	Epoch: [69][92/361]	total_loss 1.775 	mse_loss 0.007 	content_percptual_loss 34.115 	
+[22:26:34.827] ======================================================
+[22:26:34.827] evaling easy
+[22:26:42.717] [2023-02-14 22:26:42]	loss_rec 0.000| loss_im 0.000	PSNR 23.25 | SSIM 0.8440	
+[22:26:42.717] save display images
+[22:26:42.717] sr_accuray: 54.17%
+[22:26:42.718] best_easy = 54.17%*
+[22:26:42.718] evaling medium
+[22:26:51.160] [2023-02-14 22:26:51]	loss_rec 0.000| loss_im 0.000	PSNR 19.28 | SSIM 0.6550	
+[22:26:51.160] save display images
+[22:26:51.160] sr_accuray: 42.38%
+[22:26:51.162] best_medium = 42.38%*
+[22:26:51.162] evaling hard
+[22:26:57.140] [2023-02-14 22:26:57]	loss_rec 0.000| loss_im 0.000	PSNR 19.95 | SSIM 0.7230	
+[22:26:57.141] save display images
+[22:26:57.141] sr_accuray: 33.73%
+[22:26:57.141] best_hard = 34.77%
+[22:26:57.141] saving best model
+[22:27:26.787] [2023-02-14 22:27:26]	Epoch: [69][142/361]	total_loss 1.838 	mse_loss 0.007 	content_percptual_loss 35.303 	
+[22:27:57.770] [2023-02-14 22:27:57]	Epoch: [69][192/361]	total_loss 1.740 	mse_loss 0.005 	content_percptual_loss 33.815 	
+[22:28:27.433] [2023-02-14 22:28:27]	Epoch: [69][242/361]	total_loss 1.440 	mse_loss 0.006 	content_percptual_loss 27.691 	
+[22:28:58.362] [2023-02-14 22:28:58]	Epoch: [69][292/361]	total_loss 1.976 	mse_loss 0.006 	content_percptual_loss 38.321 	
+[22:29:29.350] [2023-02-14 22:29:29]	Epoch: [69][342/361]	total_loss 1.714 	mse_loss 0.006 	content_percptual_loss 33.103 	
+[22:30:00.134] [2023-02-14 22:30:00]	Epoch: [70][31/361]	total_loss 1.795 	mse_loss 0.007 	content_percptual_loss 34.447 	
+[22:30:31.103] [2023-02-14 22:30:31]	Epoch: [70][81/361]	total_loss 1.889 	mse_loss 0.006 	content_percptual_loss 36.513 	
+[22:31:01.961] [2023-02-14 22:31:01]	Epoch: [70][131/361]	total_loss 1.814 	mse_loss 0.007 	content_percptual_loss 34.858 	
+[22:31:32.779] [2023-02-14 22:31:32]	Epoch: [70][181/361]	total_loss 1.766 	mse_loss 0.006 	content_percptual_loss 34.121 	
+[22:32:02.907] [2023-02-14 22:32:02]	Epoch: [70][231/361]	total_loss 1.802 	mse_loss 0.006 	content_percptual_loss 34.769 	
+[22:32:34.205] [2023-02-14 22:32:34]	Epoch: [70][281/361]	total_loss 1.856 	mse_loss 0.007 	content_percptual_loss 35.815 	
+[22:33:04.932] [2023-02-14 22:33:04]	Epoch: [70][331/361]	total_loss 1.630 	mse_loss 0.005 	content_percptual_loss 31.533 	
+[22:33:36.250] [2023-02-14 22:33:36]	Epoch: [71][20/361]	total_loss 1.826 	mse_loss 0.008 	content_percptual_loss 34.936 	
+[22:34:06.813] [2023-02-14 22:34:06]	Epoch: [71][70/361]	total_loss 1.739 	mse_loss 0.006 	content_percptual_loss 33.605 	
+[22:34:37.813] [2023-02-14 22:34:37]	Epoch: [71][120/361]	total_loss 1.574 	mse_loss 0.006 	content_percptual_loss 30.345 	
+[22:35:09.005] [2023-02-14 22:35:09]	Epoch: [71][170/361]	total_loss 1.663 	mse_loss 0.006 	content_percptual_loss 32.015 	
+[22:35:38.889] [2023-02-14 22:35:38]	Epoch: [71][220/361]	total_loss 1.784 	mse_loss 0.007 	content_percptual_loss 34.249 	
+[22:36:09.509] [2023-02-14 22:36:09]	Epoch: [71][270/361]	total_loss 1.583 	mse_loss 0.006 	content_percptual_loss 30.466 	
+[22:36:40.111] [2023-02-14 22:36:40]	Epoch: [71][320/361]	total_loss 1.724 	mse_loss 0.007 	content_percptual_loss 33.139 	
+[22:37:11.619] [2023-02-14 22:37:11]	Epoch: [72][9/361]	total_loss 1.423 	mse_loss 0.005 	content_percptual_loss 27.549 	
+[22:37:11.619] ======================================================
+[22:37:11.620] evaling easy
+[22:37:19.700] [2023-02-14 22:37:19]	loss_rec 0.000| loss_im 0.000	PSNR 23.04 | SSIM 0.8312	
+[22:37:19.700] save display images
+[22:37:19.701] sr_accuray: 51.88%
+[22:37:19.701] best_easy = 54.17%
+[22:37:19.701] evaling medium
+[22:37:26.296] [2023-02-14 22:37:26]	loss_rec 0.000| loss_im 0.000	PSNR 19.39 | SSIM 0.6525	
+[22:37:26.296] save display images
+[22:37:26.296] sr_accuray: 42.24%
+[22:37:26.297] best_medium = 42.38%
+[22:37:26.297] evaling hard
+[22:37:33.803] [2023-02-14 22:37:33]	loss_rec 0.000| loss_im 0.000	PSNR 19.90 | SSIM 0.7121	
+[22:37:33.803] save display images
+[22:37:33.803] sr_accuray: 33.21%
+[22:37:33.805] best_hard = 34.77%
+[22:38:02.619] [2023-02-14 22:38:02]	Epoch: [72][59/361]	total_loss 1.919 	mse_loss 0.007 	content_percptual_loss 37.014 	
+[22:38:32.974] [2023-02-14 22:38:32]	Epoch: [72][109/361]	total_loss 1.538 	mse_loss 0.004 	content_percptual_loss 29.859 	
+[22:39:03.315] [2023-02-14 22:39:03]	Epoch: [72][159/361]	total_loss 1.850 	mse_loss 0.006 	content_percptual_loss 35.702 	
+[22:39:33.518] [2023-02-14 22:39:33]	Epoch: [72][209/361]	total_loss 1.661 	mse_loss 0.005 	content_percptual_loss 32.173 	
+[22:40:04.036] [2023-02-14 22:40:04]	Epoch: [72][259/361]	total_loss 1.723 	mse_loss 0.008 	content_percptual_loss 32.964 	
+[22:40:34.893] [2023-02-14 22:40:34]	Epoch: [72][309/361]	total_loss 1.624 	mse_loss 0.006 	content_percptual_loss 31.229 	
+[22:41:04.875] [2023-02-14 22:41:04]	Epoch: [72][359/361]	total_loss 2.148 	mse_loss 0.008 	content_percptual_loss 41.396 	
+[22:41:35.839] [2023-02-14 22:41:35]	Epoch: [73][48/361]	total_loss 1.544 	mse_loss 0.006 	content_percptual_loss 29.596 	
+[22:42:06.052] [2023-02-14 22:42:06]	Epoch: [73][98/361]	total_loss 1.654 	mse_loss 0.007 	content_percptual_loss 31.780 	
+[22:42:36.374] [2023-02-14 22:42:36]	Epoch: [73][148/361]	total_loss 1.473 	mse_loss 0.005 	content_percptual_loss 28.440 	
+[22:43:07.031] [2023-02-14 22:43:07]	Epoch: [73][198/361]	total_loss 1.721 	mse_loss 0.007 	content_percptual_loss 33.022 	
+[22:43:37.093] [2023-02-14 22:43:37]	Epoch: [73][248/361]	total_loss 1.430 	mse_loss 0.005 	content_percptual_loss 27.603 	
+[22:44:07.626] [2023-02-14 22:44:07]	Epoch: [73][298/361]	total_loss 1.544 	mse_loss 0.007 	content_percptual_loss 29.570 	
+[22:44:37.967] [2023-02-14 22:44:37]	Epoch: [73][348/361]	total_loss 1.763 	mse_loss 0.008 	content_percptual_loss 33.674 	
+[22:45:08.761] [2023-02-14 22:45:08]	Epoch: [74][37/361]	total_loss 1.792 	mse_loss 0.006 	content_percptual_loss 34.750 	
+[22:45:38.996] [2023-02-14 22:45:38]	Epoch: [74][87/361]	total_loss 1.657 	mse_loss 0.005 	content_percptual_loss 32.077 	
+[22:46:09.167] [2023-02-14 22:46:09]	Epoch: [74][137/361]	total_loss 1.631 	mse_loss 0.006 	content_percptual_loss 31.454 	
+[22:46:39.649] [2023-02-14 22:46:39]	Epoch: [74][187/361]	total_loss 1.510 	mse_loss 0.006 	content_percptual_loss 29.038 	
+[22:47:10.409] [2023-02-14 22:47:10]	Epoch: [74][237/361]	total_loss 1.606 	mse_loss 0.006 	content_percptual_loss 30.902 	
+[22:47:40.551] [2023-02-14 22:47:40]	Epoch: [74][287/361]	total_loss 1.743 	mse_loss 0.006 	content_percptual_loss 33.677 	
+[22:47:40.552] ======================================================
+[22:47:40.552] evaling easy
+[22:47:48.581] [2023-02-14 22:47:48]	loss_rec 0.000| loss_im 0.000	PSNR 22.69 | SSIM 0.8282	
+[22:47:48.581] save display images
+[22:47:48.581] sr_accuray: 51.20%
+[22:47:48.582] best_easy = 54.17%
+[22:47:48.582] evaling medium
+[22:47:55.418] [2023-02-14 22:47:55]	loss_rec 0.000| loss_im 0.000	PSNR 19.21 | SSIM 0.6502	
+[22:47:55.418] save display images
+[22:47:55.418] sr_accuray: 43.02%
+[22:47:55.419] best_medium = 43.02%*
+[22:47:55.419] evaling hard
+[22:48:02.575] [2023-02-14 22:48:02]	loss_rec 0.000| loss_im 0.000	PSNR 19.80 | SSIM 0.7141	
+[22:48:02.575] save display images
+[22:48:02.575] sr_accuray: 33.66%
+[22:48:02.576] best_hard = 34.77%
+[22:48:31.417] [2023-02-14 22:48:31]	Epoch: [74][337/361]	total_loss 1.608 	mse_loss 0.005 	content_percptual_loss 31.105 	
+[22:49:01.417] [2023-02-14 22:49:01]	Epoch: [75][26/361]	total_loss 1.648 	mse_loss 0.007 	content_percptual_loss 31.561 	
+[22:49:31.254] [2023-02-14 22:49:31]	Epoch: [75][76/361]	total_loss 1.888 	mse_loss 0.005 	content_percptual_loss 36.668 	
+[22:50:01.331] [2023-02-14 22:50:01]	Epoch: [75][126/361]	total_loss 1.799 	mse_loss 0.007 	content_percptual_loss 34.653 	
+[22:50:31.538] [2023-02-14 22:50:31]	Epoch: [75][176/361]	total_loss 1.685 	mse_loss 0.007 	content_percptual_loss 32.314 	
+[22:51:01.596] [2023-02-14 22:51:01]	Epoch: [75][226/361]	total_loss 1.684 	mse_loss 0.006 	content_percptual_loss 32.464 	
+[22:51:31.900] [2023-02-14 22:51:31]	Epoch: [75][276/361]	total_loss 1.897 	mse_loss 0.007 	content_percptual_loss 36.629 	
+[22:52:03.792] [2023-02-14 22:52:03]	Epoch: [75][326/361]	total_loss 1.847 	mse_loss 0.006 	content_percptual_loss 35.798 	
+[22:52:33.019] [2023-02-14 22:52:33]	Epoch: [76][15/361]	total_loss 1.694 	mse_loss 0.005 	content_percptual_loss 32.832 	
+[22:53:03.220] [2023-02-14 22:53:03]	Epoch: [76][65/361]	total_loss 1.610 	mse_loss 0.005 	content_percptual_loss 31.202 	
+[22:53:33.106] [2023-02-14 22:53:33]	Epoch: [76][115/361]	total_loss 1.566 	mse_loss 0.006 	content_percptual_loss 30.084 	
+[22:54:03.320] [2023-02-14 22:54:03]	Epoch: [76][165/361]	total_loss 1.692 	mse_loss 0.007 	content_percptual_loss 32.522 	
+[22:54:33.534] [2023-02-14 22:54:33]	Epoch: [76][215/361]	total_loss 1.662 	mse_loss 0.007 	content_percptual_loss 31.902 	
+[22:55:03.439] [2023-02-14 22:55:03]	Epoch: [76][265/361]	total_loss 1.577 	mse_loss 0.006 	content_percptual_loss 30.361 	
+[22:55:33.446] [2023-02-14 22:55:33]	Epoch: [76][315/361]	total_loss 1.514 	mse_loss 0.005 	content_percptual_loss 29.260 	
+[22:56:03.791] [2023-02-14 22:56:03]	Epoch: [77][4/361]	total_loss 1.704 	mse_loss 0.007 	content_percptual_loss 32.750 	
+[22:56:33.638] [2023-02-14 22:56:33]	Epoch: [77][54/361]	total_loss 1.587 	mse_loss 0.005 	content_percptual_loss 30.706 	
+[22:57:04.086] [2023-02-14 22:57:04]	Epoch: [77][104/361]	total_loss 1.700 	mse_loss 0.005 	content_percptual_loss 33.021 	
+[22:57:34.616] [2023-02-14 22:57:34]	Epoch: [77][154/361]	total_loss 1.921 	mse_loss 0.008 	content_percptual_loss 36.872 	
+[22:58:04.661] [2023-02-14 22:58:04]	Epoch: [77][204/361]	total_loss 1.629 	mse_loss 0.006 	content_percptual_loss 31.419 	
+[22:58:04.661] ======================================================
+[22:58:04.662] evaling easy
+[22:58:13.344] [2023-02-14 22:58:13]	loss_rec 0.000| loss_im 0.000	PSNR 22.66 | SSIM 0.8235	
+[22:58:13.344] save display images
+[22:58:13.344] sr_accuray: 50.71%
+[22:58:13.345] best_easy = 54.17%
+[22:58:13.345] evaling medium
+[22:58:21.613] [2023-02-14 22:58:21]	loss_rec 0.000| loss_im 0.000	PSNR 19.45 | SSIM 0.6520	
+[22:58:21.613] save display images
+[22:58:21.613] sr_accuray: 41.67%
+[22:58:21.614] best_medium = 43.02%
+[22:58:21.614] evaling hard
+[22:58:30.085] [2023-02-14 22:58:30]	loss_rec 0.000| loss_im 0.000	PSNR 19.63 | SSIM 0.7118	
+[22:58:30.086] save display images
+[22:58:30.086] sr_accuray: 32.84%
+[22:58:30.086] best_hard = 34.77%
+[22:58:59.204] [2023-02-14 22:58:59]	Epoch: [77][254/361]	total_loss 1.651 	mse_loss 0.006 	content_percptual_loss 31.913 	
+[22:59:29.382] [2023-02-14 22:59:29]	Epoch: [77][304/361]	total_loss 1.682 	mse_loss 0.006 	content_percptual_loss 32.420 	
+[22:59:59.796] [2023-02-14 22:59:59]	Epoch: [77][354/361]	total_loss 1.795 	mse_loss 0.005 	content_percptual_loss 34.904 	
+[23:00:30.410] [2023-02-14 23:00:30]	Epoch: [78][43/361]	total_loss 1.503 	mse_loss 0.005 	content_percptual_loss 29.147 	
+[23:01:00.995] [2023-02-14 23:01:00]	Epoch: [78][93/361]	total_loss 1.773 	mse_loss 0.006 	content_percptual_loss 34.215 	
+[23:01:31.889] [2023-02-14 23:01:31]	Epoch: [78][143/361]	total_loss 1.778 	mse_loss 0.006 	content_percptual_loss 34.418 	
+[23:02:02.096] [2023-02-14 23:02:02]	Epoch: [78][193/361]	total_loss 1.528 	mse_loss 0.005 	content_percptual_loss 29.485 	
+[23:02:32.667] [2023-02-14 23:02:32]	Epoch: [78][243/361]	total_loss 1.494 	mse_loss 0.006 	content_percptual_loss 28.684 	
+[23:03:05.175] [2023-02-14 23:03:05]	Epoch: [78][293/361]	total_loss 1.533 	mse_loss 0.006 	content_percptual_loss 29.464 	
+[23:03:34.628] [2023-02-14 23:03:34]	Epoch: [78][343/361]	total_loss 1.539 	mse_loss 0.005 	content_percptual_loss 29.874 	
+[23:04:05.648] [2023-02-14 23:04:05]	Epoch: [79][32/361]	total_loss 1.520 	mse_loss 0.006 	content_percptual_loss 29.268 	
+[23:04:36.053] [2023-02-14 23:04:36]	Epoch: [79][82/361]	total_loss 1.913 	mse_loss 0.007 	content_percptual_loss 36.832 	
+[23:05:07.062] [2023-02-14 23:05:07]	Epoch: [79][132/361]	total_loss 1.663 	mse_loss 0.006 	content_percptual_loss 31.991 	
+[23:05:37.812] [2023-02-14 23:05:37]	Epoch: [79][182/361]	total_loss 1.688 	mse_loss 0.006 	content_percptual_loss 32.570 	
+[23:06:08.417] [2023-02-14 23:06:08]	Epoch: [79][232/361]	total_loss 1.807 	mse_loss 0.006 	content_percptual_loss 34.870 	
+[23:06:39.363] [2023-02-14 23:06:39]	Epoch: [79][282/361]	total_loss 1.494 	mse_loss 0.006 	content_percptual_loss 28.723 	
+[23:07:09.680] [2023-02-14 23:07:09]	Epoch: [79][332/361]	total_loss 1.728 	mse_loss 0.006 	content_percptual_loss 33.392 	
+[23:07:40.623] [2023-02-14 23:07:40]	Epoch: [80][21/361]	total_loss 1.555 	mse_loss 0.005 	content_percptual_loss 30.010 	
+[23:08:11.384] [2023-02-14 23:08:11]	Epoch: [80][71/361]	total_loss 1.645 	mse_loss 0.006 	content_percptual_loss 31.780 	
+[23:08:41.656] [2023-02-14 23:08:41]	Epoch: [80][121/361]	total_loss 1.700 	mse_loss 0.005 	content_percptual_loss 32.956 	
+[23:08:41.656] ======================================================
+[23:08:41.656] evaling easy
+[23:08:49.569] [2023-02-14 23:08:49]	loss_rec 0.000| loss_im 0.000	PSNR 23.05 | SSIM 0.8370	
+[23:08:49.569] save display images
+[23:08:49.569] sr_accuray: 53.55%
+[23:08:49.570] best_easy = 54.17%
+[23:08:49.570] evaling medium
+[23:08:57.461] [2023-02-14 23:08:57]	loss_rec 0.000| loss_im 0.000	PSNR 19.46 | SSIM 0.6554	
+[23:08:57.461] save display images
+[23:08:57.461] sr_accuray: 43.16%
+[23:08:57.462] best_medium = 43.16%*
+[23:08:57.462] evaling hard
+[23:09:03.675] [2023-02-14 23:09:03]	loss_rec 0.000| loss_im 0.000	PSNR 19.94 | SSIM 0.7195	
+[23:09:03.676] save display images
+[23:09:03.676] sr_accuray: 33.28%
+[23:09:03.676] best_hard = 34.77%
+[23:09:33.725] [2023-02-14 23:09:33]	Epoch: [80][171/361]	total_loss 1.678 	mse_loss 0.006 	content_percptual_loss 32.451 	
+[23:10:04.086] [2023-02-14 23:10:04]	Epoch: [80][221/361]	total_loss 1.847 	mse_loss 0.007 	content_percptual_loss 35.533 	
+[23:10:34.684] [2023-02-14 23:10:34]	Epoch: [80][271/361]	total_loss 1.567 	mse_loss 0.006 	content_percptual_loss 30.118 	
+[23:11:05.186] [2023-02-14 23:11:05]	Epoch: [80][321/361]	total_loss 1.569 	mse_loss 0.005 	content_percptual_loss 30.312 	
+[23:11:36.238] [2023-02-14 23:11:36]	Epoch: [81][10/361]	total_loss 1.517 	mse_loss 0.006 	content_percptual_loss 29.176 	
+[23:12:06.917] [2023-02-14 23:12:06]	Epoch: [81][60/361]	total_loss 1.626 	mse_loss 0.006 	content_percptual_loss 31.413 	
+[23:12:37.462] [2023-02-14 23:12:37]	Epoch: [81][110/361]	total_loss 1.810 	mse_loss 0.005 	content_percptual_loss 35.145 	
+[23:13:07.891] [2023-02-14 23:13:07]	Epoch: [81][160/361]	total_loss 1.743 	mse_loss 0.006 	content_percptual_loss 33.660 	
+[23:13:39.140] [2023-02-14 23:13:39]	Epoch: [81][210/361]	total_loss 1.569 	mse_loss 0.005 	content_percptual_loss 30.380 	
+[23:14:09.642] [2023-02-14 23:14:09]	Epoch: [81][260/361]	total_loss 1.542 	mse_loss 0.005 	content_percptual_loss 29.828 	
+[23:14:40.305] [2023-02-14 23:14:40]	Epoch: [81][310/361]	total_loss 1.676 	mse_loss 0.007 	content_percptual_loss 32.221 	
+[23:15:11.081] [2023-02-14 23:15:11]	Epoch: [81][360/361]	total_loss 1.688 	mse_loss 0.006 	content_percptual_loss 32.527 	
+[23:15:41.572] [2023-02-14 23:15:41]	Epoch: [82][49/361]	total_loss 1.613 	mse_loss 0.006 	content_percptual_loss 31.111 	
+[23:16:12.172] [2023-02-14 23:16:12]	Epoch: [82][99/361]	total_loss 1.575 	mse_loss 0.007 	content_percptual_loss 30.064 	
+[23:16:42.775] [2023-02-14 23:16:42]	Epoch: [82][149/361]	total_loss 1.470 	mse_loss 0.005 	content_percptual_loss 28.420 	
+[23:17:13.681] [2023-02-14 23:17:13]	Epoch: [82][199/361]	total_loss 1.625 	mse_loss 0.006 	content_percptual_loss 31.331 	
+[23:17:44.225] [2023-02-14 23:17:44]	Epoch: [82][249/361]	total_loss 1.429 	mse_loss 0.005 	content_percptual_loss 27.630 	
+[23:18:14.860] [2023-02-14 23:18:14]	Epoch: [82][299/361]	total_loss 1.492 	mse_loss 0.006 	content_percptual_loss 28.648 	
+[23:18:45.399] [2023-02-14 23:18:45]	Epoch: [82][349/361]	total_loss 1.571 	mse_loss 0.006 	content_percptual_loss 30.157 	
+[23:19:16.159] [2023-02-14 23:19:16]	Epoch: [83][38/361]	total_loss 1.430 	mse_loss 0.005 	content_percptual_loss 27.571 	
+[23:19:16.159] ======================================================
+[23:19:16.159] evaling easy
+[23:19:24.561] [2023-02-14 23:19:24]	loss_rec 0.000| loss_im 0.000	PSNR 23.11 | SSIM 0.8370	
+[23:19:24.561] save display images
+[23:19:24.561] sr_accuray: 52.63%
+[23:19:24.562] best_easy = 54.17%
+[23:19:24.562] evaling medium
+[23:19:31.502] [2023-02-14 23:19:31]	loss_rec 0.000| loss_im 0.000	PSNR 19.43 | SSIM 0.6573	
+[23:19:31.502] save display images
+[23:19:31.502] sr_accuray: 42.88%
+[23:19:31.503] best_medium = 43.16%
+[23:19:31.503] evaling hard
+[23:19:38.865] [2023-02-14 23:19:38]	loss_rec 0.000| loss_im 0.000	PSNR 20.08 | SSIM 0.7216	
+[23:19:38.865] save display images
+[23:19:38.865] sr_accuray: 33.80%
+[23:19:38.866] best_hard = 34.77%
+[23:20:07.971] [2023-02-14 23:20:07]	Epoch: [83][88/361]	total_loss 1.305 	mse_loss 0.006 	content_percptual_loss 24.972 	
+[23:20:38.254] [2023-02-14 23:20:38]	Epoch: [83][138/361]	total_loss 1.613 	mse_loss 0.005 	content_percptual_loss 31.182 	
+[23:21:08.945] [2023-02-14 23:21:08]	Epoch: [83][188/361]	total_loss 1.514 	mse_loss 0.005 	content_percptual_loss 29.358 	
+[23:21:38.807] [2023-02-14 23:21:38]	Epoch: [83][238/361]	total_loss 1.598 	mse_loss 0.007 	content_percptual_loss 30.577 	
+[23:22:09.069] [2023-02-14 23:22:09]	Epoch: [83][288/361]	total_loss 1.922 	mse_loss 0.007 	content_percptual_loss 37.011 	
+[23:22:39.769] [2023-02-14 23:22:39]	Epoch: [83][338/361]	total_loss 1.513 	mse_loss 0.004 	content_percptual_loss 29.368 	
+[23:23:10.632] [2023-02-14 23:23:10]	Epoch: [84][27/361]	total_loss 1.610 	mse_loss 0.005 	content_percptual_loss 31.147 	
+[23:23:41.757] [2023-02-14 23:23:41]	Epoch: [84][77/361]	total_loss 1.704 	mse_loss 0.006 	content_percptual_loss 32.875 	
+[23:24:12.254] [2023-02-14 23:24:12]	Epoch: [84][127/361]	total_loss 1.797 	mse_loss 0.008 	content_percptual_loss 34.244 	
+[23:24:42.680] [2023-02-14 23:24:42]	Epoch: [84][177/361]	total_loss 1.563 	mse_loss 0.005 	content_percptual_loss 30.182 	
+[23:25:12.887] [2023-02-14 23:25:12]	Epoch: [84][227/361]	total_loss 1.580 	mse_loss 0.006 	content_percptual_loss 30.446 	
+[23:25:43.830] [2023-02-14 23:25:43]	Epoch: [84][277/361]	total_loss 1.781 	mse_loss 0.006 	content_percptual_loss 34.515 	
+[23:26:13.651] [2023-02-14 23:26:13]	Epoch: [84][327/361]	total_loss 1.583 	mse_loss 0.005 	content_percptual_loss 30.688 	
+[23:26:44.367] [2023-02-14 23:26:44]	Epoch: [85][16/361]	total_loss 1.413 	mse_loss 0.005 	content_percptual_loss 27.162 	
+[23:27:14.726] [2023-02-14 23:27:14]	Epoch: [85][66/361]	total_loss 1.521 	mse_loss 0.006 	content_percptual_loss 29.155 	
+[23:27:45.580] [2023-02-14 23:27:45]	Epoch: [85][116/361]	total_loss 1.517 	mse_loss 0.006 	content_percptual_loss 29.211 	
+[23:28:16.298] [2023-02-14 23:28:16]	Epoch: [85][166/361]	total_loss 1.701 	mse_loss 0.007 	content_percptual_loss 32.661 	
+[23:28:46.908] [2023-02-14 23:28:46]	Epoch: [85][216/361]	total_loss 1.607 	mse_loss 0.006 	content_percptual_loss 31.000 	
+[23:29:17.205] [2023-02-14 23:29:17]	Epoch: [85][266/361]	total_loss 1.539 	mse_loss 0.006 	content_percptual_loss 29.682 	
+[23:29:48.081] [2023-02-14 23:29:48]	Epoch: [85][316/361]	total_loss 1.433 	mse_loss 0.006 	content_percptual_loss 27.408 	
+[23:29:48.081] ======================================================
+[23:29:48.081] evaling easy
+[23:29:56.769] [2023-02-14 23:29:56]	loss_rec 0.000| loss_im 0.000	PSNR 22.56 | SSIM 0.8275	
+[23:29:56.769] save display images
+[23:29:56.769] sr_accuray: 50.15%
+[23:29:56.770] best_easy = 54.17%
+[23:29:56.770] evaling medium
+[23:30:03.248] [2023-02-14 23:30:03]	loss_rec 0.000| loss_im 0.000	PSNR 19.23 | SSIM 0.6569	
+[23:30:03.248] save display images
+[23:30:03.248] sr_accuray: 41.53%
+[23:30:03.249] best_medium = 43.16%
+[23:30:03.249] evaling hard
+[23:30:09.836] [2023-02-14 23:30:09]	loss_rec 0.000| loss_im 0.000	PSNR 19.71 | SSIM 0.7190	
+[23:30:09.837] save display images
+[23:30:09.837] sr_accuray: 32.54%
+[23:30:09.837] best_hard = 34.77%
+[23:30:39.974] [2023-02-14 23:30:39]	Epoch: [86][5/361]	total_loss 1.811 	mse_loss 0.007 	content_percptual_loss 34.840 	
+[23:31:09.558] [2023-02-14 23:31:09]	Epoch: [86][55/361]	total_loss 1.597 	mse_loss 0.006 	content_percptual_loss 30.768 	
+[23:31:40.934] [2023-02-14 23:31:40]	Epoch: [86][105/361]	total_loss 1.428 	mse_loss 0.006 	content_percptual_loss 27.439 	
+[23:32:11.334] [2023-02-14 23:32:11]	Epoch: [86][155/361]	total_loss 1.557 	mse_loss 0.007 	content_percptual_loss 29.727 	
+[23:32:41.922] [2023-02-14 23:32:41]	Epoch: [86][205/361]	total_loss 1.570 	mse_loss 0.005 	content_percptual_loss 30.365 	
+[23:33:12.521] [2023-02-14 23:33:12]	Epoch: [86][255/361]	total_loss 1.645 	mse_loss 0.006 	content_percptual_loss 31.618 	
+[23:33:43.501] [2023-02-14 23:33:43]	Epoch: [86][305/361]	total_loss 1.658 	mse_loss 0.008 	content_percptual_loss 31.648 	
+[23:34:14.098] [2023-02-14 23:34:14]	Epoch: [86][355/361]	total_loss 1.571 	mse_loss 0.006 	content_percptual_loss 30.289 	
+[23:34:44.725] [2023-02-14 23:34:44]	Epoch: [87][44/361]	total_loss 1.824 	mse_loss 0.006 	content_percptual_loss 35.290 	
+[23:35:15.343] [2023-02-14 23:35:15]	Epoch: [87][94/361]	total_loss 1.548 	mse_loss 0.007 	content_percptual_loss 29.579 	
+[23:35:46.126] [2023-02-14 23:35:46]	Epoch: [87][144/361]	total_loss 1.596 	mse_loss 0.005 	content_percptual_loss 30.866 	
+[23:36:17.076] [2023-02-14 23:36:17]	Epoch: [87][194/361]	total_loss 1.745 	mse_loss 0.006 	content_percptual_loss 33.712 	
+[23:36:47.497] [2023-02-14 23:36:47]	Epoch: [87][244/361]	total_loss 1.498 	mse_loss 0.005 	content_percptual_loss 28.873 	
+[23:37:17.817] [2023-02-14 23:37:17]	Epoch: [87][294/361]	total_loss 1.628 	mse_loss 0.005 	content_percptual_loss 31.484 	
+[23:37:48.359] [2023-02-14 23:37:48]	Epoch: [87][344/361]	total_loss 1.552 	mse_loss 0.006 	content_percptual_loss 29.944 	
+[23:38:18.669] [2023-02-14 23:38:18]	Epoch: [88][33/361]	total_loss 1.507 	mse_loss 0.005 	content_percptual_loss 29.113 	
+[23:38:49.454] [2023-02-14 23:38:49]	Epoch: [88][83/361]	total_loss 1.550 	mse_loss 0.007 	content_percptual_loss 29.647 	
+[23:39:19.680] [2023-02-14 23:39:19]	Epoch: [88][133/361]	total_loss 1.676 	mse_loss 0.007 	content_percptual_loss 32.218 	
+[23:39:50.922] [2023-02-14 23:39:50]	Epoch: [88][183/361]	total_loss 1.621 	mse_loss 0.006 	content_percptual_loss 31.147 	
+[23:40:21.269] [2023-02-14 23:40:21]	Epoch: [88][233/361]	total_loss 1.439 	mse_loss 0.005 	content_percptual_loss 27.736 	
+[23:40:21.269] ======================================================
+[23:40:21.269] evaling easy
+[23:40:30.258] [2023-02-14 23:40:30]	loss_rec 0.000| loss_im 0.000	PSNR 22.73 | SSIM 0.8231	
+[23:40:30.258] save display images
+[23:40:30.258] sr_accuray: 49.47%
+[23:40:30.259] best_easy = 54.17%
+[23:40:30.259] evaling medium
+[23:40:36.533] [2023-02-14 23:40:36]	loss_rec 0.000| loss_im 0.000	PSNR 19.21 | SSIM 0.6536	
+[23:40:36.533] save display images
+[23:40:36.533] sr_accuray: 41.25%
+[23:40:36.534] best_medium = 43.16%
+[23:40:36.534] evaling hard
+[23:40:43.084] [2023-02-14 23:40:43]	loss_rec 0.000| loss_im 0.000	PSNR 19.84 | SSIM 0.7159	
+[23:40:43.084] save display images
+[23:40:43.084] sr_accuray: 32.91%
+[23:40:43.085] best_hard = 34.77%
+[23:41:13.478] [2023-02-14 23:41:13]	Epoch: [88][283/361]	total_loss 1.783 	mse_loss 0.006 	content_percptual_loss 34.522 	
+[23:41:43.648] [2023-02-14 23:41:43]	Epoch: [88][333/361]	total_loss 1.428 	mse_loss 0.006 	content_percptual_loss 27.310 	
+[23:42:14.364] [2023-02-14 23:42:14]	Epoch: [89][22/361]	total_loss 1.797 	mse_loss 0.007 	content_percptual_loss 34.632 	
+[23:42:44.463] [2023-02-14 23:42:44]	Epoch: [89][72/361]	total_loss 1.637 	mse_loss 0.006 	content_percptual_loss 31.589 	
+[23:43:15.237] [2023-02-14 23:43:15]	Epoch: [89][122/361]	total_loss 1.669 	mse_loss 0.007 	content_percptual_loss 32.060 	
+[23:43:47.351] [2023-02-14 23:43:47]	Epoch: [89][172/361]	total_loss 1.547 	mse_loss 0.005 	content_percptual_loss 30.008 	
+[23:44:16.598] [2023-02-14 23:44:16]	Epoch: [89][222/361]	total_loss 1.883 	mse_loss 0.007 	content_percptual_loss 36.300 	
+[23:44:46.981] [2023-02-14 23:44:46]	Epoch: [89][272/361]	total_loss 1.815 	mse_loss 0.006 	content_percptual_loss 35.120 	
+[23:45:17.605] [2023-02-14 23:45:17]	Epoch: [89][322/361]	total_loss 1.464 	mse_loss 0.005 	content_percptual_loss 28.322 	
+[23:45:48.403] [2023-02-14 23:45:48]	Epoch: [90][11/361]	total_loss 1.609 	mse_loss 0.007 	content_percptual_loss 30.838 	
+[23:46:18.890] [2023-02-14 23:46:18]	Epoch: [90][61/361]	total_loss 1.460 	mse_loss 0.005 	content_percptual_loss 28.157 	
+[23:46:49.211] [2023-02-14 23:46:49]	Epoch: [90][111/361]	total_loss 1.632 	mse_loss 0.005 	content_percptual_loss 31.568 	
+[23:47:19.852] [2023-02-14 23:47:19]	Epoch: [90][161/361]	total_loss 1.747 	mse_loss 0.006 	content_percptual_loss 33.652 	
+[23:47:50.704] [2023-02-14 23:47:50]	Epoch: [90][211/361]	total_loss 1.621 	mse_loss 0.005 	content_percptual_loss 31.325 	
+[23:48:21.081] [2023-02-14 23:48:21]	Epoch: [90][261/361]	total_loss 1.417 	mse_loss 0.005 	content_percptual_loss 27.353 	
+[23:48:51.639] [2023-02-14 23:48:51]	Epoch: [90][311/361]	total_loss 1.562 	mse_loss 0.006 	content_percptual_loss 30.093 	
+[23:49:22.372] [2023-02-14 23:49:22]	Epoch: [90][361/361]	total_loss 1.731 	mse_loss 0.006 	content_percptual_loss 33.322 	
+[23:49:52.297] [2023-02-14 23:49:52]	Epoch: [91][50/361]	total_loss 1.478 	mse_loss 0.005 	content_percptual_loss 28.514 	
+[23:50:22.688] [2023-02-14 23:50:22]	Epoch: [91][100/361]	total_loss 1.716 	mse_loss 0.006 	content_percptual_loss 33.144 	
+[23:50:52.425] [2023-02-14 23:50:52]	Epoch: [91][150/361]	total_loss 1.707 	mse_loss 0.006 	content_percptual_loss 32.888 	
+[23:50:52.425] ======================================================
+[23:50:52.425] evaling easy
+[23:51:00.131] [2023-02-14 23:51:00]	loss_rec 0.000| loss_im 0.000	PSNR 22.58 | SSIM 0.8278	
+[23:51:00.131] save display images
+[23:51:00.131] sr_accuray: 50.96%
+[23:51:00.132] best_easy = 54.17%
+[23:51:00.132] evaling medium
+[23:51:07.009] [2023-02-14 23:51:07]	loss_rec 0.000| loss_im 0.000	PSNR 19.17 | SSIM 0.6513	
+[23:51:07.009] save display images
+[23:51:07.009] sr_accuray: 43.30%
+[23:51:07.010] best_medium = 43.30%*
+[23:51:07.010] evaling hard
+[23:51:13.224] [2023-02-14 23:51:13]	loss_rec 0.000| loss_im 0.000	PSNR 19.74 | SSIM 0.7135	
+[23:51:13.224] save display images
+[23:51:13.224] sr_accuray: 33.36%
+[23:51:13.224] best_hard = 34.77%
+[23:51:42.845] [2023-02-14 23:51:42]	Epoch: [91][200/361]	total_loss 1.648 	mse_loss 0.007 	content_percptual_loss 31.613 	
+[23:52:12.980] [2023-02-14 23:52:12]	Epoch: [91][250/361]	total_loss 1.462 	mse_loss 0.006 	content_percptual_loss 28.086 	
+[23:52:42.418] [2023-02-14 23:52:42]	Epoch: [91][300/361]	total_loss 1.498 	mse_loss 0.005 	content_percptual_loss 28.854 	
+[23:53:12.350] [2023-02-14 23:53:12]	Epoch: [91][350/361]	total_loss 1.592 	mse_loss 0.005 	content_percptual_loss 30.849 	
+[23:53:42.981] [2023-02-14 23:53:42]	Epoch: [92][39/361]	total_loss 1.556 	mse_loss 0.006 	content_percptual_loss 29.941 	
+[23:54:13.113] [2023-02-14 23:54:13]	Epoch: [92][89/361]	total_loss 1.577 	mse_loss 0.005 	content_percptual_loss 30.442 	
+[23:54:44.020] [2023-02-14 23:54:44]	Epoch: [92][139/361]	total_loss 1.460 	mse_loss 0.005 	content_percptual_loss 28.251 	
+[23:55:13.923] [2023-02-14 23:55:13]	Epoch: [92][189/361]	total_loss 1.404 	mse_loss 0.006 	content_percptual_loss 26.806 	
+[23:55:44.240] [2023-02-14 23:55:44]	Epoch: [92][239/361]	total_loss 1.757 	mse_loss 0.006 	content_percptual_loss 34.035 	
+[23:56:14.335] [2023-02-14 23:56:14]	Epoch: [92][289/361]	total_loss 1.529 	mse_loss 0.006 	content_percptual_loss 29.405 	
+[23:56:43.986] [2023-02-14 23:56:43]	Epoch: [92][339/361]	total_loss 1.601 	mse_loss 0.006 	content_percptual_loss 30.888 	
+[23:57:14.532] [2023-02-14 23:57:14]	Epoch: [93][28/361]	total_loss 1.722 	mse_loss 0.005 	content_percptual_loss 33.405 	
+[23:57:44.799] [2023-02-14 23:57:44]	Epoch: [93][78/361]	total_loss 1.567 	mse_loss 0.006 	content_percptual_loss 30.066 	
+[23:58:14.483] [2023-02-14 23:58:14]	Epoch: [93][128/361]	total_loss 1.388 	mse_loss 0.005 	content_percptual_loss 26.779 	
+[23:58:44.816] [2023-02-14 23:58:44]	Epoch: [93][178/361]	total_loss 1.782 	mse_loss 0.007 	content_percptual_loss 34.312 	
+[23:59:15.058] [2023-02-14 23:59:15]	Epoch: [93][228/361]	total_loss 1.750 	mse_loss 0.007 	content_percptual_loss 33.578 	
+[23:59:45.277] [2023-02-14 23:59:45]	Epoch: [93][278/361]	total_loss 1.517 	mse_loss 0.007 	content_percptual_loss 28.909 	
+[00:00:15.512] [2023-02-15 00:00:15]	Epoch: [93][328/361]	total_loss 1.631 	mse_loss 0.006 	content_percptual_loss 31.417 	
+[00:00:46.380] [2023-02-15 00:00:46]	Epoch: [94][17/361]	total_loss 1.304 	mse_loss 0.006 	content_percptual_loss 24.909 	
+[00:01:16.780] [2023-02-15 00:01:16]	Epoch: [94][67/361]	total_loss 1.732 	mse_loss 0.006 	content_percptual_loss 33.348 	
+[00:01:16.781] ======================================================
+[00:01:16.781] evaling easy
+[00:01:24.905] [2023-02-15 00:01:24]	loss_rec 0.000| loss_im 0.000	PSNR 22.95 | SSIM 0.8360	
+[00:01:24.905] save display images
+[00:01:24.905] sr_accuray: 52.07%
+[00:01:24.906] best_easy = 54.17%
+[00:01:24.906] evaling medium
+[00:01:31.412] [2023-02-15 00:01:31]	loss_rec 0.000| loss_im 0.000	PSNR 19.30 | SSIM 0.6540	
+[00:01:31.412] save display images
+[00:01:31.412] sr_accuray: 43.44%
+[00:01:31.415] best_medium = 43.44%*
+[00:01:31.415] evaling hard
+[00:01:37.757] [2023-02-15 00:01:37]	loss_rec 0.000| loss_im 0.000	PSNR 19.88 | SSIM 0.7201	
+[00:01:37.758] save display images
+[00:01:37.758] sr_accuray: 34.18%
+[00:01:37.758] best_hard = 34.77%
+[00:02:07.579] [2023-02-15 00:02:07]	Epoch: [94][117/361]	total_loss 1.540 	mse_loss 0.006 	content_percptual_loss 29.521 	
+[00:02:38.062] [2023-02-15 00:02:38]	Epoch: [94][167/361]	total_loss 1.371 	mse_loss 0.006 	content_percptual_loss 26.273 	
+[00:03:08.209] [2023-02-15 00:03:08]	Epoch: [94][217/361]	total_loss 1.882 	mse_loss 0.006 	content_percptual_loss 36.409 	
+[00:03:38.352] [2023-02-15 00:03:38]	Epoch: [94][267/361]	total_loss 1.705 	mse_loss 0.005 	content_percptual_loss 33.020 	
+[00:04:08.829] [2023-02-15 00:04:08]	Epoch: [94][317/361]	total_loss 1.510 	mse_loss 0.005 	content_percptual_loss 29.165 	
+[00:04:39.209] [2023-02-15 00:04:39]	Epoch: [95][6/361]	total_loss 1.471 	mse_loss 0.005 	content_percptual_loss 28.388 	
+[00:05:09.316] [2023-02-15 00:05:09]	Epoch: [95][56/361]	total_loss 1.541 	mse_loss 0.005 	content_percptual_loss 29.846 	
+[00:05:39.642] [2023-02-15 00:05:39]	Epoch: [95][106/361]	total_loss 1.358 	mse_loss 0.004 	content_percptual_loss 26.305 	
+[00:06:10.416] [2023-02-15 00:06:10]	Epoch: [95][156/361]	total_loss 1.558 	mse_loss 0.006 	content_percptual_loss 30.020 	
+[00:06:41.306] [2023-02-15 00:06:41]	Epoch: [95][206/361]	total_loss 1.570 	mse_loss 0.005 	content_percptual_loss 30.442 	
+[00:07:11.287] [2023-02-15 00:07:11]	Epoch: [95][256/361]	total_loss 1.547 	mse_loss 0.005 	content_percptual_loss 29.867 	
+[00:07:41.699] [2023-02-15 00:07:41]	Epoch: [95][306/361]	total_loss 1.905 	mse_loss 0.007 	content_percptual_loss 36.803 	
+[00:08:12.281] [2023-02-15 00:08:12]	Epoch: [95][356/361]	total_loss 1.650 	mse_loss 0.006 	content_percptual_loss 31.826 	
+[00:08:43.267] [2023-02-15 00:08:43]	Epoch: [96][45/361]	total_loss 1.479 	mse_loss 0.007 	content_percptual_loss 28.188 	
+[00:09:13.901] [2023-02-15 00:09:13]	Epoch: [96][95/361]	total_loss 1.753 	mse_loss 0.006 	content_percptual_loss 33.799 	
+[00:09:44.435] [2023-02-15 00:09:44]	Epoch: [96][145/361]	total_loss 1.713 	mse_loss 0.006 	content_percptual_loss 33.011 	
+[00:10:14.931] [2023-02-15 00:10:14]	Epoch: [96][195/361]	total_loss 1.818 	mse_loss 0.006 	content_percptual_loss 35.227 	
+[00:10:45.964] [2023-02-15 00:10:45]	Epoch: [96][245/361]	total_loss 1.506 	mse_loss 0.005 	content_percptual_loss 29.171 	
+[00:11:16.476] [2023-02-15 00:11:16]	Epoch: [96][295/361]	total_loss 1.721 	mse_loss 0.006 	content_percptual_loss 33.173 	
+[00:11:47.282] [2023-02-15 00:11:47]	Epoch: [96][345/361]	total_loss 1.516 	mse_loss 0.006 	content_percptual_loss 29.166 	
+[00:11:47.282] ======================================================
+[00:11:47.282] evaling easy
+[00:11:55.543] [2023-02-15 00:11:55]	loss_rec 0.000| loss_im 0.000	PSNR 22.97 | SSIM 0.8309	
+[00:11:55.543] save display images
+[00:11:55.543] sr_accuray: 52.01%
+[00:11:55.544] best_easy = 54.17%
+[00:11:55.544] evaling medium
+[00:12:02.038] [2023-02-15 00:12:02]	loss_rec 0.000| loss_im 0.000	PSNR 19.40 | SSIM 0.6560	
+[00:12:02.039] save display images
+[00:12:02.039] sr_accuray: 43.37%
+[00:12:02.039] best_medium = 43.44%
+[00:12:02.039] evaling hard
+[00:12:08.683] [2023-02-15 00:12:08]	loss_rec 0.000| loss_im 0.000	PSNR 19.97 | SSIM 0.7195	
+[00:12:08.683] save display images
+[00:12:08.683] sr_accuray: 34.18%
+[00:12:08.686] best_hard = 34.77%
+[00:12:38.652] [2023-02-15 00:12:38]	Epoch: [97][34/361]	total_loss 1.564 	mse_loss 0.006 	content_percptual_loss 30.095 	
+[00:13:09.046] [2023-02-15 00:13:09]	Epoch: [97][84/361]	total_loss 1.698 	mse_loss 0.005 	content_percptual_loss 32.917 	
+[00:13:39.760] [2023-02-15 00:13:39]	Epoch: [97][134/361]	total_loss 1.454 	mse_loss 0.006 	content_percptual_loss 27.963 	
+[00:14:10.804] [2023-02-15 00:14:10]	Epoch: [97][184/361]	total_loss 1.695 	mse_loss 0.006 	content_percptual_loss 32.723 	
+[00:14:41.060] [2023-02-15 00:14:41]	Epoch: [97][234/361]	total_loss 1.653 	mse_loss 0.006 	content_percptual_loss 31.871 	
+[00:15:11.579] [2023-02-15 00:15:11]	Epoch: [97][284/361]	total_loss 1.504 	mse_loss 0.007 	content_percptual_loss 28.698 	
+[00:15:43.504] [2023-02-15 00:15:43]	Epoch: [97][334/361]	total_loss 1.685 	mse_loss 0.006 	content_percptual_loss 32.587 	
+[00:16:14.308] [2023-02-15 00:16:14]	Epoch: [98][23/361]	total_loss 1.543 	mse_loss 0.007 	content_percptual_loss 29.445 	
+[00:16:44.842] [2023-02-15 00:16:44]	Epoch: [98][73/361]	total_loss 1.523 	mse_loss 0.006 	content_percptual_loss 29.338 	
+[00:17:15.555] [2023-02-15 00:17:15]	Epoch: [98][123/361]	total_loss 1.776 	mse_loss 0.006 	content_percptual_loss 34.356 	
+[00:17:46.192] [2023-02-15 00:17:46]	Epoch: [98][173/361]	total_loss 1.486 	mse_loss 0.005 	content_percptual_loss 28.671 	
+[00:18:17.552] [2023-02-15 00:18:17]	Epoch: [98][223/361]	total_loss 1.404 	mse_loss 0.005 	content_percptual_loss 27.184 	
+[00:18:48.031] [2023-02-15 00:18:48]	Epoch: [98][273/361]	total_loss 1.625 	mse_loss 0.005 	content_percptual_loss 31.472 	
+[00:19:18.757] [2023-02-15 00:19:18]	Epoch: [98][323/361]	total_loss 1.753 	mse_loss 0.006 	content_percptual_loss 33.788 	
+[00:19:49.884] [2023-02-15 00:19:49]	Epoch: [99][12/361]	total_loss 1.581 	mse_loss 0.006 	content_percptual_loss 30.455 	
+[00:20:20.176] [2023-02-15 00:20:20]	Epoch: [99][62/361]	total_loss 1.357 	mse_loss 0.005 	content_percptual_loss 26.198 	
+[00:20:50.413] [2023-02-15 00:20:50]	Epoch: [99][112/361]	total_loss 1.424 	mse_loss 0.005 	content_percptual_loss 27.444 	
+[00:21:20.686] [2023-02-15 00:21:20]	Epoch: [99][162/361]	total_loss 1.558 	mse_loss 0.006 	content_percptual_loss 30.014 	
+[00:21:51.641] [2023-02-15 00:21:51]	Epoch: [99][212/361]	total_loss 1.683 	mse_loss 0.007 	content_percptual_loss 32.325 	
+[00:22:21.857] [2023-02-15 00:22:21]	Epoch: [99][262/361]	total_loss 1.544 	mse_loss 0.005 	content_percptual_loss 29.807 	
+[00:22:21.857] ======================================================
+[00:22:21.857] evaling easy
+[00:22:29.784] [2023-02-15 00:22:29]	loss_rec 0.000| loss_im 0.000	PSNR 22.00 | SSIM 0.8223	
+[00:22:29.784] save display images
+[00:22:29.784] sr_accuray: 50.53%
+[00:22:29.785] best_easy = 54.17%
+[00:22:29.785] evaling medium
+[00:22:38.340] [2023-02-15 00:22:38]	loss_rec 0.000| loss_im 0.000	PSNR 19.32 | SSIM 0.6567	
+[00:22:38.340] save display images
+[00:22:38.340] sr_accuray: 42.45%
+[00:22:38.341] best_medium = 43.44%
+[00:22:38.341] evaling hard
+[00:22:46.407] [2023-02-15 00:22:46]	loss_rec 0.000| loss_im 0.000	PSNR 19.55 | SSIM 0.7169	
+[00:22:46.407] save display images
+[00:22:46.407] sr_accuray: 33.58%
+[00:22:46.408] best_hard = 34.77%
+[00:23:15.359] [2023-02-15 00:23:15]	Epoch: [99][312/361]	total_loss 1.620 	mse_loss 0.005 	content_percptual_loss 31.451 	
+[00:23:45.956] [2023-02-15 00:23:45]	Epoch: [100][1/361]	total_loss 1.516 	mse_loss 0.005 	content_percptual_loss 29.300 	
+[00:24:15.867] [2023-02-15 00:24:15]	Epoch: [100][51/361]	total_loss 1.643 	mse_loss 0.006 	content_percptual_loss 31.626 	
+[00:24:46.651] [2023-02-15 00:24:46]	Epoch: [100][101/361]	total_loss 1.521 	mse_loss 0.006 	content_percptual_loss 29.202 	
+[00:25:17.103] [2023-02-15 00:25:17]	Epoch: [100][151/361]	total_loss 1.410 	mse_loss 0.005 	content_percptual_loss 27.166 	
+[00:25:46.945] [2023-02-15 00:25:46]	Epoch: [100][201/361]	total_loss 1.697 	mse_loss 0.006 	content_percptual_loss 32.815 	
+[00:26:18.287] [2023-02-15 00:26:18]	Epoch: [100][251/361]	total_loss 1.649 	mse_loss 0.005 	content_percptual_loss 31.968 	
+[00:26:48.310] [2023-02-15 00:26:48]	Epoch: [100][301/361]	total_loss 1.425 	mse_loss 0.005 	content_percptual_loss 27.506 	
+[00:27:19.310] [2023-02-15 00:27:19]	Epoch: [100][351/361]	total_loss 1.354 	mse_loss 0.005 	content_percptual_loss 26.052 	
+[00:27:50.030] [2023-02-15 00:27:50]	Epoch: [101][40/361]	total_loss 1.653 	mse_loss 0.007 	content_percptual_loss 31.662 	
+[00:28:20.584] [2023-02-15 00:28:20]	Epoch: [101][90/361]	total_loss 1.393 	mse_loss 0.006 	content_percptual_loss 26.590 	
+[00:28:51.590] [2023-02-15 00:28:51]	Epoch: [101][140/361]	total_loss 1.708 	mse_loss 0.005 	content_percptual_loss 33.184 	
+[00:29:22.059] [2023-02-15 00:29:22]	Epoch: [101][190/361]	total_loss 1.688 	mse_loss 0.006 	content_percptual_loss 32.642 	
+[00:29:52.803] [2023-02-15 00:29:52]	Epoch: [101][240/361]	total_loss 1.561 	mse_loss 0.006 	content_percptual_loss 30.037 	
+[00:30:23.939] [2023-02-15 00:30:23]	Epoch: [101][290/361]	total_loss 1.664 	mse_loss 0.006 	content_percptual_loss 32.184 	
+[00:30:55.128] [2023-02-15 00:30:55]	Epoch: [101][340/361]	total_loss 1.303 	mse_loss 0.005 	content_percptual_loss 25.088 	
+[00:31:26.495] [2023-02-15 00:31:26]	Epoch: [102][29/361]	total_loss 1.392 	mse_loss 0.005 	content_percptual_loss 26.855 	
+[00:31:57.965] [2023-02-15 00:31:57]	Epoch: [102][79/361]	total_loss 1.355 	mse_loss 0.005 	content_percptual_loss 26.008 	
+[00:32:29.088] [2023-02-15 00:32:29]	Epoch: [102][129/361]	total_loss 1.203 	mse_loss 0.005 	content_percptual_loss 23.123 	
+[00:33:00.755] [2023-02-15 00:33:00]	Epoch: [102][179/361]	total_loss 1.451 	mse_loss 0.005 	content_percptual_loss 28.047 	
+[00:33:00.755] ======================================================
+[00:33:00.755] evaling easy
+[00:33:09.366] [2023-02-15 00:33:09]	loss_rec 0.000| loss_im 0.000	PSNR 22.57 | SSIM 0.8280	
+[00:33:09.366] save display images
+[00:33:09.366] sr_accuray: 50.34%
+[00:33:09.366] best_easy = 54.17%
+[00:33:09.366] evaling medium
+[00:33:15.980] [2023-02-15 00:33:15]	loss_rec 0.000| loss_im 0.000	PSNR 19.27 | SSIM 0.6523	
+[00:33:15.980] save display images
+[00:33:15.980] sr_accuray: 42.95%
+[00:33:15.981] best_medium = 43.44%
+[00:33:15.981] evaling hard
+[00:33:23.001] [2023-02-15 00:33:23]	loss_rec 0.000| loss_im 0.000	PSNR 19.53 | SSIM 0.7095	
+[00:33:23.001] save display images
+[00:33:23.001] sr_accuray: 33.21%
+[00:33:23.002] best_hard = 34.77%
+[00:33:52.976] [2023-02-15 00:33:52]	Epoch: [102][229/361]	total_loss 1.515 	mse_loss 0.005 	content_percptual_loss 29.234 	
+[00:34:23.964] [2023-02-15 00:34:23]	Epoch: [102][279/361]	total_loss 1.238 	mse_loss 0.005 	content_percptual_loss 23.857 	
+[00:34:54.887] [2023-02-15 00:34:54]	Epoch: [102][329/361]	total_loss 1.602 	mse_loss 0.006 	content_percptual_loss 30.939 	
+[00:35:26.836] [2023-02-15 00:35:26]	Epoch: [103][18/361]	total_loss 1.538 	mse_loss 0.006 	content_percptual_loss 29.616 	
+[00:35:58.487] [2023-02-15 00:35:58]	Epoch: [103][68/361]	total_loss 1.646 	mse_loss 0.006 	content_percptual_loss 31.687 	
+[00:36:29.579] [2023-02-15 00:36:29]	Epoch: [103][118/361]	total_loss 1.503 	mse_loss 0.006 	content_percptual_loss 28.784 	
+[00:37:01.180] [2023-02-15 00:37:01]	Epoch: [103][168/361]	total_loss 1.469 	mse_loss 0.005 	content_percptual_loss 28.361 	
+[00:37:33.397] [2023-02-15 00:37:33]	Epoch: [103][218/361]	total_loss 1.417 	mse_loss 0.005 	content_percptual_loss 27.368 	
+[00:38:04.512] [2023-02-15 00:38:04]	Epoch: [103][268/361]	total_loss 1.461 	mse_loss 0.006 	content_percptual_loss 28.069 	
+[00:38:36.414] [2023-02-15 00:38:36]	Epoch: [103][318/361]	total_loss 1.567 	mse_loss 0.006 	content_percptual_loss 30.236 	
+[00:39:07.984] [2023-02-15 00:39:07]	Epoch: [104][7/361]	total_loss 1.631 	mse_loss 0.007 	content_percptual_loss 31.327 	
+[00:39:39.830] [2023-02-15 00:39:39]	Epoch: [104][57/361]	total_loss 1.512 	mse_loss 0.004 	content_percptual_loss 29.354 	
+[00:40:11.394] [2023-02-15 00:40:11]	Epoch: [104][107/361]	total_loss 1.709 	mse_loss 0.007 	content_percptual_loss 32.870 	
+[00:40:42.559] [2023-02-15 00:40:42]	Epoch: [104][157/361]	total_loss 1.655 	mse_loss 0.007 	content_percptual_loss 31.713 	
+[00:41:13.988] [2023-02-15 00:41:13]	Epoch: [104][207/361]	total_loss 1.340 	mse_loss 0.004 	content_percptual_loss 25.909 	
+[00:41:45.447] [2023-02-15 00:41:45]	Epoch: [104][257/361]	total_loss 1.534 	mse_loss 0.006 	content_percptual_loss 29.571 	
+[00:42:16.230] [2023-02-15 00:42:16]	Epoch: [104][307/361]	total_loss 1.253 	mse_loss 0.004 	content_percptual_loss 24.195 	
+[00:42:47.990] [2023-02-15 00:42:47]	Epoch: [104][357/361]	total_loss 1.626 	mse_loss 0.007 	content_percptual_loss 31.146 	
+[00:43:19.872] [2023-02-15 00:43:19]	Epoch: [105][46/361]	total_loss 1.410 	mse_loss 0.005 	content_percptual_loss 27.144 	
+[00:43:52.170] [2023-02-15 00:43:52]	Epoch: [105][96/361]	total_loss 1.311 	mse_loss 0.005 	content_percptual_loss 25.243 	
+[00:43:52.170] ======================================================
+[00:43:52.170] evaling easy
+[00:44:00.342] [2023-02-15 00:44:00]	loss_rec 0.000| loss_im 0.000	PSNR 23.01 | SSIM 0.8335	
+[00:44:00.342] save display images
+[00:44:00.342] sr_accuray: 51.39%
+[00:44:00.343] best_easy = 54.17%
+[00:44:00.343] evaling medium
+[00:44:07.322] [2023-02-15 00:44:07]	loss_rec 0.000| loss_im 0.000	PSNR 19.48 | SSIM 0.6598	
+[00:44:07.322] save display images
+[00:44:07.322] sr_accuray: 42.74%
+[00:44:07.322] best_medium = 43.44%
+[00:44:07.322] evaling hard
+[00:44:14.239] [2023-02-15 00:44:14]	loss_rec 0.000| loss_im 0.000	PSNR 19.95 | SSIM 0.7219	
+[00:44:14.239] save display images
+[00:44:14.239] sr_accuray: 33.21%
+[00:44:14.239] best_hard = 34.77%
+[00:44:45.029] [2023-02-15 00:44:45]	Epoch: [105][146/361]	total_loss 1.344 	mse_loss 0.005 	content_percptual_loss 25.928 	
+[00:45:15.486] [2023-02-15 00:45:15]	Epoch: [105][196/361]	total_loss 1.568 	mse_loss 0.007 	content_percptual_loss 29.986 	
+[00:45:47.297] [2023-02-15 00:45:47]	Epoch: [105][246/361]	total_loss 1.498 	mse_loss 0.006 	content_percptual_loss 28.838 	
+[00:46:18.695] [2023-02-15 00:46:18]	Epoch: [105][296/361]	total_loss 1.404 	mse_loss 0.005 	content_percptual_loss 27.130 	
+[00:46:49.586] [2023-02-15 00:46:49]	Epoch: [105][346/361]	total_loss 1.363 	mse_loss 0.007 	content_percptual_loss 25.924 	
+[00:47:20.998] [2023-02-15 00:47:20]	Epoch: [106][35/361]	total_loss 1.678 	mse_loss 0.005 	content_percptual_loss 32.492 	
+[00:47:53.296] [2023-02-15 00:47:53]	Epoch: [106][85/361]	total_loss 1.460 	mse_loss 0.006 	content_percptual_loss 28.096 	
+[00:48:25.115] [2023-02-15 00:48:25]	Epoch: [106][135/361]	total_loss 1.665 	mse_loss 0.006 	content_percptual_loss 32.177 	
+[00:48:56.729] [2023-02-15 00:48:56]	Epoch: [106][185/361]	total_loss 1.487 	mse_loss 0.006 	content_percptual_loss 28.532 	
+[00:49:28.077] [2023-02-15 00:49:28]	Epoch: [106][235/361]	total_loss 1.566 	mse_loss 0.006 	content_percptual_loss 30.201 	
+[00:49:59.395] [2023-02-15 00:49:59]	Epoch: [106][285/361]	total_loss 1.697 	mse_loss 0.006 	content_percptual_loss 32.761 	
+[00:50:31.259] [2023-02-15 00:50:31]	Epoch: [106][335/361]	total_loss 1.694 	mse_loss 0.006 	content_percptual_loss 32.730 	
+[00:51:02.887] [2023-02-15 00:51:02]	Epoch: [107][24/361]	total_loss 1.336 	mse_loss 0.005 	content_percptual_loss 25.677 	
+[00:51:33.915] [2023-02-15 00:51:33]	Epoch: [107][74/361]	total_loss 1.547 	mse_loss 0.006 	content_percptual_loss 29.685 	
+[00:52:04.922] [2023-02-15 00:52:04]	Epoch: [107][124/361]	total_loss 1.647 	mse_loss 0.006 	content_percptual_loss 31.650 	
+[00:52:36.249] [2023-02-15 00:52:36]	Epoch: [107][174/361]	total_loss 1.181 	mse_loss 0.005 	content_percptual_loss 22.604 	
+[00:53:06.855] [2023-02-15 00:53:06]	Epoch: [107][224/361]	total_loss 1.593 	mse_loss 0.006 	content_percptual_loss 30.748 	
+[00:53:37.754] [2023-02-15 00:53:37]	Epoch: [107][274/361]	total_loss 1.895 	mse_loss 0.007 	content_percptual_loss 36.560 	
+[00:54:09.294] [2023-02-15 00:54:09]	Epoch: [107][324/361]	total_loss 1.635 	mse_loss 0.006 	content_percptual_loss 31.589 	
+[00:54:40.095] [2023-02-15 00:54:40]	Epoch: [108][13/361]	total_loss 1.569 	mse_loss 0.006 	content_percptual_loss 30.078 	
+[00:54:40.095] ======================================================
+[00:54:40.095] evaling easy
+[00:54:48.737] [2023-02-15 00:54:48]	loss_rec 0.000| loss_im 0.000	PSNR 22.61 | SSIM 0.8224	
+[00:54:48.737] save display images
+[00:54:48.737] sr_accuray: 49.47%
+[00:54:48.738] best_easy = 54.17%
+[00:54:48.738] evaling medium
+[00:54:56.567] [2023-02-15 00:54:56]	loss_rec 0.000| loss_im 0.000	PSNR 19.12 | SSIM 0.6483	
+[00:54:56.567] save display images
+[00:54:56.567] sr_accuray: 42.31%
+[00:54:56.568] best_medium = 43.44%
+[00:54:56.568] evaling hard
+[00:55:02.753] [2023-02-15 00:55:02]	loss_rec 0.000| loss_im 0.000	PSNR 19.83 | SSIM 0.7138	
+[00:55:02.754] save display images
+[00:55:02.754] sr_accuray: 33.36%
+[00:55:02.754] best_hard = 34.77%
+[00:55:33.031] [2023-02-15 00:55:33]	Epoch: [108][63/361]	total_loss 1.537 	mse_loss 0.005 	content_percptual_loss 29.747 	
+[00:56:04.024] [2023-02-15 00:56:04]	Epoch: [108][113/361]	total_loss 1.519 	mse_loss 0.006 	content_percptual_loss 29.249 	
+[00:56:33.899] [2023-02-15 00:56:33]	Epoch: [108][163/361]	total_loss 1.327 	mse_loss 0.005 	content_percptual_loss 25.533 	
+[00:57:04.856] [2023-02-15 00:57:04]	Epoch: [108][213/361]	total_loss 1.296 	mse_loss 0.005 	content_percptual_loss 24.883 	
+[00:57:35.510] [2023-02-15 00:57:35]	Epoch: [108][263/361]	total_loss 1.567 	mse_loss 0.006 	content_percptual_loss 30.124 	
+[00:58:05.874] [2023-02-15 00:58:05]	Epoch: [108][313/361]	total_loss 1.423 	mse_loss 0.005 	content_percptual_loss 27.524 	
+[00:58:37.412] [2023-02-15 00:58:37]	Epoch: [109][2/361]	total_loss 1.495 	mse_loss 0.005 	content_percptual_loss 28.818 	
+[00:59:08.138] [2023-02-15 00:59:08]	Epoch: [109][52/361]	total_loss 1.617 	mse_loss 0.007 	content_percptual_loss 31.012 	
+[00:59:38.852] [2023-02-15 00:59:38]	Epoch: [109][102/361]	total_loss 1.317 	mse_loss 0.006 	content_percptual_loss 25.237 	
+[01:00:09.636] [2023-02-15 01:00:09]	Epoch: [109][152/361]	total_loss 1.480 	mse_loss 0.007 	content_percptual_loss 28.278 	
+[01:00:40.824] [2023-02-15 01:00:40]	Epoch: [109][202/361]	total_loss 1.228 	mse_loss 0.004 	content_percptual_loss 23.667 	
+[01:01:11.156] [2023-02-15 01:01:11]	Epoch: [109][252/361]	total_loss 1.355 	mse_loss 0.004 	content_percptual_loss 26.231 	
+[01:01:42.542] [2023-02-15 01:01:42]	Epoch: [109][302/361]	total_loss 1.445 	mse_loss 0.005 	content_percptual_loss 27.807 	
+[01:02:13.256] [2023-02-15 01:02:13]	Epoch: [109][352/361]	total_loss 1.838 	mse_loss 0.006 	content_percptual_loss 35.565 	
+[01:02:45.714] [2023-02-15 01:02:45]	Epoch: [110][41/361]	total_loss 1.502 	mse_loss 0.005 	content_percptual_loss 28.992 	
+[01:03:16.599] [2023-02-15 01:03:16]	Epoch: [110][91/361]	total_loss 1.447 	mse_loss 0.005 	content_percptual_loss 27.847 	
+[01:03:47.644] [2023-02-15 01:03:47]	Epoch: [110][141/361]	total_loss 1.448 	mse_loss 0.007 	content_percptual_loss 27.666 	
+[01:04:18.711] [2023-02-15 01:04:18]	Epoch: [110][191/361]	total_loss 1.638 	mse_loss 0.005 	content_percptual_loss 31.720 	
+[01:04:50.023] [2023-02-15 01:04:50]	Epoch: [110][241/361]	total_loss 1.467 	mse_loss 0.006 	content_percptual_loss 28.202 	
+[01:05:21.505] [2023-02-15 01:05:21]	Epoch: [110][291/361]	total_loss 1.784 	mse_loss 0.008 	content_percptual_loss 34.104 	
+[01:05:21.505] ======================================================
+[01:05:21.505] evaling easy
+[01:05:29.979] [2023-02-15 01:05:29]	loss_rec 0.000| loss_im 0.000	PSNR 22.47 | SSIM 0.8324	
+[01:05:29.979] save display images
+[01:05:29.979] sr_accuray: 52.32%
+[01:05:29.980] best_easy = 54.17%
+[01:05:29.980] evaling medium
+[01:05:36.856] [2023-02-15 01:05:36]	loss_rec 0.000| loss_im 0.000	PSNR 18.97 | SSIM 0.6488	
+[01:05:36.857] save display images
+[01:05:36.857] sr_accuray: 43.66%
+[01:05:36.857] best_medium = 43.66%*
+[01:05:36.857] evaling hard
+[01:05:43.419] [2023-02-15 01:05:43]	loss_rec 0.000| loss_im 0.000	PSNR 19.73 | SSIM 0.7142	
+[01:05:43.419] save display images
+[01:05:43.419] sr_accuray: 34.03%
+[01:05:43.420] best_hard = 34.77%
+[01:06:13.894] [2023-02-15 01:06:13]	Epoch: [110][341/361]	total_loss 1.484 	mse_loss 0.005 	content_percptual_loss 28.632 	
+[01:06:44.948] [2023-02-15 01:06:44]	Epoch: [111][30/361]	total_loss 1.527 	mse_loss 0.006 	content_percptual_loss 29.383 	
+[01:07:16.386] [2023-02-15 01:07:16]	Epoch: [111][80/361]	total_loss 1.382 	mse_loss 0.004 	content_percptual_loss 26.805 	
+[01:07:48.158] [2023-02-15 01:07:48]	Epoch: [111][130/361]	total_loss 1.524 	mse_loss 0.006 	content_percptual_loss 29.259 	
+[01:08:20.023] [2023-02-15 01:08:20]	Epoch: [111][180/361]	total_loss 1.446 	mse_loss 0.005 	content_percptual_loss 27.927 	
+[01:08:52.072] [2023-02-15 01:08:52]	Epoch: [111][230/361]	total_loss 1.504 	mse_loss 0.007 	content_percptual_loss 28.771 	
+[01:09:23.699] [2023-02-15 01:09:23]	Epoch: [111][280/361]	total_loss 1.402 	mse_loss 0.005 	content_percptual_loss 27.034 	
+[01:09:55.502] [2023-02-15 01:09:55]	Epoch: [111][330/361]	total_loss 1.433 	mse_loss 0.005 	content_percptual_loss 27.672 	
+[01:10:27.987] [2023-02-15 01:10:27]	Epoch: [112][19/361]	total_loss 1.420 	mse_loss 0.005 	content_percptual_loss 27.468 	
+[01:10:59.595] [2023-02-15 01:10:59]	Epoch: [112][69/361]	total_loss 1.656 	mse_loss 0.006 	content_percptual_loss 32.006 	
+[01:11:32.555] [2023-02-15 01:11:32]	Epoch: [112][119/361]	total_loss 1.608 	mse_loss 0.006 	content_percptual_loss 30.993 	
+[01:12:04.484] [2023-02-15 01:12:04]	Epoch: [112][169/361]	total_loss 1.535 	mse_loss 0.006 	content_percptual_loss 29.503 	
+[01:12:35.781] [2023-02-15 01:12:35]	Epoch: [112][219/361]	total_loss 1.493 	mse_loss 0.005 	content_percptual_loss 28.892 	
+[01:13:08.615] [2023-02-15 01:13:08]	Epoch: [112][269/361]	total_loss 1.463 	mse_loss 0.005 	content_percptual_loss 28.205 	
+[01:13:39.850] [2023-02-15 01:13:39]	Epoch: [112][319/361]	total_loss 1.407 	mse_loss 0.005 	content_percptual_loss 27.220 	
+[01:14:13.424] [2023-02-15 01:14:13]	Epoch: [113][8/361]	total_loss 1.593 	mse_loss 0.005 	content_percptual_loss 30.886 	
+[01:14:43.924] [2023-02-15 01:14:43]	Epoch: [113][58/361]	total_loss 1.509 	mse_loss 0.005 	content_percptual_loss 29.219 	
+[01:15:17.012] [2023-02-15 01:15:17]	Epoch: [113][108/361]	total_loss 1.657 	mse_loss 0.006 	content_percptual_loss 31.915 	
+[01:15:47.547] [2023-02-15 01:15:47]	Epoch: [113][158/361]	total_loss 1.415 	mse_loss 0.004 	content_percptual_loss 27.466 	
+[01:16:19.617] [2023-02-15 01:16:19]	Epoch: [113][208/361]	total_loss 1.707 	mse_loss 0.006 	content_percptual_loss 32.940 	
+[01:16:19.617] ======================================================
+[01:16:19.617] evaling easy
+[01:16:27.734] [2023-02-15 01:16:27]	loss_rec 0.000| loss_im 0.000	PSNR 22.74 | SSIM 0.8276	
+[01:16:27.734] save display images
+[01:16:27.734] sr_accuray: 50.15%
+[01:16:27.735] best_easy = 54.17%
+[01:16:27.735] evaling medium
+[01:16:34.619] [2023-02-15 01:16:34]	loss_rec 0.000| loss_im 0.000	PSNR 19.22 | SSIM 0.6531	
+[01:16:34.619] save display images
+[01:16:34.619] sr_accuray: 42.59%
+[01:16:34.620] best_medium = 43.66%
+[01:16:34.620] evaling hard
+[01:16:41.290] [2023-02-15 01:16:41]	loss_rec 0.000| loss_im 0.000	PSNR 19.76 | SSIM 0.7134	
+[01:16:41.290] save display images
+[01:16:41.290] sr_accuray: 34.33%
+[01:16:41.291] best_hard = 34.77%
+[01:17:11.720] [2023-02-15 01:17:11]	Epoch: [113][258/361]	total_loss 1.254 	mse_loss 0.005 	content_percptual_loss 24.048 	
+[01:17:43.081] [2023-02-15 01:17:43]	Epoch: [113][308/361]	total_loss 1.549 	mse_loss 0.005 	content_percptual_loss 29.994 	
+[01:18:14.966] [2023-02-15 01:18:14]	Epoch: [113][358/361]	total_loss 1.504 	mse_loss 0.004 	content_percptual_loss 29.215 	
+[01:18:46.745] [2023-02-15 01:18:46]	Epoch: [114][47/361]	total_loss 1.574 	mse_loss 0.006 	content_percptual_loss 30.268 	
+[01:19:18.025] [2023-02-15 01:19:18]	Epoch: [114][97/361]	total_loss 1.528 	mse_loss 0.005 	content_percptual_loss 29.615 	
+[01:19:49.745] [2023-02-15 01:19:49]	Epoch: [114][147/361]	total_loss 1.447 	mse_loss 0.006 	content_percptual_loss 27.800 	
+[01:20:21.639] [2023-02-15 01:20:21]	Epoch: [114][197/361]	total_loss 1.247 	mse_loss 0.004 	content_percptual_loss 24.162 	
+[01:20:52.742] [2023-02-15 01:20:52]	Epoch: [114][247/361]	total_loss 1.703 	mse_loss 0.006 	content_percptual_loss 32.840 	
+[01:21:24.669] [2023-02-15 01:21:24]	Epoch: [114][297/361]	total_loss 1.576 	mse_loss 0.005 	content_percptual_loss 30.548 	
+[01:21:56.755] [2023-02-15 01:21:56]	Epoch: [114][347/361]	total_loss 1.621 	mse_loss 0.006 	content_percptual_loss 31.273 	
+[01:22:27.869] [2023-02-15 01:22:27]	Epoch: [115][36/361]	total_loss 1.762 	mse_loss 0.008 	content_percptual_loss 33.701 	
+[01:22:59.178] [2023-02-15 01:22:59]	Epoch: [115][86/361]	total_loss 1.369 	mse_loss 0.006 	content_percptual_loss 26.272 	
+[01:23:29.750] [2023-02-15 01:23:29]	Epoch: [115][136/361]	total_loss 1.607 	mse_loss 0.006 	content_percptual_loss 30.901 	
+[01:24:00.755] [2023-02-15 01:24:00]	Epoch: [115][186/361]	total_loss 1.448 	mse_loss 0.005 	content_percptual_loss 27.992 	
+[01:24:31.894] [2023-02-15 01:24:31]	Epoch: [115][236/361]	total_loss 1.256 	mse_loss 0.004 	content_percptual_loss 24.316 	
+[01:25:03.101] [2023-02-15 01:25:03]	Epoch: [115][286/361]	total_loss 1.379 	mse_loss 0.006 	content_percptual_loss 26.459 	
+[01:25:34.313] [2023-02-15 01:25:34]	Epoch: [115][336/361]	total_loss 1.496 	mse_loss 0.005 	content_percptual_loss 28.973 	
+[01:26:06.940] [2023-02-15 01:26:06]	Epoch: [116][25/361]	total_loss 1.375 	mse_loss 0.004 	content_percptual_loss 26.655 	
+[01:26:36.854] [2023-02-15 01:26:36]	Epoch: [116][75/361]	total_loss 1.603 	mse_loss 0.005 	content_percptual_loss 30.983 	
+[01:27:07.887] [2023-02-15 01:27:07]	Epoch: [116][125/361]	total_loss 1.281 	mse_loss 0.005 	content_percptual_loss 24.570 	
+[01:27:07.887] ======================================================
+[01:27:07.887] evaling easy
+[01:27:16.211] [2023-02-15 01:27:16]	loss_rec 0.000| loss_im 0.000	PSNR 22.95 | SSIM 0.8298	
+[01:27:16.212] save display images
+[01:27:16.212] sr_accuray: 51.39%
+[01:27:16.212] best_easy = 54.17%
+[01:27:16.212] evaling medium
+[01:27:23.032] [2023-02-15 01:27:23]	loss_rec 0.000| loss_im 0.000	PSNR 19.51 | SSIM 0.6565	
+[01:27:23.032] save display images
+[01:27:23.032] sr_accuray: 41.53%
+[01:27:23.033] best_medium = 43.66%
+[01:27:23.033] evaling hard
+[01:27:29.655] [2023-02-15 01:27:29]	loss_rec 0.000| loss_im 0.000	PSNR 19.90 | SSIM 0.7187	
+[01:27:29.655] save display images
+[01:27:29.656] sr_accuray: 33.36%
+[01:27:29.656] best_hard = 34.77%
+[01:27:59.872] [2023-02-15 01:27:59]	Epoch: [116][175/361]	total_loss 1.285 	mse_loss 0.006 	content_percptual_loss 24.528 	
+[01:28:30.727] [2023-02-15 01:28:30]	Epoch: [116][225/361]	total_loss 1.495 	mse_loss 0.004 	content_percptual_loss 29.012 	
+[01:29:01.734] [2023-02-15 01:29:01]	Epoch: [116][275/361]	total_loss 1.474 	mse_loss 0.005 	content_percptual_loss 28.491 	
+[01:29:32.217] [2023-02-15 01:29:32]	Epoch: [116][325/361]	total_loss 1.550 	mse_loss 0.006 	content_percptual_loss 29.889 	
+[01:30:03.771] [2023-02-15 01:30:03]	Epoch: [117][14/361]	total_loss 1.320 	mse_loss 0.004 	content_percptual_loss 25.562 	
+[01:30:34.449] [2023-02-15 01:30:34]	Epoch: [117][64/361]	total_loss 1.663 	mse_loss 0.006 	content_percptual_loss 32.015 	
+[01:31:06.022] [2023-02-15 01:31:06]	Epoch: [117][114/361]	total_loss 1.337 	mse_loss 0.005 	content_percptual_loss 25.828 	
+[01:31:36.968] [2023-02-15 01:31:36]	Epoch: [117][164/361]	total_loss 1.495 	mse_loss 0.005 	content_percptual_loss 28.878 	
+[01:32:07.680] [2023-02-15 01:32:07]	Epoch: [117][214/361]	total_loss 1.694 	mse_loss 0.005 	content_percptual_loss 32.898 	
+[01:32:39.338] [2023-02-15 01:32:39]	Epoch: [117][264/361]	total_loss 1.624 	mse_loss 0.006 	content_percptual_loss 31.363 	
+[01:33:10.415] [2023-02-15 01:33:10]	Epoch: [117][314/361]	total_loss 1.592 	mse_loss 0.007 	content_percptual_loss 30.518 	
+[01:33:41.780] [2023-02-15 01:33:41]	Epoch: [118][3/361]	total_loss 1.388 	mse_loss 0.004 	content_percptual_loss 26.865 	
+[01:34:13.117] [2023-02-15 01:34:13]	Epoch: [118][53/361]	total_loss 1.603 	mse_loss 0.006 	content_percptual_loss 30.921 	
+[01:34:43.857] [2023-02-15 01:34:43]	Epoch: [118][103/361]	total_loss 1.673 	mse_loss 0.007 	content_percptual_loss 32.109 	
+[01:35:15.986] [2023-02-15 01:35:15]	Epoch: [118][153/361]	total_loss 1.672 	mse_loss 0.006 	content_percptual_loss 32.232 	
+[01:35:47.417] [2023-02-15 01:35:47]	Epoch: [118][203/361]	total_loss 1.530 	mse_loss 0.005 	content_percptual_loss 29.554 	
+[01:36:18.840] [2023-02-15 01:36:18]	Epoch: [118][253/361]	total_loss 1.470 	mse_loss 0.005 	content_percptual_loss 28.374 	
+[01:36:50.190] [2023-02-15 01:36:50]	Epoch: [118][303/361]	total_loss 1.465 	mse_loss 0.005 	content_percptual_loss 28.281 	
+[01:37:22.484] [2023-02-15 01:37:22]	Epoch: [118][353/361]	total_loss 1.689 	mse_loss 0.007 	content_percptual_loss 32.350 	
+[01:37:54.835] [2023-02-15 01:37:54]	Epoch: [119][42/361]	total_loss 1.373 	mse_loss 0.005 	content_percptual_loss 26.473 	
+[01:37:54.835] ======================================================
+[01:37:54.836] evaling easy
+[01:38:03.611] [2023-02-15 01:38:03]	loss_rec 0.000| loss_im 0.000	PSNR 23.02 | SSIM 0.8332	
+[01:38:03.611] save display images
+[01:38:03.611] sr_accuray: 51.64%
+[01:38:03.611] best_easy = 54.17%
+[01:38:03.611] evaling medium
+[01:38:11.859] [2023-02-15 01:38:11]	loss_rec 0.000| loss_im 0.000	PSNR 19.30 | SSIM 0.6549	
+[01:38:11.859] save display images
+[01:38:11.859] sr_accuray: 42.66%
+[01:38:11.860] best_medium = 43.66%
+[01:38:11.860] evaling hard
+[01:38:18.112] [2023-02-15 01:38:18]	loss_rec 0.000| loss_im 0.000	PSNR 19.76 | SSIM 0.7211	
+[01:38:18.113] save display images
+[01:38:18.113] sr_accuray: 33.36%
+[01:38:18.113] best_hard = 34.77%
+[01:38:49.143] [2023-02-15 01:38:49]	Epoch: [119][92/361]	total_loss 1.356 	mse_loss 0.005 	content_percptual_loss 26.106 	
+[01:39:20.672] [2023-02-15 01:39:20]	Epoch: [119][142/361]	total_loss 1.509 	mse_loss 0.005 	content_percptual_loss 29.220 	
+[01:39:51.545] [2023-02-15 01:39:51]	Epoch: [119][192/361]	total_loss 1.296 	mse_loss 0.005 	content_percptual_loss 24.916 	
+[01:40:23.434] [2023-02-15 01:40:23]	Epoch: [119][242/361]	total_loss 1.447 	mse_loss 0.005 	content_percptual_loss 28.027 	
+[01:40:54.778] [2023-02-15 01:40:54]	Epoch: [119][292/361]	total_loss 1.501 	mse_loss 0.005 	content_percptual_loss 29.063 	
+[01:41:26.472] [2023-02-15 01:41:26]	Epoch: [119][342/361]	total_loss 1.193 	mse_loss 0.004 	content_percptual_loss 23.024 	
+[01:41:58.832] [2023-02-15 01:41:58]	Epoch: [120][31/361]	total_loss 1.455 	mse_loss 0.006 	content_percptual_loss 27.972 	
+[01:42:29.399] [2023-02-15 01:42:29]	Epoch: [120][81/361]	total_loss 1.351 	mse_loss 0.004 	content_percptual_loss 26.202 	
+[01:43:01.112] [2023-02-15 01:43:01]	Epoch: [120][131/361]	total_loss 1.318 	mse_loss 0.005 	content_percptual_loss 25.306 	
+[01:43:32.141] [2023-02-15 01:43:32]	Epoch: [120][181/361]	total_loss 1.656 	mse_loss 0.006 	content_percptual_loss 31.836 	
+[01:44:04.271] [2023-02-15 01:44:04]	Epoch: [120][231/361]	total_loss 1.570 	mse_loss 0.005 	content_percptual_loss 30.424 	
+[01:44:35.596] [2023-02-15 01:44:35]	Epoch: [120][281/361]	total_loss 1.505 	mse_loss 0.005 	content_percptual_loss 29.092 	
+[01:45:06.769] [2023-02-15 01:45:06]	Epoch: [120][331/361]	total_loss 1.665 	mse_loss 0.006 	content_percptual_loss 32.024 	
+[01:45:39.331] [2023-02-15 01:45:39]	Epoch: [121][20/361]	total_loss 1.589 	mse_loss 0.005 	content_percptual_loss 30.758 	
+[01:46:10.397] [2023-02-15 01:46:10]	Epoch: [121][70/361]	total_loss 1.659 	mse_loss 0.005 	content_percptual_loss 32.231 	
+[01:46:41.815] [2023-02-15 01:46:41]	Epoch: [121][120/361]	total_loss 1.509 	mse_loss 0.005 	content_percptual_loss 29.217 	
+[01:47:13.199] [2023-02-15 01:47:13]	Epoch: [121][170/361]	total_loss 1.315 	mse_loss 0.004 	content_percptual_loss 25.440 	
+[01:47:45.241] [2023-02-15 01:47:45]	Epoch: [121][220/361]	total_loss 1.583 	mse_loss 0.005 	content_percptual_loss 30.702 	
+[01:48:16.642] [2023-02-15 01:48:16]	Epoch: [121][270/361]	total_loss 1.400 	mse_loss 0.005 	content_percptual_loss 26.940 	
+[01:48:47.872] [2023-02-15 01:48:47]	Epoch: [121][320/361]	total_loss 1.404 	mse_loss 0.006 	content_percptual_loss 26.828 	
+[01:48:47.872] ======================================================
+[01:48:47.872] evaling easy
+[01:48:56.270] [2023-02-15 01:48:56]	loss_rec 0.000| loss_im 0.000	PSNR 22.73 | SSIM 0.8331	
+[01:48:56.270] save display images
+[01:48:56.270] sr_accuray: 51.02%
+[01:48:56.271] best_easy = 54.17%
+[01:48:56.271] evaling medium
+[01:49:03.708] [2023-02-15 01:49:03]	loss_rec 0.000| loss_im 0.000	PSNR 19.46 | SSIM 0.6523	
+[01:49:03.708] save display images
+[01:49:03.708] sr_accuray: 43.16%
+[01:49:03.708] best_medium = 43.66%
+[01:49:03.709] evaling hard
+[01:49:10.565] [2023-02-15 01:49:10]	loss_rec 0.000| loss_im 0.000	PSNR 19.66 | SSIM 0.7177	
+[01:49:10.565] save display images
+[01:49:10.565] sr_accuray: 33.66%
+[01:49:10.566] best_hard = 34.77%
+[01:49:41.439] [2023-02-15 01:49:41]	Epoch: [122][9/361]	total_loss 1.471 	mse_loss 0.006 	content_percptual_loss 28.217 	
+[01:50:13.331] [2023-02-15 01:50:13]	Epoch: [122][59/361]	total_loss 1.409 	mse_loss 0.005 	content_percptual_loss 27.198 	
+[01:50:44.136] [2023-02-15 01:50:44]	Epoch: [122][109/361]	total_loss 1.718 	mse_loss 0.005 	content_percptual_loss 33.325 	
+[01:51:16.032] [2023-02-15 01:51:16]	Epoch: [122][159/361]	total_loss 1.417 	mse_loss 0.004 	content_percptual_loss 27.499 	
+[01:51:47.572] [2023-02-15 01:51:47]	Epoch: [122][209/361]	total_loss 1.517 	mse_loss 0.006 	content_percptual_loss 29.193 	
+[01:52:19.400] [2023-02-15 01:52:19]	Epoch: [122][259/361]	total_loss 1.516 	mse_loss 0.005 	content_percptual_loss 29.230 	
+[01:52:50.739] [2023-02-15 01:52:50]	Epoch: [122][309/361]	total_loss 1.403 	mse_loss 0.004 	content_percptual_loss 27.230 	
+[01:53:22.255] [2023-02-15 01:53:22]	Epoch: [122][359/361]	total_loss 1.543 	mse_loss 0.006 	content_percptual_loss 29.665 	
+[01:53:54.451] [2023-02-15 01:53:54]	Epoch: [123][48/361]	total_loss 1.447 	mse_loss 0.005 	content_percptual_loss 27.931 	
+[01:54:26.154] [2023-02-15 01:54:26]	Epoch: [123][98/361]	total_loss 1.415 	mse_loss 0.005 	content_percptual_loss 27.255 	
+[01:54:57.940] [2023-02-15 01:54:57]	Epoch: [123][148/361]	total_loss 1.426 	mse_loss 0.005 	content_percptual_loss 27.549 	
+[01:55:29.569] [2023-02-15 01:55:29]	Epoch: [123][198/361]	total_loss 1.513 	mse_loss 0.004 	content_percptual_loss 29.397 	
+[01:56:01.417] [2023-02-15 01:56:01]	Epoch: [123][248/361]	total_loss 1.271 	mse_loss 0.005 	content_percptual_loss 24.447 	
+[01:56:33.112] [2023-02-15 01:56:33]	Epoch: [123][298/361]	total_loss 1.466 	mse_loss 0.004 	content_percptual_loss 28.485 	
+[01:57:05.353] [2023-02-15 01:57:05]	Epoch: [123][348/361]	total_loss 1.604 	mse_loss 0.006 	content_percptual_loss 30.787 	
+[01:57:36.710] [2023-02-15 01:57:36]	Epoch: [124][37/361]	total_loss 1.405 	mse_loss 0.005 	content_percptual_loss 27.107 	
+[01:58:08.789] [2023-02-15 01:58:08]	Epoch: [124][87/361]	total_loss 1.308 	mse_loss 0.004 	content_percptual_loss 25.266 	
+[01:58:40.031] [2023-02-15 01:58:40]	Epoch: [124][137/361]	total_loss 1.471 	mse_loss 0.006 	content_percptual_loss 28.270 	
+[01:59:11.958] [2023-02-15 01:59:11]	Epoch: [124][187/361]	total_loss 1.489 	mse_loss 0.006 	content_percptual_loss 28.646 	
+[01:59:43.533] [2023-02-15 01:59:43]	Epoch: [124][237/361]	total_loss 1.341 	mse_loss 0.004 	content_percptual_loss 25.958 	
+[01:59:43.533] ======================================================
+[01:59:43.533] evaling easy
+[01:59:51.774] [2023-02-15 01:59:51]	loss_rec 0.000| loss_im 0.000	PSNR 23.18 | SSIM 0.8405	
+[01:59:51.774] save display images
+[01:59:51.774] sr_accuray: 52.87%
+[01:59:51.774] best_easy = 54.17%
+[01:59:51.774] evaling medium
+[01:59:58.977] [2023-02-15 01:59:58]	loss_rec 0.000| loss_im 0.000	PSNR 19.50 | SSIM 0.6602	
+[01:59:58.978] save display images
+[01:59:58.978] sr_accuray: 42.95%
+[01:59:58.978] best_medium = 43.66%
+[01:59:58.978] evaling hard
+[02:00:05.593] [2023-02-15 02:00:05]	loss_rec 0.000| loss_im 0.000	PSNR 19.92 | SSIM 0.7246	
+[02:00:05.593] save display images
+[02:00:05.593] sr_accuray: 33.66%
+[02:00:05.594] best_hard = 34.77%
+[02:00:36.086] [2023-02-15 02:00:36]	Epoch: [124][287/361]	total_loss 1.437 	mse_loss 0.005 	content_percptual_loss 27.726 	
+[02:01:07.443] [2023-02-15 02:01:07]	Epoch: [124][337/361]	total_loss 1.559 	mse_loss 0.006 	content_percptual_loss 29.971 	
+[02:01:38.611] [2023-02-15 02:01:38]	Epoch: [125][26/361]	total_loss 1.314 	mse_loss 0.004 	content_percptual_loss 25.426 	
+[02:02:10.006] [2023-02-15 02:02:10]	Epoch: [125][76/361]	total_loss 1.398 	mse_loss 0.005 	content_percptual_loss 26.910 	
+[02:02:41.675] [2023-02-15 02:02:41]	Epoch: [125][126/361]	total_loss 1.393 	mse_loss 0.006 	content_percptual_loss 26.706 	
+[02:03:13.928] [2023-02-15 02:03:13]	Epoch: [125][176/361]	total_loss 1.309 	mse_loss 0.005 	content_percptual_loss 25.136 	
+[02:03:45.053] [2023-02-15 02:03:45]	Epoch: [125][226/361]	total_loss 1.226 	mse_loss 0.004 	content_percptual_loss 23.698 	
+[02:04:17.699] [2023-02-15 02:04:17]	Epoch: [125][276/361]	total_loss 1.551 	mse_loss 0.005 	content_percptual_loss 29.986 	
+[02:04:49.103] [2023-02-15 02:04:49]	Epoch: [125][326/361]	total_loss 1.411 	mse_loss 0.005 	content_percptual_loss 27.174 	
+[02:05:20.911] [2023-02-15 02:05:20]	Epoch: [126][15/361]	total_loss 1.242 	mse_loss 0.005 	content_percptual_loss 23.940 	
+[02:05:53.214] [2023-02-15 02:05:53]	Epoch: [126][65/361]	total_loss 1.546 	mse_loss 0.006 	content_percptual_loss 29.810 	
+[02:06:24.307] [2023-02-15 02:06:24]	Epoch: [126][115/361]	total_loss 1.483 	mse_loss 0.005 	content_percptual_loss 28.683 	
+[02:06:56.256] [2023-02-15 02:06:56]	Epoch: [126][165/361]	total_loss 1.567 	mse_loss 0.005 	content_percptual_loss 30.407 	
+[02:07:28.006] [2023-02-15 02:07:28]	Epoch: [126][215/361]	total_loss 1.608 	mse_loss 0.004 	content_percptual_loss 31.272 	
+[02:07:59.923] [2023-02-15 02:07:59]	Epoch: [126][265/361]	total_loss 1.480 	mse_loss 0.005 	content_percptual_loss 28.560 	
+[02:08:32.462] [2023-02-15 02:08:32]	Epoch: [126][315/361]	total_loss 1.492 	mse_loss 0.006 	content_percptual_loss 28.575 	
+[02:09:05.212] [2023-02-15 02:09:05]	Epoch: [127][4/361]	total_loss 1.373 	mse_loss 0.004 	content_percptual_loss 26.585 	
+[02:09:37.210] [2023-02-15 02:09:37]	Epoch: [127][54/361]	total_loss 1.189 	mse_loss 0.005 	content_percptual_loss 22.876 	
+[02:10:09.392] [2023-02-15 02:10:09]	Epoch: [127][104/361]	total_loss 1.564 	mse_loss 0.006 	content_percptual_loss 29.986 	
+[02:10:42.056] [2023-02-15 02:10:42]	Epoch: [127][154/361]	total_loss 1.303 	mse_loss 0.004 	content_percptual_loss 25.186 	
+[02:10:42.056] ======================================================
+[02:10:42.056] evaling easy
+[02:10:50.091] [2023-02-15 02:10:50]	loss_rec 0.000| loss_im 0.000	PSNR 22.30 | SSIM 0.8218	
+[02:10:50.091] save display images
+[02:10:50.091] sr_accuray: 49.41%
+[02:10:50.092] best_easy = 54.17%
+[02:10:50.092] evaling medium
+[02:10:57.352] [2023-02-15 02:10:57]	loss_rec 0.000| loss_im 0.000	PSNR 19.01 | SSIM 0.6465	
+[02:10:57.353] save display images
+[02:10:57.353] sr_accuray: 43.02%
+[02:10:57.353] best_medium = 43.66%
+[02:10:57.353] evaling hard
+[02:11:03.806] [2023-02-15 02:11:03]	loss_rec 0.000| loss_im 0.000	PSNR 19.55 | SSIM 0.7080	
+[02:11:03.806] save display images
+[02:11:03.806] sr_accuray: 33.66%
+[02:11:03.806] best_hard = 34.77%
+[02:11:35.244] [2023-02-15 02:11:35]	Epoch: [127][204/361]	total_loss 1.413 	mse_loss 0.005 	content_percptual_loss 27.222 	
+[02:12:06.815] [2023-02-15 02:12:06]	Epoch: [127][254/361]	total_loss 1.444 	mse_loss 0.006 	content_percptual_loss 27.765 	
+[02:12:39.057] [2023-02-15 02:12:39]	Epoch: [127][304/361]	total_loss 1.296 	mse_loss 0.005 	content_percptual_loss 24.953 	
+[02:13:10.878] [2023-02-15 02:13:10]	Epoch: [127][354/361]	total_loss 1.631 	mse_loss 0.005 	content_percptual_loss 31.657 	
+[02:13:43.431] [2023-02-15 02:13:43]	Epoch: [128][43/361]	total_loss 1.260 	mse_loss 0.006 	content_percptual_loss 24.052 	
+[02:14:15.540] [2023-02-15 02:14:15]	Epoch: [128][93/361]	total_loss 1.585 	mse_loss 0.005 	content_percptual_loss 30.776 	
+[02:14:48.065] [2023-02-15 02:14:48]	Epoch: [128][143/361]	total_loss 1.570 	mse_loss 0.006 	content_percptual_loss 30.227 	
+[02:15:19.906] [2023-02-15 02:15:19]	Epoch: [128][193/361]	total_loss 1.182 	mse_loss 0.004 	content_percptual_loss 22.747 	
+[02:15:53.441] [2023-02-15 02:15:53]	Epoch: [128][243/361]	total_loss 1.588 	mse_loss 0.006 	content_percptual_loss 30.541 	
+[02:16:25.875] [2023-02-15 02:16:25]	Epoch: [128][293/361]	total_loss 1.562 	mse_loss 0.006 	content_percptual_loss 30.095 	
+[02:16:57.508] [2023-02-15 02:16:57]	Epoch: [128][343/361]	total_loss 1.858 	mse_loss 0.006 	content_percptual_loss 35.951 	
+[02:17:30.246] [2023-02-15 02:17:30]	Epoch: [129][32/361]	total_loss 1.478 	mse_loss 0.006 	content_percptual_loss 28.341 	
+[02:18:03.025] [2023-02-15 02:18:03]	Epoch: [129][82/361]	total_loss 1.430 	mse_loss 0.006 	content_percptual_loss 27.483 	
+[02:18:34.821] [2023-02-15 02:18:34]	Epoch: [129][132/361]	total_loss 1.558 	mse_loss 0.006 	content_percptual_loss 29.946 	
+[02:19:07.321] [2023-02-15 02:19:07]	Epoch: [129][182/361]	total_loss 1.502 	mse_loss 0.006 	content_percptual_loss 28.884 	
+[02:19:39.908] [2023-02-15 02:19:39]	Epoch: [129][232/361]	total_loss 1.363 	mse_loss 0.006 	content_percptual_loss 26.053 	
+[02:20:12.606] [2023-02-15 02:20:12]	Epoch: [129][282/361]	total_loss 1.452 	mse_loss 0.005 	content_percptual_loss 28.129 	
+[02:20:45.356] [2023-02-15 02:20:45]	Epoch: [129][332/361]	total_loss 1.361 	mse_loss 0.005 	content_percptual_loss 26.265 	
+[02:21:17.999] [2023-02-15 02:21:17]	Epoch: [130][21/361]	total_loss 1.573 	mse_loss 0.006 	content_percptual_loss 30.329 	
+[02:21:50.280] [2023-02-15 02:21:50]	Epoch: [130][71/361]	total_loss 1.500 	mse_loss 0.005 	content_percptual_loss 28.921 	
+[02:21:50.280] ======================================================
+[02:21:50.280] evaling easy
+[02:21:58.313] [2023-02-15 02:21:58]	loss_rec 0.000| loss_im 0.000	PSNR 22.52 | SSIM 0.8296	
+[02:21:58.313] save display images
+[02:21:58.313] sr_accuray: 50.40%
+[02:21:58.314] best_easy = 54.17%
+[02:21:58.314] evaling medium
+[02:22:05.420] [2023-02-15 02:22:05]	loss_rec 0.000| loss_im 0.000	PSNR 19.26 | SSIM 0.6559	
+[02:22:05.420] save display images
+[02:22:05.420] sr_accuray: 42.81%
+[02:22:05.421] best_medium = 43.66%
+[02:22:05.421] evaling hard
+[02:22:11.984] [2023-02-15 02:22:11]	loss_rec 0.000| loss_im 0.000	PSNR 19.53 | SSIM 0.7146	
+[02:22:11.984] save display images
+[02:22:11.984] sr_accuray: 33.28%
+[02:22:11.985] best_hard = 34.77%
+[02:22:43.095] [2023-02-15 02:22:43]	Epoch: [130][121/361]	total_loss 1.461 	mse_loss 0.005 	content_percptual_loss 28.255 	
+[02:23:15.705] [2023-02-15 02:23:15]	Epoch: [130][171/361]	total_loss 1.447 	mse_loss 0.005 	content_percptual_loss 27.967 	
+[02:23:47.064] [2023-02-15 02:23:47]	Epoch: [130][221/361]	total_loss 1.541 	mse_loss 0.004 	content_percptual_loss 29.955 	
+[02:24:19.511] [2023-02-15 02:24:19]	Epoch: [130][271/361]	total_loss 1.377 	mse_loss 0.006 	content_percptual_loss 26.437 	
+[02:24:52.059] [2023-02-15 02:24:52]	Epoch: [130][321/361]	total_loss 1.339 	mse_loss 0.005 	content_percptual_loss 25.809 	
+[02:25:24.583] [2023-02-15 02:25:24]	Epoch: [131][10/361]	total_loss 1.645 	mse_loss 0.005 	content_percptual_loss 31.929 	
+[02:25:57.169] [2023-02-15 02:25:57]	Epoch: [131][60/361]	total_loss 1.413 	mse_loss 0.005 	content_percptual_loss 27.257 	
+[02:26:29.144] [2023-02-15 02:26:29]	Epoch: [131][110/361]	total_loss 1.544 	mse_loss 0.005 	content_percptual_loss 29.795 	
+[02:27:01.131] [2023-02-15 02:27:01]	Epoch: [131][160/361]	total_loss 1.455 	mse_loss 0.008 	content_percptual_loss 27.564 	
+[02:27:33.251] [2023-02-15 02:27:33]	Epoch: [131][210/361]	total_loss 1.390 	mse_loss 0.005 	content_percptual_loss 26.786 	
+[02:28:05.887] [2023-02-15 02:28:05]	Epoch: [131][260/361]	total_loss 1.474 	mse_loss 0.005 	content_percptual_loss 28.575 	
+[02:28:38.312] [2023-02-15 02:28:38]	Epoch: [131][310/361]	total_loss 1.526 	mse_loss 0.006 	content_percptual_loss 29.299 	
+[02:29:10.374] [2023-02-15 02:29:10]	Epoch: [131][360/361]	total_loss 1.584 	mse_loss 0.006 	content_percptual_loss 30.571 	
+[02:29:42.667] [2023-02-15 02:29:42]	Epoch: [132][49/361]	total_loss 1.633 	mse_loss 0.006 	content_percptual_loss 31.520 	
+[02:30:14.996] [2023-02-15 02:30:14]	Epoch: [132][99/361]	total_loss 1.615 	mse_loss 0.006 	content_percptual_loss 31.083 	
+[02:30:47.027] [2023-02-15 02:30:47]	Epoch: [132][149/361]	total_loss 1.491 	mse_loss 0.006 	content_percptual_loss 28.706 	
+[02:31:20.009] [2023-02-15 02:31:20]	Epoch: [132][199/361]	total_loss 1.294 	mse_loss 0.005 	content_percptual_loss 24.895 	
+[02:31:51.677] [2023-02-15 02:31:51]	Epoch: [132][249/361]	total_loss 1.366 	mse_loss 0.005 	content_percptual_loss 26.410 	
+[02:32:24.250] [2023-02-15 02:32:24]	Epoch: [132][299/361]	total_loss 1.579 	mse_loss 0.007 	content_percptual_loss 30.143 	
+[02:32:56.244] [2023-02-15 02:32:56]	Epoch: [132][349/361]	total_loss 1.426 	mse_loss 0.005 	content_percptual_loss 27.526 	
+[02:32:56.244] ======================================================
+[02:32:56.244] evaling easy
+[02:33:04.518] [2023-02-15 02:33:04]	loss_rec 0.000| loss_im 0.000	PSNR 22.80 | SSIM 0.8317	
+[02:33:04.518] save display images
+[02:33:04.518] sr_accuray: 52.87%
+[02:33:04.519] best_easy = 54.17%
+[02:33:04.519] evaling medium
+[02:33:11.904] [2023-02-15 02:33:11]	loss_rec 0.000| loss_im 0.000	PSNR 19.32 | SSIM 0.6552	
+[02:33:11.904] save display images
+[02:33:11.904] sr_accuray: 43.09%
+[02:33:11.904] best_medium = 43.66%
+[02:33:11.905] evaling hard
+[02:33:21.983] [2023-02-15 02:33:21]	loss_rec 0.000| loss_im 0.000	PSNR 19.85 | SSIM 0.7182	
+[02:33:21.983] save display images
+[02:33:21.983] sr_accuray: 33.43%
+[02:33:21.983] best_hard = 34.77%
+[02:33:52.722] [2023-02-15 02:33:52]	Epoch: [133][38/361]	total_loss 1.396 	mse_loss 0.005 	content_percptual_loss 26.917 	
+[02:34:24.521] [2023-02-15 02:34:24]	Epoch: [133][88/361]	total_loss 1.447 	mse_loss 0.005 	content_percptual_loss 28.022 	
+[02:34:56.839] [2023-02-15 02:34:56]	Epoch: [133][138/361]	total_loss 1.543 	mse_loss 0.005 	content_percptual_loss 29.899 	
+[02:35:29.420] [2023-02-15 02:35:29]	Epoch: [133][188/361]	total_loss 1.566 	mse_loss 0.006 	content_percptual_loss 30.162 	
+[02:36:02.210] [2023-02-15 02:36:02]	Epoch: [133][238/361]	total_loss 1.293 	mse_loss 0.005 	content_percptual_loss 24.911 	
