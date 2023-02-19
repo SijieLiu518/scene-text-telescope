@@ -17,6 +17,8 @@ from torch.autograd import Variable
 from collections import OrderedDict
 from torch.utils.tensorboard import SummaryWriter
 
+from model import recognizer
+from model import moran
 from model import tbsrn, tsrn, edsr, srcnn, srresnet, crnn
 import dataset.dataset as dataset
 from dataset import lmdbDataset, alignCollate_real, ConcatDataset, lmdbDataset_real, alignCollate_syn, lmdbDataset_mix
@@ -286,7 +288,8 @@ class TextBase(object):
             MORAN_state_dict_rename[name] = v
         MORAN.load_state_dict(MORAN_state_dict_rename)
         MORAN = MORAN.to(self.device)
-        MORAN = torch.nn.DataParallel(MORAN, device_ids=range(cfg.ngpu))
+        # MORAN = torch.nn.DataParallel(MORAN, device_ids=range(cfg.ngpu))
+        MORAN = torch.nn.DataParallel(MORAN, device_ids=range(1))
         for p in MORAN.parameters():
             p.requires_grad = False
         MORAN.eval()
@@ -332,7 +335,7 @@ class TextBase(object):
                                              sDim=512, attDim=512, max_len_labels=aster_info.max_len,
                                              eos=aster_info.char2id[aster_info.EOS], STN_ON=True)
         aster.load_state_dict(torch.load(self.config.TRAIN.VAL.rec_pretrained)['state_dict'])
-        self.logging.info('load pred_trained aster model from %s' % self.config.TRAIN.VAL.rec_pretrained)
+        print('load pred_trained aster model from %s' % self.config.TRAIN.VAL.rec_pretrained)
         aster = aster.to(self.device)
         aster = torch.nn.DataParallel(aster, device_ids=range(cfg.ngpu))
         return aster, aster_info
@@ -346,6 +349,7 @@ class TextBase(object):
         batch_size = images_input.shape[0]
         input_dict['rec_targets'] = torch.IntTensor(batch_size, aster_info.max_len).fill_(1)
         input_dict['rec_lengths'] = [aster_info.max_len] * batch_size
+        # print('rec_targets', input_dict)
         return input_dict
 
 

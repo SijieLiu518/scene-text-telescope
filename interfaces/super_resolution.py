@@ -80,6 +80,7 @@ class TextSR(base.TextBase):
                 images_lr = images_lr.to(self.device)
                 images_hr = images_hr.to(self.device)
 
+                # print('images_lr: ', images_lr.size())
                 sr_img = model(images_lr)
 
                 # loss, mse_loss, attention_loss, recognition_loss = image_crit(sr_img, images_hr, label_strs)
@@ -320,8 +321,19 @@ class TextSR(base.TextBase):
                     sim_preds = self.converter_moran.decode(preds.data, moran_input[1].data)
                     pred_str_sr = [pred.split('$')[0] for pred in sim_preds]
                 elif self.args.rec == 'aster':
+                    # aster_dict_sr = self.parse_aster_data(images_sr[:, :3, :, :])
+                    # # print(aster_dict_sr["images"].size())
+                    # aster_output_sr = aster(aster_dict_sr["images"])
+                    # # print("aster_output_sr", aster_output_sr.size())
+                    # pred_rec_sr = aster_output_sr['output']['pred_rec']
+                    # pred_str_sr, _ = get_str_list(pred_rec_sr, aster_dict_sr['rec_targets'], dataset=aster_info)
+
+                    # aster_dict_lr = self.parse_aster_data(images_lr[:, :3, :, :])
+                    # aster_output_lr = aster(aster_dict_lr)
+                    # pred_rec_lr = aster_output_lr['output']['pred_rec']
+                    # pred_str_lr, _ = get_str_list(pred_rec_lr, aster_dict_lr['rec_targets'], dataset=aster_info)
                     aster_dict_sr = self.parse_aster_data(images_sr[:, :3, :, :])
-                    aster_output_sr = aster(aster_dict_sr["images"])
+                    aster_output_sr = aster(aster_dict_sr)
                     pred_rec_sr = aster_output_sr['output']['pred_rec']
                     pred_str_sr, _ = get_str_list(pred_rec_sr, aster_dict_sr['rec_targets'], dataset=aster_info)
 

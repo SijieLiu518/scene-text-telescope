@@ -35,8 +35,8 @@ TRAIN:
     n_vis: 10
     vis_dir: 'demo'
     valInterval: 1000
-    rec_pretrained: 'None'
-    moran_pretrained: 'None'
+    rec_pretrained: './dataset/TextZoom/demo.pth.tar'
+    moran_pretrained: './dataset/TextZoom/moran.pth'
     crnn_pretrained: './dataset/TextZoom/crnn.pth'
 
 TEST:

@@ -174,6 +174,7 @@ class TBSRN(nn.Module):
         in_planes = 3
         if mask:
             in_planes = 4
+        # print("in_planes ", in_planes)
         assert math.log(scale_factor, 2) % 1 == 0
         upsample_block_num = int(math.log(scale_factor, 2))
         self.block1 = nn.Sequential(
