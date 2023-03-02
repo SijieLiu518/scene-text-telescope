@@ -19,7 +19,7 @@ if __name__ == '__main__':
     torch.device("cuda" if torch.cuda.is_available() else "cpu")
     parser = argparse.ArgumentParser(description='')
     parser.add_argument('--arch', default='tbsrn', choices=['tbsrn', 'tsrn', 'bicubic', 'srcnn', 'vdsr', 'srres', 'esrgan', 'rdn',
-                                                           'edsr', 'lapsrn'])
+                                                           'edsr', 'lapsrn', 'chatgpt_sr'])
     parser.add_argument('--text_focus', action='store_true')
     parser.add_argument('--exp_name', required=True, help='Type your experiment name')
     parser.add_argument('--test', action='store_true', default=False)
@@ -36,6 +36,8 @@ if __name__ == '__main__':
     parser.add_argument('--demo', action='store_true', default=False)
     parser.add_argument('--demo_dir', type=str, default='./demo')
     parser.add_argument('--gradient', action='store_true', default=False, help='')
+    parser.add_argument('--cp_loss', action='store_true', default=False, help='')
+    parser.add_argument('--wgan_loss', action='store_true', default=False, help='')
     args = parser.parse_args()
     config_path = os.path.join('config', 'super_resolution.yaml')
     config = yaml.load(open(config_path, 'r'), Loader=yaml.Loader)

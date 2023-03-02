@@ -4,16 +4,26 @@ import sys
 sys.path.append('/home/videt/lsj/hat_textzoom/src')
 from model.crnn import CRNN
 
+from .image_loss import ImageLoss
+# from .percptual_loss import TVLoss
+
 
 class ContentPercptualLoss(nn.Module):
-    def __init__(self, loss_weight=5e-4):
+    def __init__(self, gradient=True, loss_weight=[0.1, 1e-4, 5e-4]):
         super(ContentPercptualLoss, self).__init__()
+
+        # ImageLoss:L2+Lgp
+        self.gradient = gradient
+        self.loss_weight = loss_weight[:2]
+        self.cp_loss_weight = loss_weight[2]
+        self.image_loss = ImageLoss(gradient=self.gradient, loss_weight=self.loss_weight)
 
         # ContentPercptualLoss
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         crnn = CRNN(32, 1, 37, 256)
         crnn = crnn.to(self.device)
         crnn_path = './dataset/TextZoom/crnn.pth'
+        print('loading pretrained crnn model from %s' % crnn_path)
         crnn.load_state_dict(torch.load(crnn_path))
         feature_map1 = nn.Sequential(crnn.cnn[:3]).eval()
         feature_map2 = nn.Sequential(crnn.cnn[3:6]).eval()
@@ -21,6 +31,9 @@ class ContentPercptualLoss(nn.Module):
         feature_map4 = nn.Sequential(crnn.cnn[12:18]).eval()
         feature_map5 = nn.Sequential(crnn.cnn[18:]).eval()
         
+        # loss_network = nn.Sequential(*list(crnn.cnn)).eval()
+        # for param in loss_network.parameters():
+        #     param.requires_grad = False
         for feature_map in [feature_map1, feature_map2, feature_map3, feature_map4, feature_map5]:
             for param in feature_map.parameters():
                 param.requires_grad = False
@@ -29,8 +42,9 @@ class ContentPercptualLoss(nn.Module):
         self.feature_map3 = feature_map3
         self.feature_map4 = feature_map4
         self.feature_map5 = feature_map5
+        
         self.mse_loss = nn.MSELoss()
-        self.loss_weight = loss_weight
+        # self.tv_loss = TVLoss()
 
     def forward(self, out_images, target_images):
         out_images = out_images.to(self.device)
@@ -56,9 +70,13 @@ class ContentPercptualLoss(nn.Module):
         target = self.feature_map5(target)
         CP_loss += self.mse_loss(out, target)
         
-        cp_loss = self.loss_weight*CP_loss
-        
-        return cp_loss
+        CP_loss = self.cp_loss_weight*CP_loss
+        # Image Loss
+        image_loss = self.image_loss(out_images, target_images)
+        # # TV Loss
+        # tv_loss = self.tv_loss(out_images)
+        # return image_loss + 0.006 * CP_loss + 2e-8 * tv_loss
+        return image_loss + CP_loss, image_loss, CP_loss
 
 
 def parse_crnn_data(imgs_input):

@@ -26,6 +26,7 @@ from torch.autograd import Variable
 from utils.meters import AverageMeter
 from utils.metrics import get_str_list, Accuracy
 from torch.utils.tensorboard import SummaryWriter
+from loss import wgan_gp_loss, content_percptual_loss
 
 to_pil = transforms.ToPILImage()
 
@@ -80,20 +81,39 @@ class TextSR(base.TextBase):
                 images_lr = images_lr.to(self.device)
                 images_hr = images_hr.to(self.device)
 
-                # print('images_lr: ', images_lr.size())
-                sr_img = model(images_lr)
+                masks = images_lr[:, 3:, :, :]
+                masks = masks.repeat(1, 3, 1, 1)    
+                sr_img, masks = model(images_lr[:, :3, :, :], masks)
+
+                # sr_img = torch.cat([sr_img, masks[:, :1, :, :]], dim=1)
+
+                # torchvision.utils.save_image(masks, "masks.png", padding=0)
 
                 # loss, mse_loss, attention_loss, recognition_loss = image_crit(sr_img, images_hr, label_strs)
-                loss, mse_loss, content_percptual_loss = image_crit(sr_img, images_hr)
-
+                loss = 0
+                # print('images_sr: ', sr_img.size())
+                # print('images_sr: ', images_hr.size())
+                image_loss = image_crit(sr_img[:, :3, :, :], images_hr[:, :3, :, :])
 
                 global times
-                self.writer.add_scalar('loss/mse_loss', mse_loss , times)
-                self.writer.add_scalar('loss/content_percptual_loss', content_percptual_loss, times)
+                self.writer.add_scalar('loss/mse_loss', image_loss , times)
+
+                if self.args.cp_loss:
+                    ContentPercptualLoss = content_percptual_loss.ContentPercptualLoss(loss_weight=5e-4)
+                    cp_loss = ContentPercptualLoss(sr_img, images_hr)
+                    self.writer.add_scalar('loss/content_percptual_loss', cp_loss, times)
+
+                if self.args.wgan_loss:
+                    WGAN_GP_Loss = wgan_gp_loss.WGAN_GP_Loss(lambda_gp=10)                 
+                    wgan_loss = WGAN_GP_Loss(sr_img[:, :3, :, :], images_hr[:, :3, :, :])
+                    self.writer.add_scalar('loss/wgan_loss', wgan_loss, times)
+
+                # self.writer.add_scalar('loss/mse_loss', mse_loss , times)
+                # self.writer.add_scalar('loss/content_percptual_loss', content_percptual_loss, times)
                 # self.writer.add_scalar('loss/content_loss', recognition_loss, times)
                 times += 1
 
-                loss_im = loss * 100
+                loss_im = (image_loss+cp_loss) * 100 + wgan_loss
 
                 optimizer_G.zero_grad()
                 loss_im.backward()
@@ -121,13 +141,15 @@ class TextSR(base.TextBase):
                           # 'vis_dir={:s}\t'
                           'total_loss {:.3f} \t'
                           'mse_loss {:.3f} \t'
-                          'content_percptual_loss {:.3f} \t'                          
+                          'cp_loss {:.3f} \t'                          
+                          'wgan_loss {:.3f} \t'                          
                           .format(datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
                                   epoch, j + 1, len(train_loader),
                                   # self.vis_dir,
                                   float(loss_im.data),
-                                  mse_loss,
-                                  content_percptual_loss                                
+                                  image_loss,
+                                  cp_loss if self.args.cp_loss else 0,
+                                  wgan_loss if self.args.wgan_loss else 0        
                                   ))
 
                 if iters % cfg.VAL.valInterval == 0:
@@ -210,7 +232,10 @@ class TextSR(base.TextBase):
             val_batch_size = images_lr.shape[0]
             images_lr = images_lr.to(self.device)
             images_hr = images_hr.to(self.device)
-            images_sr = model(images_lr)
+            # images_sr = model(images_lr)
+            masks = images_lr[:, 3:, :, :]
+            masks = masks.repeat(1, 3, 1, 1) 
+            images_sr, masks = model(images_lr, masks)
 
             if i == len(val_loader) - 1:
                 index = random.randint(0, images_lr.shape[0]-1)

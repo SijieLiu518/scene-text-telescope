@@ -19,10 +19,10 @@ from torch.utils.tensorboard import SummaryWriter
 
 from model import recognizer
 from model import moran
-from model import tbsrn, tsrn, edsr, srcnn, srresnet, crnn
+from model import tbsrn, tsrn, edsr, srcnn, srresnet, crnn, trsn_partconv, chatgpt_sr
 import dataset.dataset as dataset
 from dataset import lmdbDataset, alignCollate_real, ConcatDataset, lmdbDataset_real, alignCollate_syn, lmdbDataset_mix
-from loss import gradient_loss, percptual_loss, text_focus_loss, content_percptual_loss
+from loss import gradient_loss, percptual_loss, text_focus_loss, content_percptual_loss, image_loss
 from utils import util, ssim_psnr, utils_moran, utils_crnn
 from utils.labelmaps import get_vocabulary, labels2strs
 
@@ -143,7 +143,11 @@ class TextBase(object):
             model = tbsrn.TBSRN(scale_factor=self.scale_factor, width=cfg.width, height=cfg.height,
                               STN=self.args.STN, mask=self.mask, srb_nums=self.args.srb, hidden_units=self.args.hd_u)
             # image_crit = text_focus_loss.TextFocusLoss(self.args)
-            image_crit = content_percptual_loss.ContentPercptualLoss(gradient=self.args.gradient, loss_weight=[1, 1e-4])
+            # image_crit = content_percptual_loss.ContentPercptualLoss(gradient=self.args.gradient, loss_weight=[1, 1e-4])
+            image_crit = image_loss.ImageLoss(gradient=self.args.gradient, loss_weight=[1, 1e-4])
+        elif self.args.arch == 'chatgpt_sr':
+            model = chatgpt_sr.SuperResolutionNet(upscale_factor=2)
+            image_crit = image_loss.ImageLoss(gradient=self.args.gradient, loss_weight=[1, 1e-4])
         elif self.args.arch == 'tsrn':
             model = tsrn.TSRN(scale_factor=self.scale_factor, width=cfg.width, height=cfg.height,
                               STN=self.args.STN, mask=self.mask, srb_nums=self.args.srb, hidden_units=self.args.hd_u)
