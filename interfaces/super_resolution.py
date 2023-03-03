@@ -80,10 +80,8 @@ class TextSR(base.TextBase):
                 images_hr, images_lr, label_strs = data
                 images_lr = images_lr.to(self.device)
                 images_hr = images_hr.to(self.device)
-
-                masks = images_lr[:, 3:, :, :]
-                masks = masks.repeat(1, 3, 1, 1)    
-                sr_img, masks = model(images_lr[:, :3, :, :], masks)
+ 
+                sr_img = model(images_lr)
 
                 # sr_img = torch.cat([sr_img, masks[:, :1, :, :]], dim=1)
 
@@ -93,7 +91,7 @@ class TextSR(base.TextBase):
                 loss = 0
                 # print('images_sr: ', sr_img.size())
                 # print('images_sr: ', images_hr.size())
-                image_loss = image_crit(sr_img[:, :3, :, :], images_hr[:, :3, :, :])
+                image_loss = image_crit(sr_img, images_hr)
 
                 global times
                 self.writer.add_scalar('loss/mse_loss', image_loss , times)
@@ -233,9 +231,7 @@ class TextSR(base.TextBase):
             images_lr = images_lr.to(self.device)
             images_hr = images_hr.to(self.device)
             # images_sr = model(images_lr)
-            masks = images_lr[:, 3:, :, :]
-            masks = masks.repeat(1, 3, 1, 1) 
-            images_sr, masks = model(images_lr, masks)
+            images_sr = model(images_lr)
 
             if i == len(val_loader) - 1:
                 index = random.randint(0, images_lr.shape[0]-1)

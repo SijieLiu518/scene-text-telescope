@@ -19,7 +19,7 @@ if __name__ == '__main__':
     torch.device("cuda" if torch.cuda.is_available() else "cpu")
     parser = argparse.ArgumentParser(description='')
     parser.add_argument('--arch', default='tbsrn', choices=['tbsrn', 'tsrn', 'bicubic', 'srcnn', 'vdsr', 'srres', 'esrgan', 'rdn',
-                                                           'edsr', 'lapsrn', 'chatgpt_sr'])
+                                                           'edsr', 'lapsrn', 'chatgpt_sr', 'tbsrn_seg_emb'])
     parser.add_argument('--text_focus', action='store_true')
     parser.add_argument('--exp_name', required=True, help='Type your experiment name')
     parser.add_argument('--test', action='store_true', default=False)

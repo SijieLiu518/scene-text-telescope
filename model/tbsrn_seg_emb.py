@@ -12,8 +12,8 @@ import math, copy
 
 warnings.filterwarnings("ignore")
 
-from tps_spatial_transformer import TPSSpatialTransformer
-from stn_head import STNHead
+from .tps_spatial_transformer import TPSSpatialTransformer
+from .stn_head import STNHead
 
 def clones(module, N):
     "Produce N identical layers."
@@ -177,7 +177,7 @@ class TBSRN_SegEmb(nn.Module):
         # print("in_planes ", in_planes)
         assert math.log(scale_factor, 2) % 1 == 0
         upsample_block_num = int(math.log(scale_factor, 2))
-        self.segemb = SegEmb(in_channels=in_planes, hidden_units=hidden_units)
+        self.segemb = SegEmb(in_channels=3, hidden_units=hidden_units)
         self.block1 = nn.Sequential(
             nn.Conv2d(in_planes, 2 * hidden_units, kernel_size=9, padding=4),
             nn.PReLU()
@@ -220,8 +220,9 @@ class TBSRN_SegEmb(nn.Module):
             x, _ = self.tps(x, ctrl_points_x)
         
         #  ----- Segmentation Embedding ------
-        # Vision Feature 
-        
+        # Vision Feature
+        x = torch.cat((self.segemb([x[:, :3, :, :], x[:, 3:, :, :]]), x[:, 3:, :, :]), dim=1)
+        # print("Vision Feature and mask", x.size())
         
         block = {'1': self.block1(x)}
         for i in range(self.srb_nums + 1):
@@ -344,8 +345,10 @@ class SegEmb(nn.Module):
         
 if __name__ == '__main__':
     # net = TBSRN_SegEmb()
-    net = SegEmb(in_channels=3, hidden_units=32)
-    img = torch.zeros(7, 3, 16, 64)
+    net = TBSRN_SegEmb(mask=True)
+    img = torch.zeros(7, 4, 16, 64)
     mask = torch.zeros(7, 1, 16, 64)
-    output = net([img, mask])
+    img = img.to("cuda")
+    net = net.to("cuda")
+    output = net(img)
     print(output.size())
