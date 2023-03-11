@@ -102,8 +102,8 @@ class TextSR(base.TextBase):
                     self.writer.add_scalar('loss/content_percptual_loss', cp_loss, times)
 
                 if self.args.wgan_loss:
-                    WGAN_GP_Loss = wgan_gp_loss.WGAN_GP_Loss(lambda_gp=10)                 
-                    wgan_loss = WGAN_GP_Loss(sr_img[:, :3, :, :], images_hr[:, :3, :, :])
+                    WGAN_GP_Loss = wgan_gp_loss.WGAN_GP_Loss(lambda_gp=10, img_shape=(4, 32, 128))                 
+                    wgan_loss = WGAN_GP_Loss(sr_img, images_hr)
                     self.writer.add_scalar('loss/wgan_loss', wgan_loss, times)
 
                 # self.writer.add_scalar('loss/mse_loss', mse_loss , times)
@@ -111,7 +111,7 @@ class TextSR(base.TextBase):
                 # self.writer.add_scalar('loss/content_loss', recognition_loss, times)
                 times += 1
 
-                loss_im = (image_loss+cp_loss) * 100 + wgan_loss
+                loss_im = (image_loss + cp_loss) * 100 + 0.5 * wgan_loss
 
                 optimizer_G.zero_grad()
                 loss_im.backward()

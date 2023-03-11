@@ -56,10 +56,10 @@ def compute_gradient_penalty(D, real_samples, fake_samples):
 
 # Wasserstein Gradient Penalty Loss
 class WGAN_GP_Loss(nn.Module):
-    def __init__(self, lambda_gp=10, device=torch.device("cuda" if torch.cuda.is_available() else "cpu")):
+    def __init__(self, lambda_gp=10, device=torch.device("cuda" if torch.cuda.is_available() else "cpu"), img_shape=(3, 32, 128)):
         super(WGAN_GP_Loss, self).__init__()
 
-        self.discriminator = Discriminator(img_shape=(3, 32, 128))
+        self.discriminator = Discriminator(img_shape=img_shape)
         self.discriminator = self.discriminator.to(device)
         self.compute_gradient_penalty = compute_gradient_penalty
         self.lambda_gp = lambda_gp

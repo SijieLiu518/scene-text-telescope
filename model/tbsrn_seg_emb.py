@@ -179,7 +179,7 @@ class TBSRN_SegEmb(nn.Module):
         upsample_block_num = int(math.log(scale_factor, 2))
         self.segemb = SegEmb(in_channels=3, hidden_units=hidden_units)
         self.block1 = nn.Sequential(
-            nn.Conv2d(in_planes, 2 * hidden_units, kernel_size=9, padding=4),
+            nn.Conv2d(in_planes + 2, 2 * hidden_units, kernel_size=9, padding=4),
             nn.PReLU()
             # nn.ReLU()
         )
@@ -221,7 +221,9 @@ class TBSRN_SegEmb(nn.Module):
         
         #  ----- Segmentation Embedding ------
         # Vision Feature
-        x = torch.cat((self.segemb([x[:, :3, :, :], x[:, 3:, :, :]]), x[:, 3:, :, :]), dim=1)
+        f = self.segemb([x[:, :3, :, :], x[:, 3:, :, :]])
+        
+        x = torch.cat([x[:, :3, :, :], f], 1)
         # print("Vision Feature and mask", x.size())
         
         block = {'1': self.block1(x)}
@@ -327,10 +329,10 @@ class SegEmb(nn.Module):
         self.SFT_shift_conv0 = nn.Conv2d(hidden_units, hidden_units, 1)
         self.SFT_shift_conv1 = nn.Conv2d(hidden_units, 2 * hidden_units, 1)
         self.conv2 = nn.Conv2d(2 * hidden_units, self.in_channels, kernel_size=3, padding=1)
-        
+        self.conv3 = nn.Conv2d(2 * hidden_units, 1, kernel_size=3, padding=1)
 
     def forward(self, x):
-        f, mask = x[0], x[1] 
+        f, mask = x[0], x[1]
         f = F.leaky_relu(self.conv0(f), 0.1, inplace=True)
         # f: H * W * 32
         mask_y = F.leaky_relu(self.SFT_scale_conv0(self.conv1(mask)), 0.1, inplace=True)
