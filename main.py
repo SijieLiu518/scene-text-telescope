@@ -4,7 +4,7 @@ import argparse
 import torch
 from IPython import embed
 from easydict import EasyDict
-from interfaces.super_resolution import TextSR
+from interfaces.super_resolution_gan import TextSR
 
 def main(config, args):
     Mission = TextSR(config, args)
